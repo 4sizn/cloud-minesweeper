@@ -1,0 +1,16 @@
+SWIMSEG research training data
+S. Dev, Y. H. Lee, S. Winkler.
+Color-based segmentation of sky/cloud images from ground-based cameras.
+IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing,
+vol. 10, no. 1, pp. 231–242, January 2017.
+https://malea.winkler.site/swimseg.html
+License: Creative Commons Attribution-NonCommercial 4.0 International
+https://creativecommons.org/licenses/by-nc/4.0/
+
+Downloaded from the Qianqian Song replication mirror:
+https://doi.org/10.7910/DVN/HEJTK1
+Original data are not included in the production app. The bundled CloudNet
+weights were trained locally on deduplicated SWIMSEG photos with capture dates
+held apart for validation and evaluation. Images were resized and augmented by
+flips and mild exposure changes. This noncommercial development model is not
+presented as commercially licensed. No endorsement by the dataset authors is implied.
