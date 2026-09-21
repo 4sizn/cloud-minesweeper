@@ -14,7 +14,7 @@ Future<void> openDeviceSettings(BuildContext context) async {
   } on PlatformException {
     if (context.mounted) {
       ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text('휴대폰 설정에서 나의 하늘의 카메라 권한을 켜주세요.')),
+        const SnackBar(content: Text('휴대폰 설정에서 지뢰찾기:구름의 카메라 권한을 켜주세요.')),
       );
     }
   } on MissingPluginException {
@@ -94,7 +94,7 @@ Future<void> showPlayHelp(BuildContext context) => showModalBottomSheet<void>(
   ),
 );
 
-const privacyText = '''나의 하늘은 회원가입, 광고, 분석용 추적 없이 기기 안에서 동작합니다.
+const privacyText = '''지뢰찾기:구름은 회원가입, 광고, 분석용 추적 없이 기기 안에서 동작합니다.
 
 촬영 사진
 카메라 권한은 구름 모양을 찾는 데 사용합니다. 사진은 기기 안에서 분석하며 서버로 보내거나 사진 보관함에 저장하지 않습니다. 촬영 임시 파일은 분석 처리가 끝나면 삭제를 시도하고, 메모리에 남은 사진은 촬영 화면을 닫으면 해제합니다. 예기치 않은 종료로 남은 임시 파일은 운영체제의 정리 대상입니다.
@@ -120,7 +120,7 @@ class AppInfoScreen extends StatelessWidget {
       padding: const EdgeInsets.all(24),
       children: [
         const Text(
-          '나의 하늘',
+          '지뢰찾기:구름',
           style: TextStyle(fontSize: 30, fontWeight: FontWeight.w700),
         ),
         const SizedBox(height: 8),
@@ -166,7 +166,7 @@ class AppInfoScreen extends StatelessWidget {
           trailing: const Icon(Icons.chevron_right),
           onTap: () => showLicensePage(
             context: context,
-            applicationName: '나의 하늘',
+            applicationName: '지뢰찾기:구름',
             applicationVersion: appVersion,
           ),
         ),

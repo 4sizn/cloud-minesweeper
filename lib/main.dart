@@ -26,7 +26,7 @@ class CloudApp extends StatelessWidget {
   final Uint8List? capturePhoto;
   @override
   Widget build(BuildContext context) => MaterialApp(
-    title: '나의 하늘',
+    title: '지뢰찾기:구름',
     debugShowCheckedModeBanner: false,
     theme: ThemeData(
       useMaterial3: true,
