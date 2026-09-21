@@ -1,0 +1,7352 @@
+[
+ {
+  "id": 626,
+  "file": "000000000626.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8375/8400337115_8321a7a7be_z.jpg",
+  "crop": [
+   120,
+   72,
+   96
+  ],
+  "overcast": true,
+  "cloud_share": 0.792,
+  "cloud_share_of_sky": 0.9936
+ },
+ {
+  "id": 1244,
+  "file": "000000001244.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8311/7964566650_c444297064_z.jpg",
+  "crop": [
+   143,
+   78,
+   111
+  ],
+  "overcast": true,
+  "cloud_share": 0.7776,
+  "cloud_share_of_sky": 0.9784
+ },
+ {
+  "id": 1295,
+  "file": "000000001295.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm3.staticflickr.com/2191/2364300490_2c73fda4da_z.jpg",
+  "crop": [
+   84,
+   240,
+   96
+  ],
+  "overcast": true,
+  "cloud_share": 0.7046,
+  "cloud_share_of_sky": 0.9995
+ },
+ {
+  "id": 1359,
+  "file": "000000001359.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm7.staticflickr.com/6185/6107916266_9079c606fa_z.jpg",
+  "crop": [
+   297,
+   0,
+   219
+  ],
+  "overcast": false,
+  "cloud_share": 0.3047,
+  "cloud_share_of_sky": 0.4226
+ },
+ {
+  "id": 1670,
+  "file": "000000001670.jpg",
+  "split": "test",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm8.staticflickr.com/7092/6984826080_49f86c211f_z.jpg",
+  "crop": [
+   182,
+   0,
+   112
+  ],
+  "overcast": true,
+  "cloud_share": 0.7161,
+  "cloud_share_of_sky": 0.999
+ },
+ {
+  "id": 1924,
+  "file": "000000001924.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm4.staticflickr.com/3388/3504975341_b579021fea_z.jpg",
+  "crop": [
+   204,
+   504,
+   96
+  ],
+  "overcast": true,
+  "cloud_share": 0.6789,
+  "cloud_share_of_sky": 0.964
+ },
+ {
+  "id": 1941,
+  "file": "000000001941.jpg",
+  "split": "train",
+  "license": "No known copyright restrictions",
+  "flickr_url": "http://farm9.staticflickr.com/8318/8026599708_d908d54516_z.jpg",
+  "crop": [
+   0,
+   0,
+   101
+  ],
+  "overcast": true,
+  "cloud_share": 0.8917,
+  "cloud_share_of_sky": 0.9998
+ },
+ {
+  "id": 2640,
+  "file": "000000002640.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8107/8488160437_e30a0b12a7_z.jpg",
+  "crop": [
+   0,
+   384,
+   192
+  ],
+  "overcast": true,
+  "cloud_share": 0.7162,
+  "cloud_share_of_sky": 1.0
+ },
+ {
+  "id": 2822,
+  "file": "000000002822.jpg",
+  "split": "test",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm4.staticflickr.com/3361/3610886066_54b290a5fe_z.jpg",
+  "crop": [
+   156,
+   540,
+   96
+  ],
+  "overcast": true,
+  "cloud_share": 0.9863,
+  "cloud_share_of_sky": 0.9863
+ },
+ {
+  "id": 3264,
+  "file": "000000003264.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm4.staticflickr.com/3216/5845558928_fc6dc6d6d4_z.jpg",
+  "crop": [
+   247,
+   533,
+   107
+  ],
+  "overcast": true,
+  "cloud_share": 0.9892,
+  "cloud_share_of_sky": 0.9892
+ },
+ {
+  "id": 3321,
+  "file": "000000003321.jpg",
+  "split": "test",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm6.staticflickr.com/5191/5885069756_a54e947a85_z.jpg",
+  "crop": [
+   24,
+   84,
+   96
+  ],
+  "overcast": true,
+  "cloud_share": 0.7064,
+  "cloud_share_of_sky": 0.996
+ },
+ {
+  "id": 3849,
+  "file": "000000003849.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm3.staticflickr.com/2766/4306643988_a1cee111e9_z.jpg",
+  "crop": [
+   198,
+   324,
+   144
+  ],
+  "overcast": false,
+  "cloud_share": 0.4254,
+  "cloud_share_of_sky": 0.5928
+ },
+ {
+  "id": 4551,
+  "file": "000000004551.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm5.staticflickr.com/4080/4944751678_6c837b00f2_z.jpg",
+  "crop": [
+   0,
+   0,
+   446
+  ],
+  "overcast": false,
+  "cloud_share": 0.3836,
+  "cloud_share_of_sky": 0.5335
+ },
+ {
+  "id": 5282,
+  "file": "000000005282.jpg",
+  "split": "val",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm6.staticflickr.com/5326/9371048715_04380f00d2_z.jpg",
+  "crop": [
+   0,
+   192,
+   256
+  ],
+  "overcast": false,
+  "cloud_share": 0.3983,
+  "cloud_share_of_sky": 0.5541
+ },
+ {
+  "id": 5313,
+  "file": "000000005313.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm8.staticflickr.com/7303/9789463724_8fbc4f8b79_z.jpg",
+  "crop": [
+   0,
+   156,
+   99
+  ],
+  "overcast": true,
+  "cloud_share": 0.7012,
+  "cloud_share_of_sky": 0.9996
+ },
+ {
+  "id": 9171,
+  "file": "000000009171.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm6.staticflickr.com/5052/5507684600_04719e70b3_z.jpg",
+  "crop": [
+   0,
+   456,
+   96
+  ],
+  "overcast": false,
+  "cloud_share": 0.5799,
+  "cloud_share_of_sky": 0.7636
+ },
+ {
+  "id": 9478,
+  "file": "000000009478.jpg",
+  "split": "test",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm8.staticflickr.com/7283/8729690315_baa6d0f524_z.jpg",
+  "crop": [
+   0,
+   0,
+   216
+  ],
+  "overcast": false,
+  "cloud_share": 0.3246,
+  "cloud_share_of_sky": 0.4452
+ },
+ {
+  "id": 10239,
+  "file": "000000010239.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8527/8640248164_346015db59_z.jpg",
+  "crop": [
+   0,
+   275,
+   200
+  ],
+  "overcast": false,
+  "cloud_share": 0.4267,
+  "cloud_share_of_sky": 0.5993
+ },
+ {
+  "id": 12509,
+  "file": "000000012509.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8248/8459868647_3c82fe2604_z.jpg",
+  "crop": [
+   0,
+   0,
+   315
+  ],
+  "overcast": false,
+  "cloud_share": 0.3613,
+  "cloud_share_of_sky": 0.5107
+ },
+ {
+  "id": 15289,
+  "file": "000000015289.jpg",
+  "split": "test",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm3.staticflickr.com/2882/9193329914_f59c025e1d_z.jpg",
+  "crop": [
+   0,
+   117,
+   316
+  ],
+  "overcast": false,
+  "cloud_share": 0.4142,
+  "cloud_share_of_sky": 0.5815
+ },
+ {
+  "id": 17203,
+  "file": "000000017203.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm1.staticflickr.com/73/177854576_54baa0340e_z.jpg",
+  "crop": [
+   78,
+   169,
+   107
+  ],
+  "overcast": false,
+  "cloud_share": 0.6218,
+  "cloud_share_of_sky": 0.8075
+ },
+ {
+  "id": 17675,
+  "file": "000000017675.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8532/8668226178_9f7903b2cd_z.jpg",
+  "crop": [
+   0,
+   0,
+   336
+  ],
+  "overcast": true,
+  "cloud_share": 0.7209,
+  "cloud_share_of_sky": 1.0
+ },
+ {
+  "id": 21084,
+  "file": "000000021084.jpg",
+  "split": "test",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm4.staticflickr.com/3596/3486925147_5bdaf7a93b_z.jpg",
+  "crop": [
+   112,
+   320,
+   128
+  ],
+  "overcast": false,
+  "cloud_share": 0.5812,
+  "cloud_share_of_sky": 0.5991
+ },
+ {
+  "id": 26645,
+  "file": "000000026645.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm3.staticflickr.com/2494/4010590690_05d596a739_z.jpg",
+  "crop": [
+   30,
+   120,
+   247
+  ],
+  "overcast": false,
+  "cloud_share": 0.405,
+  "cloud_share_of_sky": 0.553
+ },
+ {
+  "id": 32367,
+  "file": "000000032367.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm7.staticflickr.com/6162/6184580778_238801d681_z.jpg",
+  "crop": [
+   0,
+   0,
+   303
+  ],
+  "overcast": false,
+  "cloud_share": 0.3982,
+  "cloud_share_of_sky": 0.5563
+ },
+ {
+  "id": 33721,
+  "file": "000000033721.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm3.staticflickr.com/2844/9847858235_ec6809bb93_z.jpg",
+  "crop": [
+   0,
+   0,
+   283
+  ],
+  "overcast": false,
+  "cloud_share": 0.4027,
+  "cloud_share_of_sky": 0.5465
+ },
+ {
+  "id": 34431,
+  "file": "000000034431.jpg",
+  "split": "test",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm1.staticflickr.com/170/474269433_22c8fead26_z.jpg",
+  "crop": [
+   58,
+   0,
+   464
+  ],
+  "overcast": false,
+  "cloud_share": 0.3243,
+  "cloud_share_of_sky": 0.4186
+ },
+ {
+  "id": 34525,
+  "file": "000000034525.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm4.staticflickr.com/3035/2282145039_494ba45b18_z.jpg",
+  "crop": [
+   0,
+   252,
+   112
+  ],
+  "overcast": true,
+  "cloud_share": 0.7131,
+  "cloud_share_of_sky": 1.0
+ },
+ {
+  "id": 38030,
+  "file": "000000038030.jpg",
+  "split": "test",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8049/8434726373_cfa4593e5a_z.jpg",
+  "crop": [
+   85,
+   289,
+   139
+  ],
+  "overcast": false,
+  "cloud_share": 0.3165,
+  "cloud_share_of_sky": 0.4049
+ },
+ {
+  "id": 38152,
+  "file": "000000038152.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm8.staticflickr.com/7277/7851704276_04f91558f0_z.jpg",
+  "crop": [
+   16,
+   496,
+   131
+  ],
+  "overcast": false,
+  "cloud_share": 0.5158,
+  "cloud_share_of_sky": 0.5976
+ },
+ {
+  "id": 38791,
+  "file": "000000038791.jpg",
+  "split": "test",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm8.staticflickr.com/7065/7045562285_b7fed70795_z.jpg",
+  "crop": [
+   0,
+   384,
+   96
+  ],
+  "overcast": false,
+  "cloud_share": 0.6846,
+  "cloud_share_of_sky": 0.6846
+ },
+ {
+  "id": 40870,
+  "file": "000000040870.jpg",
+  "split": "test",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm7.staticflickr.com/6230/6246572127_4ec4b09775_z.jpg",
+  "crop": [
+   58,
+   348,
+   237
+  ],
+  "overcast": false,
+  "cloud_share": 0.2943,
+  "cloud_share_of_sky": 0.4138
+ },
+ {
+  "id": 41754,
+  "file": "000000041754.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm4.staticflickr.com/3528/4009823771_21ae844235_z.jpg",
+  "crop": [
+   0,
+   0,
+   263
+  ],
+  "overcast": false,
+  "cloud_share": 0.4619,
+  "cloud_share_of_sky": 0.5942
+ },
+ {
+  "id": 42760,
+  "file": "000000042760.jpg",
+  "split": "test",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm3.staticflickr.com/2522/3709436528_3fff8ea621_z.jpg",
+  "crop": [
+   81,
+   162,
+   216
+  ],
+  "overcast": false,
+  "cloud_share": 0.4328,
+  "cloud_share_of_sky": 0.5892
+ },
+ {
+  "id": 42919,
+  "file": "000000042919.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm8.staticflickr.com/7220/7267363820_15b73536f3_z.jpg",
+  "crop": [
+   36,
+   24,
+   96
+  ],
+  "overcast": true,
+  "cloud_share": 0.7207,
+  "cloud_share_of_sky": 0.9791
+ },
+ {
+  "id": 43931,
+  "file": "000000043931.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm5.staticflickr.com/4150/5027351721_ba95392f07_z.jpg",
+  "crop": [
+   0,
+   374,
+   176
+  ],
+  "overcast": false,
+  "cloud_share": 0.337,
+  "cloud_share_of_sky": 0.4669
+ },
+ {
+  "id": 44147,
+  "file": "000000044147.jpg",
+  "split": "val",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8030/8059065530_fd00a4db77_z.jpg",
+  "crop": [
+   0,
+   200,
+   202
+  ],
+  "overcast": false,
+  "cloud_share": 0.4316,
+  "cloud_share_of_sky": 0.5904
+ },
+ {
+  "id": 45433,
+  "file": "000000045433.jpg",
+  "split": "test",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm3.staticflickr.com/2716/4356587573_15beb108cb_z.jpg",
+  "crop": [
+   0,
+   45,
+   125
+  ],
+  "overcast": false,
+  "cloud_share": 0.4508,
+  "cloud_share_of_sky": 0.5908
+ },
+ {
+  "id": 50309,
+  "file": "000000050309.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8415/8752790323_7e2b904c5e_z.jpg",
+  "crop": [
+   33,
+   330,
+   267
+  ],
+  "overcast": false,
+  "cloud_share": 0.4155,
+  "cloud_share_of_sky": 0.5919
+ },
+ {
+  "id": 52498,
+  "file": "000000052498.jpg",
+  "split": "test",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm8.staticflickr.com/7041/6886172160_35565c08d5_z.jpg",
+  "crop": [
+   0,
+   240,
+   384
+  ],
+  "overcast": false,
+  "cloud_share": 0.3341,
+  "cloud_share_of_sky": 0.4069
+ },
+ {
+  "id": 52952,
+  "file": "000000052952.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm8.staticflickr.com/7241/7275919432_71c43a9ef8_z.jpg",
+  "crop": [
+   0,
+   462,
+   175
+  ],
+  "overcast": false,
+  "cloud_share": 0.4372,
+  "cloud_share_of_sky": 0.595
+ },
+ {
+  "id": 53406,
+  "file": "000000053406.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8096/8576540916_002fbe0093_z.jpg",
+  "crop": [
+   52,
+   507,
+   107
+  ],
+  "overcast": true,
+  "cloud_share": 0.7198,
+  "cloud_share_of_sky": 0.997
+ },
+ {
+  "id": 56005,
+  "file": "000000056005.jpg",
+  "split": "test",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm8.staticflickr.com/7287/8735102937_0bea44dfec_z.jpg",
+  "crop": [
+   0,
+   396,
+   176
+  ],
+  "overcast": false,
+  "cloud_share": 0.3453,
+  "cloud_share_of_sky": 0.4881
+ },
+ {
+  "id": 57871,
+  "file": "000000057871.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm6.staticflickr.com/5134/5539913049_ecbcbcdf7b_z.jpg",
+  "crop": [
+   0,
+   462,
+   171
+  ],
+  "overcast": false,
+  "cloud_share": 0.5383,
+  "cloud_share_of_sky": 0.5914
+ },
+ {
+  "id": 60018,
+  "file": "000000060018.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm1.staticflickr.com/72/201042697_89b3b6faf5_z.jpg",
+  "crop": [
+   0,
+   0,
+   267
+  ],
+  "overcast": false,
+  "cloud_share": 0.4128,
+  "cloud_share_of_sky": 0.5674
+ },
+ {
+  "id": 63894,
+  "file": "000000063894.jpg",
+  "split": "test",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm5.staticflickr.com/4078/5021143020_a7c6a114d3_z.jpg",
+  "crop": [
+   0,
+   19,
+   152
+  ],
+  "overcast": false,
+  "cloud_share": 0.5603,
+  "cloud_share_of_sky": 0.5695
+ },
+ {
+  "id": 65755,
+  "file": "000000065755.jpg",
+  "split": "test",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm7.staticflickr.com/6174/6166099349_3eecff7121_z.jpg",
+  "crop": [
+   0,
+   420,
+   96
+  ],
+  "overcast": false,
+  "cloud_share": 0.6003,
+  "cloud_share_of_sky": 0.6022
+ },
+ {
+  "id": 65969,
+  "file": "000000065969.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm4.staticflickr.com/3195/2774586418_8ccd65b41d_z.jpg",
+  "crop": [
+   102,
+   170,
+   274
+  ],
+  "overcast": false,
+  "cloud_share": 0.3054,
+  "cloud_share_of_sky": 0.4268
+ },
+ {
+  "id": 66239,
+  "file": "000000066239.jpg",
+  "split": "test",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm8.staticflickr.com/7036/6845992970_9bfe5424e1_z.jpg",
+  "crop": [
+   0,
+   0,
+   384
+  ],
+  "overcast": false,
+  "cloud_share": 0.4188,
+  "cloud_share_of_sky": 0.5637
+ },
+ {
+  "id": 66316,
+  "file": "000000066316.jpg",
+  "split": "val",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm6.staticflickr.com/5547/9732179692_2e49d04618_z.jpg",
+  "crop": [
+   156,
+   78,
+   107
+  ],
+  "overcast": true,
+  "cloud_share": 0.7097,
+  "cloud_share_of_sky": 0.9999
+ },
+ {
+  "id": 68167,
+  "file": "000000068167.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm2.staticflickr.com/1109/1337028298_a97ec46d1d_z.jpg",
+  "crop": [
+   0,
+   0,
+   269
+  ],
+  "overcast": false,
+  "cloud_share": 0.4666,
+  "cloud_share_of_sky": 0.5892
+ },
+ {
+  "id": 71441,
+  "file": "000000071441.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8505/8584530853_0ef67864e1_z.jpg",
+  "crop": [
+   0,
+   30,
+   123
+  ],
+  "overcast": false,
+  "cloud_share": 0.4337,
+  "cloud_share_of_sky": 0.5962
+ },
+ {
+  "id": 72776,
+  "file": "000000072776.jpg",
+  "split": "test",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm2.staticflickr.com/1098/5117267894_15eeb89541_z.jpg",
+  "crop": [
+   0,
+   0,
+   298
+  ],
+  "overcast": false,
+  "cloud_share": 0.4158,
+  "cloud_share_of_sky": 0.5622
+ },
+ {
+  "id": 72978,
+  "file": "000000072978.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm3.staticflickr.com/2776/4070090913_dfb8043571_z.jpg",
+  "crop": [
+   312,
+   130,
+   105
+  ],
+  "overcast": false,
+  "cloud_share": 0.1376,
+  "cloud_share_of_sky": 0.1914
+ },
+ {
+  "id": 73936,
+  "file": "000000073936.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm8.staticflickr.com/7405/9724884738_9dd40670d6_z.jpg",
+  "crop": [
+   156,
+   240,
+   96
+  ],
+  "overcast": true,
+  "cloud_share": 0.7307,
+  "cloud_share_of_sky": 0.9994
+ },
+ {
+  "id": 76792,
+  "file": "000000076792.jpg",
+  "split": "test",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm8.staticflickr.com/7060/7002936698_b444573d7f_z.jpg",
+  "crop": [
+   0,
+   148,
+   296
+  ],
+  "overcast": false,
+  "cloud_share": 0.3139,
+  "cloud_share_of_sky": 0.4216
+ },
+ {
+  "id": 76971,
+  "file": "000000076971.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm7.staticflickr.com/6041/6284580483_90c2f9e04f_z.jpg",
+  "crop": [
+   0,
+   0,
+   224
+  ],
+  "overcast": false,
+  "cloud_share": 0.3359,
+  "cloud_share_of_sky": 0.4782
+ },
+ {
+  "id": 78410,
+  "file": "000000078410.jpg",
+  "split": "val",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8374/8530173012_fc64cfc5a0_z.jpg",
+  "crop": [
+   0,
+   432,
+   131
+  ],
+  "overcast": false,
+  "cloud_share": 0.341,
+  "cloud_share_of_sky": 0.4295
+ },
+ {
+  "id": 78762,
+  "file": "000000078762.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm4.staticflickr.com/3468/3908457423_968f115f80_z.jpg",
+  "crop": [
+   0,
+   120,
+   480
+  ],
+  "overcast": false,
+  "cloud_share": 0.4026,
+  "cloud_share_of_sky": 0.5411
+ },
+ {
+  "id": 82275,
+  "file": "000000082275.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm6.staticflickr.com/5087/5272465863_a457cc01a1_z.jpg",
+  "crop": [
+   48,
+   240,
+   384
+  ],
+  "overcast": false,
+  "cloud_share": 0.4313,
+  "cloud_share_of_sky": 0.5901
+ },
+ {
+  "id": 84168,
+  "file": "000000084168.jpg",
+  "split": "val",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm5.staticflickr.com/4115/4918643648_acd1ba2ee8_z.jpg",
+  "crop": [
+   0,
+   60,
+   240
+  ],
+  "overcast": false,
+  "cloud_share": 0.3279,
+  "cloud_share_of_sky": 0.4668
+ },
+ {
+  "id": 84440,
+  "file": "000000084440.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm4.staticflickr.com/3233/2926782133_4cc987207b_z.jpg",
+  "crop": [
+   34,
+   340,
+   272
+  ],
+  "overcast": false,
+  "cloud_share": 0.4284,
+  "cloud_share_of_sky": 0.5968
+ },
+ {
+  "id": 84498,
+  "file": "000000084498.jpg",
+  "split": "test",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm8.staticflickr.com/7275/7450203376_1fafd8474f_z.jpg",
+  "crop": [
+   0,
+   162,
+   144
+  ],
+  "overcast": true,
+  "cloud_share": 0.7015,
+  "cloud_share_of_sky": 1.0
+ },
+ {
+  "id": 85475,
+  "file": "000000085475.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8409/8909034561_a186323dcb_z.jpg",
+  "crop": [
+   0,
+   0,
+   208
+  ],
+  "overcast": false,
+  "cloud_share": 0.3592,
+  "cloud_share_of_sky": 0.4933
+ },
+ {
+  "id": 85515,
+  "file": "000000085515.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm6.staticflickr.com/5459/9351674408_c0f0db9c46_z.jpg",
+  "crop": [
+   0,
+   39,
+   315
+  ],
+  "overcast": false,
+  "cloud_share": 0.4099,
+  "cloud_share_of_sky": 0.5768
+ },
+ {
+  "id": 88287,
+  "file": "000000088287.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm3.staticflickr.com/2223/2258466588_ed282c099d_z.jpg",
+  "crop": [
+   0,
+   240,
+   160
+  ],
+  "overcast": false,
+  "cloud_share": 0.347,
+  "cloud_share_of_sky": 0.4868
+ },
+ {
+  "id": 88768,
+  "file": "000000088768.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm3.staticflickr.com/2239/2385970372_1371094775_z.jpg",
+  "crop": [
+   0,
+   105,
+   286
+  ],
+  "overcast": false,
+  "cloud_share": 0.3102,
+  "cloud_share_of_sky": 0.4419
+ },
+ {
+  "id": 88835,
+  "file": "000000088835.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm1.staticflickr.com/154/348608649_0622477590_z.jpg",
+  "crop": [
+   0,
+   0,
+   251
+  ],
+  "overcast": false,
+  "cloud_share": 0.3577,
+  "cloud_share_of_sky": 0.4194
+ },
+ {
+  "id": 89132,
+  "file": "000000089132.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm2.staticflickr.com/1157/1478749587_4dae8c0ca3_z.jpg",
+  "crop": [
+   52,
+   481,
+   109
+  ],
+  "overcast": true,
+  "cloud_share": 0.7104,
+  "cloud_share_of_sky": 0.9996
+ },
+ {
+  "id": 89849,
+  "file": "000000089849.jpg",
+  "split": "test",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm6.staticflickr.com/5330/9761482866_94636dd5e3_z.jpg",
+  "crop": [
+   360,
+   432,
+   96
+  ],
+  "overcast": false,
+  "cloud_share": 0.2509,
+  "cloud_share_of_sky": 0.3304
+ },
+ {
+  "id": 91118,
+  "file": "000000091118.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm7.staticflickr.com/6129/5972493740_5a9c6b7119_z.jpg",
+  "crop": [
+   0,
+   0,
+   303
+  ],
+  "overcast": false,
+  "cloud_share": 0.3544,
+  "cloud_share_of_sky": 0.4905
+ },
+ {
+  "id": 98636,
+  "file": "000000098636.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8524/8608426241_eebef59da1_z.jpg",
+  "crop": [
+   0,
+   40,
+   163
+  ],
+  "overcast": false,
+  "cloud_share": 0.4093,
+  "cloud_share_of_sky": 0.5671
+ },
+ {
+  "id": 99983,
+  "file": "000000099983.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm2.staticflickr.com/1418/5144161186_ab5e6e1085_z.jpg",
+  "crop": [
+   0,
+   340,
+   272
+  ],
+  "overcast": false,
+  "cloud_share": 0.372,
+  "cloud_share_of_sky": 0.5283
+ },
+ {
+  "id": 100084,
+  "file": "000000100084.jpg",
+  "split": "test",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm1.staticflickr.com/36/87658925_8500121897_z.jpg",
+  "crop": [
+   0,
+   252,
+   288
+  ],
+  "overcast": false,
+  "cloud_share": 0.3268,
+  "cloud_share_of_sky": 0.4463
+ },
+ {
+  "id": 100594,
+  "file": "000000100594.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm4.staticflickr.com/3652/3513269521_234a2410cb_z.jpg",
+  "crop": [
+   144,
+   96,
+   103
+  ],
+  "overcast": true,
+  "cloud_share": 0.7171,
+  "cloud_share_of_sky": 0.9972
+ },
+ {
+  "id": 103413,
+  "file": "000000103413.jpg",
+  "split": "test",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm4.staticflickr.com/3498/3848903433_484114dd9a_z.jpg",
+  "crop": [
+   0,
+   391,
+   138
+  ],
+  "overcast": false,
+  "cloud_share": 0.4046,
+  "cloud_share_of_sky": 0.5593
+ },
+ {
+  "id": 103819,
+  "file": "000000103819.jpg",
+  "split": "test",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm6.staticflickr.com/5510/9776890124_1a3be9acdd_z.jpg",
+  "crop": [
+   0,
+   0,
+   365
+  ],
+  "overcast": false,
+  "cloud_share": 0.3886,
+  "cloud_share_of_sky": 0.5514
+ },
+ {
+  "id": 104931,
+  "file": "000000104931.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm3.staticflickr.com/2425/3590535982_d16943dfc7_z.jpg",
+  "crop": [
+   0,
+   230,
+   184
+  ],
+  "overcast": false,
+  "cloud_share": 0.5269,
+  "cloud_share_of_sky": 0.5269
+ },
+ {
+  "id": 107313,
+  "file": "000000107313.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm4.staticflickr.com/3678/9623602593_f4b6a5c27c_z.jpg",
+  "crop": [
+   0,
+   92,
+   186
+  ],
+  "overcast": false,
+  "cloud_share": 0.4406,
+  "cloud_share_of_sky": 0.5976
+ },
+ {
+  "id": 107362,
+  "file": "000000107362.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm2.staticflickr.com/1433/561400044_dbf2ddb54a_z.jpg",
+  "crop": [
+   0,
+   126,
+   336
+  ],
+  "overcast": false,
+  "cloud_share": 0.4016,
+  "cloud_share_of_sky": 0.5419
+ },
+ {
+  "id": 108501,
+  "file": "000000108501.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm1.staticflickr.com/45/149290990_06565d6a15_z.jpg",
+  "crop": [
+   0,
+   176,
+   128
+  ],
+  "overcast": false,
+  "cloud_share": 0.4608,
+  "cloud_share_of_sky": 0.5857
+ },
+ {
+  "id": 108541,
+  "file": "000000108541.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm6.staticflickr.com/5545/9179703545_42013a9ecf_z.jpg",
+  "crop": [
+   84,
+   228,
+   96
+  ],
+  "overcast": true,
+  "cloud_share": 0.7027,
+  "cloud_share_of_sky": 0.998
+ },
+ {
+  "id": 111830,
+  "file": "000000111830.jpg",
+  "split": "test",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm6.staticflickr.com/5242/5258216042_f91ff710a6_z.jpg",
+  "crop": [
+   312,
+   26,
+   106
+  ],
+  "overcast": false,
+  "cloud_share": 0.7089,
+  "cloud_share_of_sky": 0.7089
+ },
+ {
+  "id": 114250,
+  "file": "000000114250.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm8.staticflickr.com/7159/6402548527_bce864b3d8_z.jpg",
+  "crop": [
+   0,
+   391,
+   139
+  ],
+  "overcast": false,
+  "cloud_share": 0.3933,
+  "cloud_share_of_sky": 0.5459
+ },
+ {
+  "id": 114718,
+  "file": "000000114718.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm6.staticflickr.com/5444/9066259083_047bb8c911_z.jpg",
+  "crop": [
+   0,
+   171,
+   155
+  ],
+  "overcast": false,
+  "cloud_share": 0.5501,
+  "cloud_share_of_sky": 0.5858
+ },
+ {
+  "id": 118741,
+  "file": "000000118741.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm1.staticflickr.com/182/477573591_75dabf0b6a_z.jpg",
+  "crop": [
+   0,
+   342,
+   154
+  ],
+  "overcast": false,
+  "cloud_share": 0.4221,
+  "cloud_share_of_sky": 0.5764
+ },
+ {
+  "id": 119132,
+  "file": "000000119132.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8165/7518092484_7d4ed0bceb_z.jpg",
+  "crop": [
+   0,
+   0,
+   360
+  ],
+  "overcast": false,
+  "cloud_share": 0.5794,
+  "cloud_share_of_sky": 0.5839
+ },
+ {
+  "id": 119139,
+  "file": "000000119139.jpg",
+  "split": "test",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8022/7576384504_23e7df4ae2_z.jpg",
+  "crop": [
+   0,
+   0,
+   427
+  ],
+  "overcast": true,
+  "cloud_share": 0.7332,
+  "cloud_share_of_sky": 1.0
+ },
+ {
+  "id": 123008,
+  "file": "000000123008.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm8.staticflickr.com/7128/7672774490_79933afe0d_z.jpg",
+  "crop": [
+   0,
+   0,
+   208
+  ],
+  "overcast": false,
+  "cloud_share": 0.4369,
+  "cloud_share_of_sky": 0.5648
+ },
+ {
+  "id": 125575,
+  "file": "000000125575.jpg",
+  "split": "test",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8391/8613032406_fa6a2b1c16_z.jpg",
+  "crop": [
+   0,
+   196,
+   224
+  ],
+  "overcast": false,
+  "cloud_share": 0.3055,
+  "cloud_share_of_sky": 0.4359
+ },
+ {
+  "id": 128312,
+  "file": "000000128312.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8459/7894373228_d05a3c1933_z.jpg",
+  "crop": [
+   0,
+   0,
+   480
+  ],
+  "overcast": false,
+  "cloud_share": 0.3434,
+  "cloud_share_of_sky": 0.4887
+ },
+ {
+  "id": 128763,
+  "file": "000000128763.jpg",
+  "split": "test",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm4.staticflickr.com/3424/3871633951_7c6b0b7a7e_z.jpg",
+  "crop": [
+   0,
+   0,
+   252
+  ],
+  "overcast": false,
+  "cloud_share": 0.5805,
+  "cloud_share_of_sky": 0.5805
+ },
+ {
+  "id": 129925,
+  "file": "000000129925.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm5.staticflickr.com/4122/4801833407_5ae7ef5820_z.jpg",
+  "crop": [
+   0,
+   300,
+   160
+  ],
+  "overcast": false,
+  "cloud_share": 0.4938,
+  "cloud_share_of_sky": 0.5984
+ },
+ {
+  "id": 130592,
+  "file": "000000130592.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm8.staticflickr.com/7260/7649019310_9034485b99_z.jpg",
+  "crop": [
+   0,
+   396,
+   96
+  ],
+  "overcast": false,
+  "cloud_share": 0.3417,
+  "cloud_share_of_sky": 0.4428
+ },
+ {
+  "id": 130892,
+  "file": "000000130892.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm4.staticflickr.com/3563/3564871156_03b4322c0c_z.jpg",
+  "crop": [
+   0,
+   300,
+   96
+  ],
+  "overcast": true,
+  "cloud_share": 0.9918,
+  "cloud_share_of_sky": 0.9918
+ },
+ {
+  "id": 131486,
+  "file": "000000131486.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm8.staticflickr.com/7004/6677233967_dc224ec0d0_z.jpg",
+  "crop": [
+   0,
+   0,
+   167
+  ],
+  "overcast": false,
+  "cloud_share": 0.3619,
+  "cloud_share_of_sky": 0.5027
+ },
+ {
+  "id": 132887,
+  "file": "000000132887.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm3.staticflickr.com/2891/8841901036_12b916d69b_z.jpg",
+  "crop": [
+   108,
+   270,
+   144
+  ],
+  "overcast": false,
+  "cloud_share": 0.2977,
+  "cloud_share_of_sky": 0.4106
+ },
+ {
+  "id": 134657,
+  "file": "000000134657.jpg",
+  "split": "val",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm5.staticflickr.com/4108/5037197323_cd15b2fe8a_z.jpg",
+  "crop": [
+   0,
+   200,
+   400
+  ],
+  "overcast": false,
+  "cloud_share": 0.3116,
+  "cloud_share_of_sky": 0.4346
+ },
+ {
+  "id": 135790,
+  "file": "000000135790.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm7.staticflickr.com/6079/6042896445_178350ff4f_z.jpg",
+  "crop": [
+   0,
+   0,
+   224
+  ],
+  "overcast": false,
+  "cloud_share": 0.4506,
+  "cloud_share_of_sky": 0.4506
+ },
+ {
+  "id": 137185,
+  "file": "000000137185.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm8.staticflickr.com/7383/9826341546_615153c5fa_z.jpg",
+  "crop": [
+   288,
+   300,
+   98
+  ],
+  "overcast": false,
+  "cloud_share": 0.5016,
+  "cloud_share_of_sky": 0.7029
+ },
+ {
+  "id": 140543,
+  "file": "000000140543.jpg",
+  "split": "test",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm8.staticflickr.com/7304/9180300695_eee57f891f_z.jpg",
+  "crop": [
+   0,
+   280,
+   283
+  ],
+  "overcast": false,
+  "cloud_share": 0.3082,
+  "cloud_share_of_sky": 0.4315
+ },
+ {
+  "id": 141008,
+  "file": "000000141008.jpg",
+  "split": "val",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm3.staticflickr.com/2867/8867786634_acd59a93f2_z.jpg",
+  "crop": [
+   52,
+   390,
+   105
+  ],
+  "overcast": true,
+  "cloud_share": 0.6993,
+  "cloud_share_of_sky": 0.9968
+ },
+ {
+  "id": 143129,
+  "file": "000000143129.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm5.staticflickr.com/4026/4527958783_b591907a34_z.jpg",
+  "crop": [
+   0,
+   414,
+   187
+  ],
+  "overcast": false,
+  "cloud_share": 0.357,
+  "cloud_share_of_sky": 0.5081
+ },
+ {
+  "id": 143182,
+  "file": "000000143182.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm3.staticflickr.com/2166/2459542895_f4fff36a3f_z.jpg",
+  "crop": [
+   0,
+   0,
+   368
+  ],
+  "overcast": false,
+  "cloud_share": 0.4229,
+  "cloud_share_of_sky": 0.592
+ },
+ {
+  "id": 145956,
+  "file": "000000145956.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm8.staticflickr.com/7274/7566806072_a9377fe71e_z.jpg",
+  "crop": [
+   0,
+   312,
+   316
+  ],
+  "overcast": false,
+  "cloud_share": 0.5335,
+  "cloud_share_of_sky": 0.5938
+ },
+ {
+  "id": 149871,
+  "file": "000000149871.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8441/7859049464_80cbbc963a_z.jpg",
+  "crop": [
+   0,
+   0,
+   416
+  ],
+  "overcast": false,
+  "cloud_share": 0.3956,
+  "cloud_share_of_sky": 0.4731
+ },
+ {
+  "id": 151382,
+  "file": "000000151382.jpg",
+  "split": "val",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm5.staticflickr.com/4042/4317123961_310a246ef7_z.jpg",
+  "crop": [
+   21,
+   252,
+   171
+  ],
+  "overcast": false,
+  "cloud_share": 0.4283,
+  "cloud_share_of_sky": 0.4283
+ },
+ {
+  "id": 151528,
+  "file": "000000151528.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm3.staticflickr.com/2425/3615545209_73901f9930_z.jpg",
+  "crop": [
+   0,
+   345,
+   120
+  ],
+  "overcast": true,
+  "cloud_share": 0.7064,
+  "cloud_share_of_sky": 0.9993
+ },
+ {
+  "id": 153870,
+  "file": "000000153870.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm4.staticflickr.com/3428/3237627768_6138e3a4e5_z.jpg",
+  "crop": [
+   0,
+   176,
+   353
+  ],
+  "overcast": false,
+  "cloud_share": 0.4302,
+  "cloud_share_of_sky": 0.5895
+ },
+ {
+  "id": 153980,
+  "file": "000000153980.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8360/8449982450_0884664d98_z.jpg",
+  "crop": [
+   0,
+   0,
+   288
+  ],
+  "overcast": false,
+  "cloud_share": 0.4119,
+  "cloud_share_of_sky": 0.577
+ },
+ {
+  "id": 155671,
+  "file": "000000155671.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm4.staticflickr.com/3246/2803850407_470348edfd_z.jpg",
+  "crop": [
+   0,
+   0,
+   416
+  ],
+  "overcast": false,
+  "cloud_share": 0.3169,
+  "cloud_share_of_sky": 0.4427
+ },
+ {
+  "id": 156102,
+  "file": "000000156102.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm7.staticflickr.com/6137/5951910722_d2358ca9e0_z.jpg",
+  "crop": [
+   0,
+   119,
+   140
+  ],
+  "overcast": false,
+  "cloud_share": 0.599,
+  "cloud_share_of_sky": 0.599
+ },
+ {
+  "id": 156284,
+  "file": "000000156284.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm8.staticflickr.com/7242/7200222378_b65d370608_z.jpg",
+  "crop": [
+   87,
+   0,
+   235
+  ],
+  "overcast": false,
+  "cloud_share": 0.4063,
+  "cloud_share_of_sky": 0.5695
+ },
+ {
+  "id": 157588,
+  "file": "000000157588.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8011/7544109410_9ab5708133_z.jpg",
+  "crop": [
+   0,
+   245,
+   395
+  ],
+  "overcast": false,
+  "cloud_share": 0.4926,
+  "cloud_share_of_sky": 0.5985
+ },
+ {
+  "id": 157603,
+  "file": "000000157603.jpg",
+  "split": "val",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm6.staticflickr.com/5096/5406242542_82d37294dc_z.jpg",
+  "crop": [
+   12,
+   156,
+   96
+  ],
+  "overcast": true,
+  "cloud_share": 0.7482,
+  "cloud_share_of_sky": 0.9997
+ },
+ {
+  "id": 161010,
+  "file": "000000161010.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm8.staticflickr.com/7034/6768086561_c69fc98756_z.jpg",
+  "crop": [
+   0,
+   294,
+   112
+  ],
+  "overcast": false,
+  "cloud_share": 0.5589,
+  "cloud_share_of_sky": 0.5838
+ },
+ {
+  "id": 164006,
+  "file": "000000164006.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8045/8118210655_9be708f13f_z.jpg",
+  "crop": [
+   0,
+   75,
+   202
+  ],
+  "overcast": false,
+  "cloud_share": 0.4206,
+  "cloud_share_of_sky": 0.5747
+ },
+ {
+  "id": 167910,
+  "file": "000000167910.jpg",
+  "split": "test",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm8.staticflickr.com/7376/9134473809_4326a87463_z.jpg",
+  "crop": [
+   0,
+   242,
+   181
+  ],
+  "overcast": false,
+  "cloud_share": 0.3685,
+  "cloud_share_of_sky": 0.5104
+ },
+ {
+  "id": 169014,
+  "file": "000000169014.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm8.staticflickr.com/7185/6863664359_31ab28f7c2_z.jpg",
+  "crop": [
+   0,
+   96,
+   102
+  ],
+  "overcast": false,
+  "cloud_share": 0.4508,
+  "cloud_share_of_sky": 0.6377
+ },
+ {
+  "id": 169490,
+  "file": "000000169490.jpg",
+  "split": "test",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm2.staticflickr.com/1357/640170692_256eeca78d_z.jpg",
+  "crop": [
+   0,
+   0,
+   304
+  ],
+  "overcast": false,
+  "cloud_share": 0.4209,
+  "cloud_share_of_sky": 0.5935
+ },
+ {
+  "id": 169599,
+  "file": "000000169599.jpg",
+  "split": "test",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm8.staticflickr.com/7459/8894207061_2cc13fb6bd_z.jpg",
+  "crop": [
+   0,
+   50,
+   202
+  ],
+  "overcast": false,
+  "cloud_share": 0.3271,
+  "cloud_share_of_sky": 0.4492
+ },
+ {
+  "id": 169656,
+  "file": "000000169656.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm6.staticflickr.com/5482/9533764468_cec5a01f0b_z.jpg",
+  "crop": [
+   0,
+   126,
+   171
+  ],
+  "overcast": false,
+  "cloud_share": 0.2922,
+  "cloud_share_of_sky": 0.4035
+ },
+ {
+  "id": 170579,
+  "file": "000000170579.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm1.staticflickr.com/151/394304883_ee3b1506c7_z.jpg",
+  "crop": [
+   84,
+   516,
+   96
+  ],
+  "overcast": true,
+  "cloud_share": 0.7982,
+  "cloud_share_of_sky": 0.989
+ },
+ {
+  "id": 172492,
+  "file": "000000172492.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm5.staticflickr.com/4017/4634168694_81bb1fd3f7_z.jpg",
+  "crop": [
+   0,
+   120,
+   480
+  ],
+  "overcast": false,
+  "cloud_share": 0.4167,
+  "cloud_share_of_sky": 0.4242
+ },
+ {
+  "id": 174671,
+  "file": "000000174671.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm5.staticflickr.com/4047/5166637173_94c7a269af_z.jpg",
+  "crop": [
+   78,
+   0,
+   315
+  ],
+  "overcast": false,
+  "cloud_share": 0.3031,
+  "cloud_share_of_sky": 0.4108
+ },
+ {
+  "id": 176744,
+  "file": "000000176744.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm7.staticflickr.com/6084/6135958721_5fa2d469b7_z.jpg",
+  "crop": [
+   0,
+   440,
+   181
+  ],
+  "overcast": false,
+  "cloud_share": 0.4376,
+  "cloud_share_of_sky": 0.4376
+ },
+ {
+  "id": 178998,
+  "file": "000000178998.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm8.staticflickr.com/7355/9612079424_f4cd738ed4_z.jpg",
+  "crop": [
+   0,
+   0,
+   170
+  ],
+  "overcast": false,
+  "cloud_share": 0.545,
+  "cloud_share_of_sky": 0.545
+ },
+ {
+  "id": 179134,
+  "file": "000000179134.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm4.staticflickr.com/3683/9325414565_b655b967f6_z.jpg",
+  "crop": [
+   156,
+   528,
+   96
+  ],
+  "overcast": true,
+  "cloud_share": 0.685,
+  "cloud_share_of_sky": 0.9568
+ },
+ {
+  "id": 180341,
+  "file": "000000180341.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm5.staticflickr.com/4036/4517700575_32780acb4b_z.jpg",
+  "crop": [
+   48,
+   72,
+   96
+  ],
+  "overcast": false,
+  "cloud_share": 0.5994,
+  "cloud_share_of_sky": 0.8277
+ },
+ {
+  "id": 180923,
+  "file": "000000180923.jpg",
+  "split": "val",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm7.staticflickr.com/6205/6065314345_c71ca2aff4_z.jpg",
+  "crop": [
+   0,
+   180,
+   240
+  ],
+  "overcast": false,
+  "cloud_share": 0.4024,
+  "cloud_share_of_sky": 0.5544
+ },
+ {
+  "id": 182625,
+  "file": "000000182625.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm6.staticflickr.com/5203/5365714055_ffd74f06f4_z.jpg",
+  "crop": [
+   104,
+   533,
+   106
+  ],
+  "overcast": false,
+  "cloud_share": 0.5967,
+  "cloud_share_of_sky": 0.5967
+ },
+ {
+  "id": 184388,
+  "file": "000000184388.jpg",
+  "split": "val",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm3.staticflickr.com/2696/4457637035_ae3daafba8_z.jpg",
+  "crop": [
+   160,
+   0,
+   132
+  ],
+  "overcast": false,
+  "cloud_share": 0.3993,
+  "cloud_share_of_sky": 0.5431
+ },
+ {
+  "id": 186537,
+  "file": "000000186537.jpg",
+  "split": "test",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8380/8651088858_de4dc311ea_z.jpg",
+  "crop": [
+   117,
+   52,
+   109
+  ],
+  "overcast": false,
+  "cloud_share": 0.5494,
+  "cloud_share_of_sky": 0.7561
+ },
+ {
+  "id": 186740,
+  "file": "000000186740.jpg",
+  "split": "test",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm5.staticflickr.com/4145/5084487664_3bddd2f8e4_z.jpg",
+  "crop": [
+   0,
+   164,
+   331
+  ],
+  "overcast": false,
+  "cloud_share": 0.4098,
+  "cloud_share_of_sky": 0.5709
+ },
+ {
+  "id": 186868,
+  "file": "000000186868.jpg",
+  "split": "test",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm5.staticflickr.com/4059/4685722493_1e8707f6d4_z.jpg",
+  "crop": [
+   0,
+   0,
+   304
+  ],
+  "overcast": true,
+  "cloud_share": 0.7069,
+  "cloud_share_of_sky": 1.0
+ },
+ {
+  "id": 187855,
+  "file": "000000187855.jpg",
+  "split": "test",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm8.staticflickr.com/7319/9753823326_fa29d33187_z.jpg",
+  "crop": [
+   0,
+   96,
+   384
+  ],
+  "overcast": false,
+  "cloud_share": 0.2856,
+  "cloud_share_of_sky": 0.4072
+ },
+ {
+  "id": 188918,
+  "file": "000000188918.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8106/8459602585_408bea4346_z.jpg",
+  "crop": [
+   0,
+   196,
+   112
+  ],
+  "overcast": false,
+  "cloud_share": 0.5949,
+  "cloud_share_of_sky": 0.5949
+ },
+ {
+  "id": 191912,
+  "file": "000000191912.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8452/7978129954_c73fe22602_z.jpg",
+  "crop": [
+   0,
+   0,
+   235
+  ],
+  "overcast": false,
+  "cloud_share": 0.3456,
+  "cloud_share_of_sky": 0.403
+ },
+ {
+  "id": 192627,
+  "file": "000000192627.jpg",
+  "split": "test",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm5.staticflickr.com/4076/4825086166_294d8e862f_z.jpg",
+  "crop": [
+   0,
+   165,
+   264
+  ],
+  "overcast": false,
+  "cloud_share": 0.5949,
+  "cloud_share_of_sky": 0.5971
+ },
+ {
+  "id": 192755,
+  "file": "000000192755.jpg",
+  "split": "val",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm5.staticflickr.com/4001/4164488928_58e8238f60_z.jpg",
+  "crop": [
+   0,
+   180,
+   365
+  ],
+  "overcast": false,
+  "cloud_share": 0.4477,
+  "cloud_share_of_sky": 0.5765
+ },
+ {
+  "id": 195998,
+  "file": "000000195998.jpg",
+  "split": "val",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm4.staticflickr.com/3054/2513020759_af6967f5d9_z.jpg",
+  "crop": [
+   36,
+   324,
+   288
+  ],
+  "overcast": false,
+  "cloud_share": 0.4113,
+  "cloud_share_of_sky": 0.5767
+ },
+ {
+  "id": 196916,
+  "file": "000000196916.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm7.staticflickr.com/6135/6031426758_ef64c8a9e4_z.jpg",
+  "crop": [
+   0,
+   0,
+   428
+  ],
+  "overcast": false,
+  "cloud_share": 0.4409,
+  "cloud_share_of_sky": 0.5295
+ },
+ {
+  "id": 196948,
+  "file": "000000196948.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm5.staticflickr.com/4015/5080868839_95259aec04_z.jpg",
+  "crop": [
+   28,
+   210,
+   116
+  ],
+  "overcast": true,
+  "cloud_share": 0.7117,
+  "cloud_share_of_sky": 0.997
+ },
+ {
+  "id": 198477,
+  "file": "000000198477.jpg",
+  "split": "test",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm2.staticflickr.com/1193/744678477_dabdf0c653_z.jpg",
+  "crop": [
+   0,
+   152,
+   304
+  ],
+  "overcast": false,
+  "cloud_share": 0.4305,
+  "cloud_share_of_sky": 0.5988
+ },
+ {
+  "id": 202102,
+  "file": "000000202102.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8165/7354046290_786f9733aa_z.jpg",
+  "crop": [
+   30,
+   120,
+   243
+  ],
+  "overcast": false,
+  "cloud_share": 0.4234,
+  "cloud_share_of_sky": 0.5797
+ },
+ {
+  "id": 202850,
+  "file": "000000202850.jpg",
+  "split": "test",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm4.staticflickr.com/3690/9437301973_834111ae5b_z.jpg",
+  "crop": [
+   0,
+   312,
+   107
+  ],
+  "overcast": false,
+  "cloud_share": 0.7499,
+  "cloud_share_of_sky": 0.7499
+ },
+ {
+  "id": 203304,
+  "file": "000000203304.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm4.staticflickr.com/3452/3907520264_d0357b573d_z.jpg",
+  "crop": [
+   0,
+   52,
+   208
+  ],
+  "overcast": false,
+  "cloud_share": 0.339,
+  "cloud_share_of_sky": 0.4841
+ },
+ {
+  "id": 204085,
+  "file": "000000204085.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm4.staticflickr.com/3712/9681924287_2d72946c62_z.jpg",
+  "crop": [
+   132,
+   204,
+   96
+  ],
+  "overcast": true,
+  "cloud_share": 0.7699,
+  "cloud_share_of_sky": 0.9976
+ },
+ {
+  "id": 205131,
+  "file": "000000205131.jpg",
+  "split": "test",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8050/8131656200_fe4be02289_z.jpg",
+  "crop": [
+   39,
+   39,
+   106
+  ],
+  "overcast": false,
+  "cloud_share": 0.8041,
+  "cloud_share_of_sky": 0.8041
+ },
+ {
+  "id": 208659,
+  "file": "000000208659.jpg",
+  "split": "test",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm4.staticflickr.com/3080/2821388501_c15fabcc69_z.jpg",
+  "crop": [
+   132,
+   0,
+   357
+  ],
+  "overcast": false,
+  "cloud_share": 0.3066,
+  "cloud_share_of_sky": 0.4301
+ },
+ {
+  "id": 208708,
+  "file": "000000208708.jpg",
+  "split": "val",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm4.staticflickr.com/3214/3157521964_e043a7db8f_z.jpg",
+  "crop": [
+   360,
+   300,
+   121
+  ],
+  "overcast": false,
+  "cloud_share": 0.3818,
+  "cloud_share_of_sky": 0.4112
+ },
+ {
+  "id": 208723,
+  "file": "000000208723.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm5.staticflickr.com/4003/4486914706_a0792e1284_z.jpg",
+  "crop": [
+   37,
+   333,
+   299
+  ],
+  "overcast": false,
+  "cloud_share": 0.3152,
+  "cloud_share_of_sky": 0.4049
+ },
+ {
+  "id": 211303,
+  "file": "000000211303.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm7.staticflickr.com/6148/6011516368_d2f3594a28_z.jpg",
+  "crop": [
+   0,
+   493,
+   143
+  ],
+  "overcast": false,
+  "cloud_share": 0.2997,
+  "cloud_share_of_sky": 0.4002
+ },
+ {
+  "id": 212856,
+  "file": "000000212856.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm1.staticflickr.com/126/368718555_ea3e26443a_z.jpg",
+  "crop": [
+   0,
+   84,
+   96
+  ],
+  "overcast": false,
+  "cloud_share": 0.7492,
+  "cloud_share_of_sky": 0.7492
+ },
+ {
+  "id": 212920,
+  "file": "000000212920.jpg",
+  "split": "test",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm6.staticflickr.com/5047/5238558165_1ce6822102_z.jpg",
+  "crop": [
+   0,
+   280,
+   160
+  ],
+  "overcast": false,
+  "cloud_share": 0.3294,
+  "cloud_share_of_sky": 0.447
+ },
+ {
+  "id": 213124,
+  "file": "000000213124.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm8.staticflickr.com/7391/9719336234_b1425eecd0_z.jpg",
+  "crop": [
+   0,
+   252,
+   96
+  ],
+  "overcast": true,
+  "cloud_share": 0.6819,
+  "cloud_share_of_sky": 0.9734
+ },
+ {
+  "id": 213338,
+  "file": "000000213338.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm6.staticflickr.com/5190/5745571932_0b66b4e7c3_z.jpg",
+  "crop": [
+   0,
+   0,
+   426
+  ],
+  "overcast": false,
+  "cloud_share": 0.3486,
+  "cloud_share_of_sky": 0.4867
+ },
+ {
+  "id": 213642,
+  "file": "000000213642.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8502/8385507948_02da5859f0_z.jpg",
+  "crop": [
+   37,
+   0,
+   302
+  ],
+  "overcast": false,
+  "cloud_share": 0.3011,
+  "cloud_share_of_sky": 0.4124
+ },
+ {
+  "id": 214379,
+  "file": "000000214379.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8530/8522126008_07f6e02ed1_z.jpg",
+  "crop": [
+   0,
+   0,
+   244
+  ],
+  "overcast": false,
+  "cloud_share": 0.4189,
+  "cloud_share_of_sky": 0.4189
+ },
+ {
+  "id": 217137,
+  "file": "000000217137.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm4.staticflickr.com/3035/2690877243_49f66986a4_z.jpg",
+  "crop": [
+   0,
+   0,
+   208
+  ],
+  "overcast": false,
+  "cloud_share": 0.3233,
+  "cloud_share_of_sky": 0.4141
+ },
+ {
+  "id": 218711,
+  "file": "000000218711.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm4.staticflickr.com/3547/3784640412_634f414ee9_z.jpg",
+  "crop": [
+   0,
+   132,
+   96
+  ],
+  "overcast": false,
+  "cloud_share": 0.6136,
+  "cloud_share_of_sky": 0.6136
+ },
+ {
+  "id": 218906,
+  "file": "000000218906.jpg",
+  "split": "test",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm7.staticflickr.com/6231/6329886778_41eb7b580f_z.jpg",
+  "crop": [
+   0,
+   144,
+   384
+  ],
+  "overcast": true,
+  "cloud_share": 0.7015,
+  "cloud_share_of_sky": 1.0
+ },
+ {
+  "id": 219514,
+  "file": "000000219514.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm4.staticflickr.com/3280/3763527118_166f0549eb_z.jpg",
+  "crop": [
+   0,
+   60,
+   96
+  ],
+  "overcast": false,
+  "cloud_share": 0.5672,
+  "cloud_share_of_sky": 0.6469
+ },
+ {
+  "id": 223496,
+  "file": "000000223496.jpg",
+  "split": "val",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm5.staticflickr.com/4046/4640982591_36ea89f4f6_z.jpg",
+  "crop": [
+   0,
+   0,
+   210
+  ],
+  "overcast": false,
+  "cloud_share": 0.5875,
+  "cloud_share_of_sky": 0.5875
+ },
+ {
+  "id": 224199,
+  "file": "000000224199.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm6.staticflickr.com/5501/9217974188_84e27aa394_z.jpg",
+  "crop": [
+   0,
+   135,
+   127
+  ],
+  "overcast": false,
+  "cloud_share": 0.5844,
+  "cloud_share_of_sky": 0.5844
+ },
+ {
+  "id": 224772,
+  "file": "000000224772.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm3.staticflickr.com/2627/3831719692_7c85cc0880_z.jpg",
+  "crop": [
+   180,
+   210,
+   240
+  ],
+  "overcast": false,
+  "cloud_share": 0.4137,
+  "cloud_share_of_sky": 0.5785
+ },
+ {
+  "id": 225987,
+  "file": "000000225987.jpg",
+  "split": "test",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm3.staticflickr.com/2727/5808399178_e304a3874e_z.jpg",
+  "crop": [
+   47,
+   47,
+   381
+  ],
+  "overcast": false,
+  "cloud_share": 0.3494,
+  "cloud_share_of_sky": 0.4681
+ },
+ {
+  "id": 226501,
+  "file": "000000226501.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm4.staticflickr.com/3689/9859830576_f47888fe4b_z.jpg",
+  "crop": [
+   195,
+   481,
+   107
+  ],
+  "overcast": true,
+  "cloud_share": 0.7023,
+  "cloud_share_of_sky": 0.9999
+ },
+ {
+  "id": 230422,
+  "file": "000000230422.jpg",
+  "split": "val",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm3.staticflickr.com/2666/3772359736_2123b33fd5_z.jpg",
+  "crop": [
+   208,
+   260,
+   208
+  ],
+  "overcast": false,
+  "cloud_share": 0.2971,
+  "cloud_share_of_sky": 0.4079
+ },
+ {
+  "id": 232516,
+  "file": "000000232516.jpg",
+  "split": "test",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8151/7517161824_4498a64a97_z.jpg",
+  "crop": [
+   104,
+   273,
+   104
+  ],
+  "overcast": false,
+  "cloud_share": 0.5701,
+  "cloud_share_of_sky": 0.8142
+ },
+ {
+  "id": 233892,
+  "file": "000000233892.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm4.staticflickr.com/3171/5757716325_66d095edf6_z.jpg",
+  "crop": [
+   0,
+   0,
+   373
+  ],
+  "overcast": false,
+  "cloud_share": 0.4391,
+  "cloud_share_of_sky": 0.5329
+ },
+ {
+  "id": 234963,
+  "file": "000000234963.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8176/7963793862_69753215aa_z.jpg",
+  "crop": [
+   0,
+   152,
+   304
+  ],
+  "overcast": false,
+  "cloud_share": 0.3246,
+  "cloud_share_of_sky": 0.4562
+ },
+ {
+  "id": 237327,
+  "file": "000000237327.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm3.staticflickr.com/2338/2164758203_afa97023bf_z.jpg",
+  "crop": [
+   32,
+   0,
+   135
+  ],
+  "overcast": false,
+  "cloud_share": 0.4302,
+  "cloud_share_of_sky": 0.5961
+ },
+ {
+  "id": 239657,
+  "file": "000000239657.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm7.staticflickr.com/6166/6166568587_2563c76b3b_z.jpg",
+  "crop": [
+   95,
+   475,
+   159
+  ],
+  "overcast": false,
+  "cloud_share": 0.3306,
+  "cloud_share_of_sky": 0.4277
+ },
+ {
+  "id": 241292,
+  "file": "000000241292.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm4.staticflickr.com/3141/3059264277_cd91d99e9e_z.jpg",
+  "crop": [
+   0,
+   288,
+   192
+  ],
+  "overcast": false,
+  "cloud_share": 0.5949,
+  "cloud_share_of_sky": 0.5949
+ },
+ {
+  "id": 242095,
+  "file": "000000242095.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm3.staticflickr.com/2500/5824593608_4db7d1dfd1_z.jpg",
+  "crop": [
+   135,
+   27,
+   218
+  ],
+  "overcast": false,
+  "cloud_share": 0.4317,
+  "cloud_share_of_sky": 0.5874
+ },
+ {
+  "id": 242163,
+  "file": "000000242163.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8462/8035225016_f6150c275e_z.jpg",
+  "crop": [
+   36,
+   516,
+   96
+  ],
+  "overcast": true,
+  "cloud_share": 0.7342,
+  "cloud_share_of_sky": 0.999
+ },
+ {
+  "id": 245377,
+  "file": "000000245377.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm8.staticflickr.com/7362/9160853218_5e2ba8ea51_z.jpg",
+  "crop": [
+   0,
+   150,
+   404
+  ],
+  "overcast": false,
+  "cloud_share": 0.3635,
+  "cloud_share_of_sky": 0.5173
+ },
+ {
+  "id": 246248,
+  "file": "000000246248.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm6.staticflickr.com/5269/5649758607_6b788a0869_z.jpg",
+  "crop": [
+   36,
+   0,
+   96
+  ],
+  "overcast": false,
+  "cloud_share": 0.512,
+  "cloud_share_of_sky": 0.6239
+ },
+ {
+  "id": 246348,
+  "file": "000000246348.jpg",
+  "split": "test",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm8.staticflickr.com/7192/6930397013_3c5a49808b_z.jpg",
+  "crop": [
+   204,
+   372,
+   96
+  ],
+  "overcast": false,
+  "cloud_share": 0.6128,
+  "cloud_share_of_sky": 0.8345
+ },
+ {
+  "id": 249400,
+  "file": "000000249400.jpg",
+  "split": "test",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm3.staticflickr.com/2303/2244061252_6a7146163e_z.jpg",
+  "crop": [
+   48,
+   12,
+   97
+  ],
+  "overcast": false,
+  "cloud_share": 0.2899,
+  "cloud_share_of_sky": 0.4122
+ },
+ {
+  "id": 249757,
+  "file": "000000249757.jpg",
+  "split": "test",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm6.staticflickr.com/5070/5561926951_ef514e2d83_z.jpg",
+  "crop": [
+   48,
+   0,
+   102
+  ],
+  "overcast": true,
+  "cloud_share": 0.7894,
+  "cloud_share_of_sky": 0.9936
+ },
+ {
+  "id": 252966,
+  "file": "000000252966.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm3.staticflickr.com/2101/5773419179_5e04a56da5_z.jpg",
+  "crop": [
+   156,
+   192,
+   96
+  ],
+  "overcast": false,
+  "cloud_share": 0.5675,
+  "cloud_share_of_sky": 0.8013
+ },
+ {
+  "id": 254028,
+  "file": "000000254028.jpg",
+  "split": "test",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm8.staticflickr.com/7409/9723860601_41784b0257_z.jpg",
+  "crop": [
+   13,
+   533,
+   106
+  ],
+  "overcast": false,
+  "cloud_share": 0.5846,
+  "cloud_share_of_sky": 0.62
+ },
+ {
+  "id": 255971,
+  "file": "000000255971.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm6.staticflickr.com/5339/9539398195_18b3afbe7a_z.jpg",
+  "crop": [
+   25,
+   150,
+   205
+  ],
+  "overcast": false,
+  "cloud_share": 0.3211,
+  "cloud_share_of_sky": 0.4524
+ },
+ {
+  "id": 256552,
+  "file": "000000256552.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm5.staticflickr.com/4021/4590404367_e54d1b84c1_z.jpg",
+  "crop": [
+   0,
+   0,
+   480
+  ],
+  "overcast": false,
+  "cloud_share": 0.4342,
+  "cloud_share_of_sky": 0.5603
+ },
+ {
+  "id": 259235,
+  "file": "000000259235.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm3.staticflickr.com/2256/2541246428_f3dae1b318_z.jpg",
+  "crop": [
+   48,
+   24,
+   96
+  ],
+  "overcast": false,
+  "cloud_share": 0.5997,
+  "cloud_share_of_sky": 0.5997
+ },
+ {
+  "id": 259316,
+  "file": "000000259316.jpg",
+  "split": "val",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm5.staticflickr.com/4141/4740864549_973319617b_z.jpg",
+  "crop": [
+   12,
+   528,
+   96
+  ],
+  "overcast": true,
+  "cloud_share": 0.9537,
+  "cloud_share_of_sky": 0.954
+ },
+ {
+  "id": 259687,
+  "file": "000000259687.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8090/8459655951_c575ca4a60_z.jpg",
+  "crop": [
+   0,
+   225,
+   200
+  ],
+  "overcast": false,
+  "cloud_share": 0.5781,
+  "cloud_share_of_sky": 0.5862
+ },
+ {
+  "id": 260433,
+  "file": "000000260433.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm5.staticflickr.com/4149/5037815732_6a5c8b0043_z.jpg",
+  "crop": [
+   0,
+   162,
+   432
+  ],
+  "overcast": false,
+  "cloud_share": 0.4157,
+  "cloud_share_of_sky": 0.5936
+ },
+ {
+  "id": 261414,
+  "file": "000000261414.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm4.staticflickr.com/3692/8894209197_9430b0a773_z.jpg",
+  "crop": [
+   0,
+   0,
+   187
+  ],
+  "overcast": false,
+  "cloud_share": 0.5334,
+  "cloud_share_of_sky": 0.5994
+ },
+ {
+  "id": 262800,
+  "file": "000000262800.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm3.staticflickr.com/2827/8779282309_8ab2c6d496_z.jpg",
+  "crop": [
+   0,
+   231,
+   267
+  ],
+  "overcast": false,
+  "cloud_share": 0.5268,
+  "cloud_share_of_sky": 0.5991
+ },
+ {
+  "id": 264723,
+  "file": "000000264723.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm4.staticflickr.com/3798/9474937644_317a38489f_z.jpg",
+  "crop": [
+   0,
+   364,
+   114
+  ],
+  "overcast": false,
+  "cloud_share": 0.5796,
+  "cloud_share_of_sky": 0.5796
+ },
+ {
+  "id": 267684,
+  "file": "000000267684.jpg",
+  "split": "test",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm2.staticflickr.com/1335/5154948264_96e9ab745f_z.jpg",
+  "crop": [
+   26,
+   0,
+   208
+  ],
+  "overcast": false,
+  "cloud_share": 0.3265,
+  "cloud_share_of_sky": 0.4444
+ },
+ {
+  "id": 267691,
+  "file": "000000267691.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm5.staticflickr.com/4140/4923818423_ed86144033_z.jpg",
+  "crop": [
+   0,
+   0,
+   480
+  ],
+  "overcast": true,
+  "cloud_share": 0.832,
+  "cloud_share_of_sky": 1.0
+ },
+ {
+  "id": 268918,
+  "file": "000000268918.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm6.staticflickr.com/5251/5527422437_7c29ae41b2_z.jpg",
+  "crop": [
+   0,
+   28,
+   225
+  ],
+  "overcast": false,
+  "cloud_share": 0.4417,
+  "cloud_share_of_sky": 0.5866
+ },
+ {
+  "id": 270821,
+  "file": "000000270821.jpg",
+  "split": "test",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm4.staticflickr.com/3743/9168700311_4482e817c9_z.jpg",
+  "crop": [
+   0,
+   0,
+   420
+  ],
+  "overcast": false,
+  "cloud_share": 0.2885,
+  "cloud_share_of_sky": 0.4098
+ },
+ {
+  "id": 270906,
+  "file": "000000270906.jpg",
+  "split": "test",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm8.staticflickr.com/7118/6886170570_877350bd20_z.jpg",
+  "crop": [
+   0,
+   60,
+   480
+  ],
+  "overcast": false,
+  "cloud_share": 0.3765,
+  "cloud_share_of_sky": 0.4291
+ },
+ {
+  "id": 271266,
+  "file": "000000271266.jpg",
+  "split": "val",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm5.staticflickr.com/4105/5000457826_ba0385d4e9_z.jpg",
+  "crop": [
+   0,
+   0,
+   400
+  ],
+  "overcast": false,
+  "cloud_share": 0.4598,
+  "cloud_share_of_sky": 0.5451
+ },
+ {
+  "id": 271385,
+  "file": "000000271385.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8481/8285928991_2f505c56f4_z.jpg",
+  "crop": [
+   0,
+   396,
+   100
+  ],
+  "overcast": false,
+  "cloud_share": 0.626,
+  "cloud_share_of_sky": 0.626
+ },
+ {
+  "id": 275409,
+  "file": "000000275409.jpg",
+  "split": "test",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm8.staticflickr.com/7242/7343744772_dff2e25075_z.jpg",
+  "crop": [
+   0,
+   533,
+   107
+  ],
+  "overcast": false,
+  "cloud_share": 0.5504,
+  "cloud_share_of_sky": 0.6607
+ },
+ {
+  "id": 275515,
+  "file": "000000275515.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm1.staticflickr.com/141/374491230_66925a6094_z.jpg",
+  "crop": [
+   56,
+   392,
+   224
+  ],
+  "overcast": false,
+  "cloud_share": 0.4883,
+  "cloud_share_of_sky": 0.5955
+ },
+ {
+  "id": 275530,
+  "file": "000000275530.jpg",
+  "split": "test",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8331/8146430162_544bc5d366_z.jpg",
+  "crop": [
+   0,
+   0,
+   200
+  ],
+  "overcast": true,
+  "cloud_share": 0.7088,
+  "cloud_share_of_sky": 1.0
+ },
+ {
+  "id": 276527,
+  "file": "000000276527.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm1.staticflickr.com/135/385484421_30d6c319e9_z.jpg",
+  "crop": [
+   0,
+   140,
+   160
+  ],
+  "overcast": false,
+  "cloud_share": 0.3389,
+  "cloud_share_of_sky": 0.4825
+ },
+ {
+  "id": 277553,
+  "file": "000000277553.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm5.staticflickr.com/4012/4592001448_5d2fc35926_z.jpg",
+  "crop": [
+   0,
+   312,
+   104
+  ],
+  "overcast": false,
+  "cloud_share": 0.7346,
+  "cloud_share_of_sky": 0.7957
+ },
+ {
+  "id": 280079,
+  "file": "000000280079.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm5.staticflickr.com/4132/5024662097_8bf8eb329d_z.jpg",
+  "crop": [
+   0,
+   0,
+   299
+  ],
+  "overcast": false,
+  "cloud_share": 0.3013,
+  "cloud_share_of_sky": 0.4274
+ },
+ {
+  "id": 282032,
+  "file": "000000282032.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm8.staticflickr.com/7020/6507638499_a50471e7c8_z.jpg",
+  "crop": [
+   0,
+   495,
+   123
+  ],
+  "overcast": false,
+  "cloud_share": 0.5344,
+  "cloud_share_of_sky": 0.5763
+ },
+ {
+  "id": 282115,
+  "file": "000000282115.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm8.staticflickr.com/7364/9699844476_fdb1a1cfd4_z.jpg",
+  "crop": [
+   12,
+   276,
+   100
+  ],
+  "overcast": true,
+  "cloud_share": 0.7596,
+  "cloud_share_of_sky": 0.9997
+ },
+ {
+  "id": 282428,
+  "file": "000000282428.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm4.staticflickr.com/3122/2658350995_33dd38ef65_z.jpg",
+  "crop": [
+   26,
+   208,
+   215
+  ],
+  "overcast": false,
+  "cloud_share": 0.3633,
+  "cloud_share_of_sky": 0.4423
+ },
+ {
+  "id": 284342,
+  "file": "000000284342.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8550/8890667309_20659a8ac3_z.jpg",
+  "crop": [
+   117,
+   0,
+   106
+  ],
+  "overcast": false,
+  "cloud_share": 0.3527,
+  "cloud_share_of_sky": 0.4271
+ },
+ {
+  "id": 288486,
+  "file": "000000288486.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm4.staticflickr.com/3604/3401999335_582582a691_z.jpg",
+  "crop": [
+   0,
+   90,
+   151
+  ],
+  "overcast": false,
+  "cloud_share": 0.3077,
+  "cloud_share_of_sky": 0.4263
+ },
+ {
+  "id": 288769,
+  "file": "000000288769.jpg",
+  "split": "val",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm7.staticflickr.com/6121/5940090494_7ccd0b9717_z.jpg",
+  "crop": [
+   72,
+   96,
+   192
+  ],
+  "overcast": false,
+  "cloud_share": 0.4311,
+  "cloud_share_of_sky": 0.5997
+ },
+ {
+  "id": 290221,
+  "file": "000000290221.jpg",
+  "split": "test",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm6.staticflickr.com/5189/5580513970_55ac0e7579_z.jpg",
+  "crop": [
+   0,
+   375,
+   203
+  ],
+  "overcast": false,
+  "cloud_share": 0.5844,
+  "cloud_share_of_sky": 0.5915
+ },
+ {
+  "id": 296851,
+  "file": "000000296851.jpg",
+  "split": "test",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm3.staticflickr.com/2877/10174899033_edcee0de50_z.jpg",
+  "crop": [
+   0,
+   0,
+   110
+  ],
+  "overcast": false,
+  "cloud_share": 0.6412,
+  "cloud_share_of_sky": 0.6412
+ },
+ {
+  "id": 297738,
+  "file": "000000297738.jpg",
+  "split": "test",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm8.staticflickr.com/7287/9300189713_3193e151ba_z.jpg",
+  "crop": [
+   0,
+   72,
+   99
+  ],
+  "overcast": true,
+  "cloud_share": 0.7059,
+  "cloud_share_of_sky": 0.9981
+ },
+ {
+  "id": 300079,
+  "file": "000000300079.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm4.staticflickr.com/3045/3162918379_766f91df0a_z.jpg",
+  "crop": [
+   108,
+   0,
+   96
+  ],
+  "overcast": false,
+  "cloud_share": 0.435,
+  "cloud_share_of_sky": 0.5767
+ },
+ {
+  "id": 300086,
+  "file": "000000300086.jpg",
+  "split": "val",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8350/8220210409_c63da4d6a1_z.jpg",
+  "crop": [
+   0,
+   70,
+   117
+  ],
+  "overcast": false,
+  "cloud_share": 0.4177,
+  "cloud_share_of_sky": 0.5555
+ },
+ {
+  "id": 302318,
+  "file": "000000302318.jpg",
+  "split": "test",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm1.staticflickr.com/27/42991723_4e4008f2f5_z.jpg",
+  "crop": [
+   0,
+   52,
+   215
+  ],
+  "overcast": false,
+  "cloud_share": 0.3499,
+  "cloud_share_of_sky": 0.4895
+ },
+ {
+  "id": 309875,
+  "file": "000000309875.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm1.staticflickr.com/34/68858369_811a4c5d39_z.jpg",
+  "crop": [
+   0,
+   144,
+   103
+  ],
+  "overcast": false,
+  "cloud_share": 0.4143,
+  "cloud_share_of_sky": 0.5837
+ },
+ {
+  "id": 311119,
+  "file": "000000311119.jpg",
+  "split": "val",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm5.staticflickr.com/4112/4949834866_85136e5227_z.jpg",
+  "crop": [
+   0,
+   132,
+   98
+  ],
+  "overcast": false,
+  "cloud_share": 0.3967,
+  "cloud_share_of_sky": 0.4905
+ },
+ {
+  "id": 311641,
+  "file": "000000311641.jpg",
+  "split": "test",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm7.staticflickr.com/6085/6043442090_ddca74b686_z.jpg",
+  "crop": [
+   0,
+   120,
+   480
+  ],
+  "overcast": false,
+  "cloud_share": 0.3417,
+  "cloud_share_of_sky": 0.4838
+ },
+ {
+  "id": 312344,
+  "file": "000000312344.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm1.staticflickr.com/17/19270076_84b4d62768_z.jpg",
+  "crop": [
+   84,
+   444,
+   96
+  ],
+  "overcast": true,
+  "cloud_share": 0.7003,
+  "cloud_share_of_sky": 0.9975
+ },
+ {
+  "id": 315160,
+  "file": "000000315160.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm1.staticflickr.com/89/265107261_5c0f17a8fc_z.jpg",
+  "crop": [
+   0,
+   308,
+   112
+  ],
+  "overcast": false,
+  "cloud_share": 0.4153,
+  "cloud_share_of_sky": 0.5919
+ },
+ {
+  "id": 316141,
+  "file": "000000316141.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8029/8034220675_f084006dd2_z.jpg",
+  "crop": [
+   36,
+   486,
+   149
+  ],
+  "overcast": false,
+  "cloud_share": 0.3525,
+  "cloud_share_of_sky": 0.4656
+ },
+ {
+  "id": 316443,
+  "file": "000000316443.jpg",
+  "split": "test",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8301/7938895418_bebf35831b_z.jpg",
+  "crop": [
+   0,
+   100,
+   164
+  ],
+  "overcast": false,
+  "cloud_share": 0.5919,
+  "cloud_share_of_sky": 0.5919
+ },
+ {
+  "id": 317507,
+  "file": "000000317507.jpg",
+  "split": "test",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8040/7894198962_700e53ec9c_z.jpg",
+  "crop": [
+   133,
+   95,
+   154
+  ],
+  "overcast": false,
+  "cloud_share": 0.4179,
+  "cloud_share_of_sky": 0.5635
+ },
+ {
+  "id": 319990,
+  "file": "000000319990.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm6.staticflickr.com/5063/5625365631_bb119c8aa0_z.jpg",
+  "crop": [
+   0,
+   264,
+   352
+  ],
+  "overcast": false,
+  "cloud_share": 0.4255,
+  "cloud_share_of_sky": 0.5839
+ },
+ {
+  "id": 320066,
+  "file": "000000320066.jpg",
+  "split": "train",
+  "license": "No known copyright restrictions",
+  "flickr_url": "http://farm6.staticflickr.com/5448/7110487389_2025720591_z.jpg",
+  "crop": [
+   0,
+   120,
+   127
+  ],
+  "overcast": true,
+  "cloud_share": 0.7043,
+  "cloud_share_of_sky": 1.0
+ },
+ {
+  "id": 320759,
+  "file": "000000320759.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm1.staticflickr.com/122/261391714_72af0cfa2f_z.jpg",
+  "crop": [
+   0,
+   0,
+   221
+  ],
+  "overcast": false,
+  "cloud_share": 0.306,
+  "cloud_share_of_sky": 0.4349
+ },
+ {
+  "id": 321577,
+  "file": "000000321577.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm8.staticflickr.com/7020/6624445411_aa6d20c89e_z.jpg",
+  "crop": [
+   0,
+   392,
+   230
+  ],
+  "overcast": false,
+  "cloud_share": 0.3098,
+  "cloud_share_of_sky": 0.441
+ },
+ {
+  "id": 321588,
+  "file": "000000321588.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm7.staticflickr.com/6023/6001088559_77313b539f_z.jpg",
+  "crop": [
+   0,
+   0,
+   99
+  ],
+  "overcast": false,
+  "cloud_share": 0.6169,
+  "cloud_share_of_sky": 0.7144
+ },
+ {
+  "id": 326610,
+  "file": "000000326610.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm8.staticflickr.com/7271/7475633206_8c13322e3b_z.jpg",
+  "crop": [
+   0,
+   76,
+   155
+  ],
+  "overcast": false,
+  "cloud_share": 0.2955,
+  "cloud_share_of_sky": 0.4214
+ },
+ {
+  "id": 326724,
+  "file": "000000326724.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm5.staticflickr.com/4152/5222252162_b3718c4959_z.jpg",
+  "crop": [
+   0,
+   266,
+   156
+  ],
+  "overcast": false,
+  "cloud_share": 0.5565,
+  "cloud_share_of_sky": 0.5565
+ },
+ {
+  "id": 328551,
+  "file": "000000328551.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8555/8712103069_9b5f8050c4_z.jpg",
+  "crop": [
+   0,
+   0,
+   208
+  ],
+  "overcast": false,
+  "cloud_share": 0.4313,
+  "cloud_share_of_sky": 0.5985
+ },
+ {
+  "id": 329133,
+  "file": "000000329133.jpg",
+  "split": "test",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm8.staticflickr.com/7457/8761561158_bb8114386b_z.jpg",
+  "crop": [
+   0,
+   475,
+   152
+  ],
+  "overcast": true,
+  "cloud_share": 0.7144,
+  "cloud_share_of_sky": 1.0
+ },
+ {
+  "id": 329318,
+  "file": "000000329318.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm4.staticflickr.com/3025/2572116565_b24fab05fd_z.jpg",
+  "crop": [
+   0,
+   169,
+   108
+  ],
+  "overcast": false,
+  "cloud_share": 0.5676,
+  "cloud_share_of_sky": 0.7897
+ },
+ {
+  "id": 333283,
+  "file": "000000333283.jpg",
+  "split": "test",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm6.staticflickr.com/5129/5358823972_b61bd0311d_z.jpg",
+  "crop": [
+   0,
+   0,
+   283
+  ],
+  "overcast": false,
+  "cloud_share": 0.3578,
+  "cloud_share_of_sky": 0.4865
+ },
+ {
+  "id": 334892,
+  "file": "000000334892.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8150/6961970834_4096be1565_z.jpg",
+  "crop": [
+   0,
+   0,
+   321
+  ],
+  "overcast": false,
+  "cloud_share": 0.3859,
+  "cloud_share_of_sky": 0.5464
+ },
+ {
+  "id": 337062,
+  "file": "000000337062.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm8.staticflickr.com/7272/6987950916_e11eb3deaf_z.jpg",
+  "crop": [
+   0,
+   204,
+   272
+  ],
+  "overcast": false,
+  "cloud_share": 0.459,
+  "cloud_share_of_sky": 0.5563
+ },
+ {
+  "id": 338065,
+  "file": "000000338065.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8171/8038605641_8b33081f90_z.jpg",
+  "crop": [
+   0,
+   91,
+   108
+  ],
+  "overcast": false,
+  "cloud_share": 0.8227,
+  "cloud_share_of_sky": 0.8227
+ },
+ {
+  "id": 339346,
+  "file": "000000339346.jpg",
+  "split": "val",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm4.staticflickr.com/3363/3338978278_26a47b6d26_z.jpg",
+  "crop": [
+   39,
+   533,
+   107
+  ],
+  "overcast": false,
+  "cloud_share": 0.6412,
+  "cloud_share_of_sky": 0.8113
+ },
+ {
+  "id": 340252,
+  "file": "000000340252.jpg",
+  "split": "test",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm8.staticflickr.com/7436/10027640565_973df101e3_z.jpg",
+  "crop": [
+   78,
+   39,
+   106
+  ],
+  "overcast": true,
+  "cloud_share": 0.7223,
+  "cloud_share_of_sky": 0.9968
+ },
+ {
+  "id": 340588,
+  "file": "000000340588.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm2.staticflickr.com/1253/1003447022_0424142ded_z.jpg",
+  "crop": [
+   72,
+   0,
+   146
+  ],
+  "overcast": false,
+  "cloud_share": 0.4565,
+  "cloud_share_of_sky": 0.5648
+ },
+ {
+  "id": 341513,
+  "file": "000000341513.jpg",
+  "split": "test",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm5.staticflickr.com/4076/4826143487_dc104a9cf0_z.jpg",
+  "crop": [
+   0,
+   36,
+   96
+  ],
+  "overcast": false,
+  "cloud_share": 0.527,
+  "cloud_share_of_sky": 0.7507
+ },
+ {
+  "id": 341752,
+  "file": "000000341752.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm5.staticflickr.com/4031/4658888255_26e9442da2_z.jpg",
+  "crop": [
+   0,
+   348,
+   239
+  ],
+  "overcast": false,
+  "cloud_share": 0.3849,
+  "cloud_share_of_sky": 0.5399
+ },
+ {
+  "id": 342932,
+  "file": "000000342932.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm7.staticflickr.com/6031/6380690371_0746e29fa5_z.jpg",
+  "crop": [
+   192,
+   288,
+   128
+  ],
+  "overcast": false,
+  "cloud_share": 0.5507,
+  "cloud_share_of_sky": 0.5937
+ },
+ {
+  "id": 343057,
+  "file": "000000343057.jpg",
+  "split": "test",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm5.staticflickr.com/4053/4482225986_c47ea57ecb_z.jpg",
+  "crop": [
+   56,
+   224,
+   112
+  ],
+  "overcast": false,
+  "cloud_share": 0.3261,
+  "cloud_share_of_sky": 0.4105
+ },
+ {
+  "id": 343108,
+  "file": "000000343108.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm2.staticflickr.com/1231/5115911407_257b8a0f6e_z.jpg",
+  "crop": [
+   0,
+   0,
+   320
+  ],
+  "overcast": false,
+  "cloud_share": 0.3933,
+  "cloud_share_of_sky": 0.5264
+ },
+ {
+  "id": 343162,
+  "file": "000000343162.jpg",
+  "split": "test",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm3.staticflickr.com/2601/3776695636_8f840562ba_z.jpg",
+  "crop": [
+   0,
+   0,
+   231
+  ],
+  "overcast": false,
+  "cloud_share": 0.5414,
+  "cloud_share_of_sky": 0.5663
+ },
+ {
+  "id": 343166,
+  "file": "000000343166.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm5.staticflickr.com/4075/4955487329_18863d0bb1_z.jpg",
+  "crop": [
+   52,
+   26,
+   105
+  ],
+  "overcast": true,
+  "cloud_share": 0.7847,
+  "cloud_share_of_sky": 0.9983
+ },
+ {
+  "id": 345667,
+  "file": "000000345667.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm4.staticflickr.com/3757/9689133838_a23ac41ee8_z.jpg",
+  "crop": [
+   0,
+   0,
+   192
+  ],
+  "overcast": false,
+  "cloud_share": 0.4285,
+  "cloud_share_of_sky": 0.5957
+ },
+ {
+  "id": 345980,
+  "file": "000000345980.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm3.staticflickr.com/2799/4404488882_bc14f3b691_z.jpg",
+  "crop": [
+   0,
+   0,
+   203
+  ],
+  "overcast": false,
+  "cloud_share": 0.4403,
+  "cloud_share_of_sky": 0.5988
+ },
+ {
+  "id": 346581,
+  "file": "000000346581.jpg",
+  "split": "test",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm2.staticflickr.com/1031/709412631_6b7b445387_z.jpg",
+  "crop": [
+   130,
+   403,
+   106
+  ],
+  "overcast": false,
+  "cloud_share": 0.1042,
+  "cloud_share_of_sky": 0.1379
+ },
+ {
+  "id": 347818,
+  "file": "000000347818.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm8.staticflickr.com/7252/8155029484_63f5677d2a_z.jpg",
+  "crop": [
+   0,
+   408,
+   96
+  ],
+  "overcast": false,
+  "cloud_share": 0.7539,
+  "cloud_share_of_sky": 0.7539
+ },
+ {
+  "id": 348602,
+  "file": "000000348602.jpg",
+  "split": "test",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm4.staticflickr.com/3525/3873101540_f8a6741d0e_z.jpg",
+  "crop": [
+   91,
+   65,
+   111
+  ],
+  "overcast": true,
+  "cloud_share": 0.7055,
+  "cloud_share_of_sky": 0.9994
+ },
+ {
+  "id": 349318,
+  "file": "000000349318.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8059/8267215735_d5366c999f_z.jpg",
+  "crop": [
+   43,
+   258,
+   351
+  ],
+  "overcast": false,
+  "cloud_share": 0.3081,
+  "cloud_share_of_sky": 0.4204
+ },
+ {
+  "id": 349896,
+  "file": "000000349896.jpg",
+  "split": "test",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8344/8254856215_7eec2251f7_z.jpg",
+  "crop": [
+   0,
+   240,
+   384
+  ],
+  "overcast": false,
+  "cloud_share": 0.3842,
+  "cloud_share_of_sky": 0.5418
+ },
+ {
+  "id": 353964,
+  "file": "000000353964.jpg",
+  "split": "test",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8300/7828419286_5a2766ac10_z.jpg",
+  "crop": [
+   0,
+   108,
+   434
+  ],
+  "overcast": false,
+  "cloud_share": 0.5641,
+  "cloud_share_of_sky": 0.5862
+ },
+ {
+  "id": 354224,
+  "file": "000000354224.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm6.staticflickr.com/5459/6966020220_394e3c5542_z.jpg",
+  "crop": [
+   0,
+   270,
+   243
+  ],
+  "overcast": false,
+  "cloud_share": 0.2841,
+  "cloud_share_of_sky": 0.4021
+ },
+ {
+  "id": 357429,
+  "file": "000000357429.jpg",
+  "split": "test",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm5.staticflickr.com/4006/4537342091_838d65aeef_z.jpg",
+  "crop": [
+   0,
+   306,
+   144
+  ],
+  "overcast": false,
+  "cloud_share": 0.5475,
+  "cloud_share_of_sky": 0.5961
+ },
+ {
+  "id": 359420,
+  "file": "000000359420.jpg",
+  "split": "val",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm5.staticflickr.com/4036/4612111357_8fc8016166_z.jpg",
+  "crop": [
+   0,
+   516,
+   96
+  ],
+  "overcast": false,
+  "cloud_share": 0.5926,
+  "cloud_share_of_sky": 0.5926
+ },
+ {
+  "id": 359977,
+  "file": "000000359977.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm8.staticflickr.com/7035/6507678609_c9116286b6_z.jpg",
+  "crop": [
+   102,
+   0,
+   139
+  ],
+  "overcast": false,
+  "cloud_share": 0.594,
+  "cloud_share_of_sky": 0.594
+ },
+ {
+  "id": 360238,
+  "file": "000000360238.jpg",
+  "split": "test",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8546/8620603970_79b81634f3_z.jpg",
+  "crop": [
+   0,
+   377,
+   108
+  ],
+  "overcast": false,
+  "cloud_share": 0.4288,
+  "cloud_share_of_sky": 0.5815
+ },
+ {
+  "id": 360739,
+  "file": "000000360739.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm6.staticflickr.com/5018/5398309281_c10737eba5_z.jpg",
+  "crop": [
+   0,
+   0,
+   155
+  ],
+  "overcast": true,
+  "cloud_share": 0.7156,
+  "cloud_share_of_sky": 1.0
+ },
+ {
+  "id": 361451,
+  "file": "000000361451.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8256/8665912933_ed302f4bce_z.jpg",
+  "crop": [
+   160,
+   0,
+   260
+  ],
+  "overcast": false,
+  "cloud_share": 0.3179,
+  "cloud_share_of_sky": 0.432
+ },
+ {
+  "id": 361672,
+  "file": "000000361672.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm6.staticflickr.com/5513/9391976624_a2fc823132_z.jpg",
+  "crop": [
+   96,
+   108,
+   96
+  ],
+  "overcast": false,
+  "cloud_share": 0.5247,
+  "cloud_share_of_sky": 0.7039
+ },
+ {
+  "id": 364757,
+  "file": "000000364757.jpg",
+  "split": "test",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm7.staticflickr.com/6074/6086955080_c1d16bee58_z.jpg",
+  "crop": [
+   0,
+   0,
+   480
+  ],
+  "overcast": false,
+  "cloud_share": 0.5058,
+  "cloud_share_of_sky": 0.5497
+ },
+ {
+  "id": 364814,
+  "file": "000000364814.jpg",
+  "split": "val",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm6.staticflickr.com/5045/5310856285_c1981876f9_z.jpg",
+  "crop": [
+   52,
+   39,
+   108
+  ],
+  "overcast": true,
+  "cloud_share": 0.7375,
+  "cloud_share_of_sky": 0.9997
+ },
+ {
+  "id": 365556,
+  "file": "000000365556.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm4.staticflickr.com/3681/9480064723_79d24a182c_z.jpg",
+  "crop": [
+   416,
+   78,
+   107
+  ],
+  "overcast": false,
+  "cloud_share": 0.5942,
+  "cloud_share_of_sky": 0.8466
+ },
+ {
+  "id": 366379,
+  "file": "000000366379.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm3.staticflickr.com/2687/4407515119_68b94b5c5c_z.jpg",
+  "crop": [
+   0,
+   0,
+   426
+  ],
+  "overcast": false,
+  "cloud_share": 0.3664,
+  "cloud_share_of_sky": 0.4644
+ },
+ {
+  "id": 366907,
+  "file": "000000366907.jpg",
+  "split": "test",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm3.staticflickr.com/2465/3969775171_a188e7f10f_z.jpg",
+  "crop": [
+   0,
+   462,
+   176
+  ],
+  "overcast": false,
+  "cloud_share": 0.5553,
+  "cloud_share_of_sky": 0.5815
+ },
+ {
+  "id": 368117,
+  "file": "000000368117.jpg",
+  "split": "test",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm5.staticflickr.com/4143/4747872021_cd8c1ee91b_z.jpg",
+  "crop": [
+   0,
+   0,
+   249
+  ],
+  "overcast": false,
+  "cloud_share": 0.4099,
+  "cloud_share_of_sky": 0.4099
+ },
+ {
+  "id": 368656,
+  "file": "000000368656.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8456/8060330418_1f469486c8_z.jpg",
+  "crop": [
+   0,
+   240,
+   160
+  ],
+  "overcast": false,
+  "cloud_share": 0.586,
+  "cloud_share_of_sky": 0.586
+ },
+ {
+  "id": 371201,
+  "file": "000000371201.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm5.staticflickr.com/4117/4819996472_8224f6fc9f_z.jpg",
+  "crop": [
+   0,
+   180,
+   96
+  ],
+  "overcast": false,
+  "cloud_share": 0.787,
+  "cloud_share_of_sky": 0.787
+ },
+ {
+  "id": 372182,
+  "file": "000000372182.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm5.staticflickr.com/4095/4903268324_c31e8525da_z.jpg",
+  "crop": [
+   48,
+   288,
+   192
+  ],
+  "overcast": false,
+  "cloud_share": 0.4301,
+  "cloud_share_of_sky": 0.5955
+ },
+ {
+  "id": 372727,
+  "file": "000000372727.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm1.staticflickr.com/162/333086592_01200e0da5_z.jpg",
+  "crop": [
+   444,
+   168,
+   96
+  ],
+  "overcast": true,
+  "cloud_share": 0.7297,
+  "cloud_share_of_sky": 0.9979
+ },
+ {
+  "id": 375504,
+  "file": "000000375504.jpg",
+  "split": "test",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm7.staticflickr.com/6088/6092939608_aeab7b49a3_z.jpg",
+  "crop": [
+   120,
+   384,
+   192
+  ],
+  "overcast": false,
+  "cloud_share": 0.2998,
+  "cloud_share_of_sky": 0.4014
+ },
+ {
+  "id": 376751,
+  "file": "000000376751.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm5.staticflickr.com/4060/4394768551_978009ef77_z.jpg",
+  "crop": [
+   0,
+   312,
+   192
+  ],
+  "overcast": false,
+  "cloud_share": 0.4049,
+  "cloud_share_of_sky": 0.5598
+ },
+ {
+  "id": 379936,
+  "file": "000000379936.jpg",
+  "split": "test",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm1.staticflickr.com/219/500779295_bc4679778e_z.jpg",
+  "crop": [
+   88,
+   0,
+   176
+  ],
+  "overcast": false,
+  "cloud_share": 0.2984,
+  "cloud_share_of_sky": 0.4037
+ },
+ {
+  "id": 380522,
+  "file": "000000380522.jpg",
+  "split": "test",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm5.staticflickr.com/4043/4649069942_3afd129dde_z.jpg",
+  "crop": [
+   270,
+   0,
+   363
+  ],
+  "overcast": false,
+  "cloud_share": 0.4247,
+  "cloud_share_of_sky": 0.5804
+ },
+ {
+  "id": 380665,
+  "file": "000000380665.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8490/8278585154_ac088ebbd5_z.jpg",
+  "crop": [
+   0,
+   0,
+   240
+  ],
+  "overcast": false,
+  "cloud_share": 0.3191,
+  "cloud_share_of_sky": 0.4037
+ },
+ {
+  "id": 380828,
+  "file": "000000380828.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm8.staticflickr.com/7345/8916898199_b4c7b0ef58_z.jpg",
+  "crop": [
+   96,
+   132,
+   99
+  ],
+  "overcast": true,
+  "cloud_share": 0.6988,
+  "cloud_share_of_sky": 0.9983
+ },
+ {
+  "id": 386116,
+  "file": "000000386116.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm5.staticflickr.com/4146/5063092682_f18e1b24fa_z.jpg",
+  "crop": [
+   0,
+   0,
+   416
+  ],
+  "overcast": false,
+  "cloud_share": 0.3313,
+  "cloud_share_of_sky": 0.4008
+ },
+ {
+  "id": 387504,
+  "file": "000000387504.jpg",
+  "split": "test",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm5.staticflickr.com/4039/4529375723_bc46bc1b74_z.jpg",
+  "crop": [
+   174,
+   58,
+   234
+  ],
+  "overcast": false,
+  "cloud_share": 0.3052,
+  "cloud_share_of_sky": 0.4253
+ },
+ {
+  "id": 388267,
+  "file": "000000388267.jpg",
+  "split": "test",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm4.staticflickr.com/3385/3312050612_a2a8abf66f_z.jpg",
+  "crop": [
+   0,
+   190,
+   308
+  ],
+  "overcast": false,
+  "cloud_share": 0.4168,
+  "cloud_share_of_sky": 0.5882
+ },
+ {
+  "id": 389320,
+  "file": "000000389320.jpg",
+  "split": "val",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8238/8489195362_56e15b8de4_z.jpg",
+  "crop": [
+   0,
+   204,
+   414
+  ],
+  "overcast": false,
+  "cloud_share": 0.559,
+  "cloud_share_of_sky": 0.5804
+ },
+ {
+  "id": 389699,
+  "file": "000000389699.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm6.staticflickr.com/5253/5525311094_2204bceb6c_z.jpg",
+  "crop": [
+   0,
+   0,
+   208
+  ],
+  "overcast": false,
+  "cloud_share": 0.569,
+  "cloud_share_of_sky": 0.569
+ },
+ {
+  "id": 389932,
+  "file": "000000389932.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm6.staticflickr.com/5536/9108412711_c0519fac45_z.jpg",
+  "crop": [
+   26,
+   26,
+   208
+  ],
+  "overcast": false,
+  "cloud_share": 0.3016,
+  "cloud_share_of_sky": 0.4247
+ },
+ {
+  "id": 389964,
+  "file": "000000389964.jpg",
+  "split": "test",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm2.staticflickr.com/1106/1136688532_3ad7286045_z.jpg",
+  "crop": [
+   52,
+   65,
+   107
+  ],
+  "overcast": true,
+  "cloud_share": 0.7089,
+  "cloud_share_of_sky": 0.9991
+ },
+ {
+  "id": 391254,
+  "file": "000000391254.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm2.staticflickr.com/1042/933921477_5422445f47_z.jpg",
+  "crop": [
+   0,
+   300,
+   124
+  ],
+  "overcast": false,
+  "cloud_share": 0.4494,
+  "cloud_share_of_sky": 0.542
+ },
+ {
+  "id": 391321,
+  "file": "000000391321.jpg",
+  "split": "test",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm4.staticflickr.com/3207/3038137945_145c8ee9d1_z.jpg",
+  "crop": [
+   276,
+   0,
+   103
+  ],
+  "overcast": false,
+  "cloud_share": 0.4728,
+  "cloud_share_of_sky": 0.6345
+ },
+ {
+  "id": 396004,
+  "file": "000000396004.jpg",
+  "split": "val",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8142/7658365300_bc2276d6a7_z.jpg",
+  "crop": [
+   0,
+   90,
+   122
+  ],
+  "overcast": false,
+  "cloud_share": 0.3068,
+  "cloud_share_of_sky": 0.4237
+ },
+ {
+  "id": 396966,
+  "file": "000000396966.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm4.staticflickr.com/3594/3574903243_57b674b0e3_z.jpg",
+  "crop": [
+   396,
+   0,
+   176
+  ],
+  "overcast": false,
+  "cloud_share": 0.3353,
+  "cloud_share_of_sky": 0.4063
+ },
+ {
+  "id": 398350,
+  "file": "000000398350.jpg",
+  "split": "test",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm6.staticflickr.com/5299/5449115001_7a963f9d1c_z.jpg",
+  "crop": [
+   132,
+   286,
+   176
+  ],
+  "overcast": false,
+  "cloud_share": 0.4457,
+  "cloud_share_of_sky": 0.5957
+ },
+ {
+  "id": 399195,
+  "file": "000000399195.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm3.staticflickr.com/2852/9205520663_a8e43968a2_z.jpg",
+  "crop": [
+   78,
+   533,
+   107
+  ],
+  "overcast": true,
+  "cloud_share": 0.7244,
+  "cloud_share_of_sky": 0.9953
+ },
+ {
+  "id": 399416,
+  "file": "000000399416.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm5.staticflickr.com/4088/5066375005_5e81a0d869_z.jpg",
+  "crop": [
+   0,
+   264,
+   352
+  ],
+  "overcast": false,
+  "cloud_share": 0.4174,
+  "cloud_share_of_sky": 0.5896
+ },
+ {
+  "id": 399600,
+  "file": "000000399600.jpg",
+  "split": "val",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm8.staticflickr.com/7287/8761575972_837b53db4e_z.jpg",
+  "crop": [
+   0,
+   0,
+   104
+  ],
+  "overcast": false,
+  "cloud_share": 0.5652,
+  "cloud_share_of_sky": 0.6113
+ },
+ {
+  "id": 400168,
+  "file": "000000400168.jpg",
+  "split": "test",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm5.staticflickr.com/4011/4295670357_64c6817e73_z.jpg",
+  "crop": [
+   162,
+   0,
+   218
+  ],
+  "overcast": false,
+  "cloud_share": 0.2989,
+  "cloud_share_of_sky": 0.4018
+ },
+ {
+  "id": 400257,
+  "file": "000000400257.jpg",
+  "split": "test",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm4.staticflickr.com/3012/3401865736_56e77cbc25_z.jpg",
+  "crop": [
+   60,
+   0,
+   480
+  ],
+  "overcast": false,
+  "cloud_share": 0.3572,
+  "cloud_share_of_sky": 0.4539
+ },
+ {
+  "id": 401068,
+  "file": "000000401068.jpg",
+  "split": "test",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm8.staticflickr.com/7280/8158667372_8874448ab8_z.jpg",
+  "crop": [
+   48,
+   312,
+   96
+  ],
+  "overcast": false,
+  "cloud_share": 0.3187,
+  "cloud_share_of_sky": 0.4439
+ },
+ {
+  "id": 401829,
+  "file": "000000401829.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm8.staticflickr.com/7226/6936510472_11c64a89af_z.jpg",
+  "crop": [
+   0,
+   152,
+   304
+  ],
+  "overcast": false,
+  "cloud_share": 0.3284,
+  "cloud_share_of_sky": 0.4614
+ },
+ {
+  "id": 402248,
+  "file": "000000402248.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm4.staticflickr.com/3595/3506991912_a31f8227f4_z.jpg",
+  "crop": [
+   0,
+   39,
+   108
+  ],
+  "overcast": true,
+  "cloud_share": 0.7086,
+  "cloud_share_of_sky": 0.9973
+ },
+ {
+  "id": 404236,
+  "file": "000000404236.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm1.staticflickr.com/38/101758971_0309d28ca9_z.jpg",
+  "crop": [
+   0,
+   520,
+   107
+  ],
+  "overcast": false,
+  "cloud_share": 0.608,
+  "cloud_share_of_sky": 0.608
+ },
+ {
+  "id": 406784,
+  "file": "000000406784.jpg",
+  "split": "test",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8315/7977761030_3b83628407_z.jpg",
+  "crop": [
+   0,
+   279,
+   251
+  ],
+  "overcast": false,
+  "cloud_share": 0.3502,
+  "cloud_share_of_sky": 0.4892
+ },
+ {
+  "id": 408475,
+  "file": "000000408475.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm6.staticflickr.com/5283/5338837736_77f149569a_z.jpg",
+  "crop": [
+   0,
+   160,
+   128
+  ],
+  "overcast": false,
+  "cloud_share": 0.2847,
+  "cloud_share_of_sky": 0.4013
+ },
+ {
+  "id": 408799,
+  "file": "000000408799.jpg",
+  "split": "val",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm8.staticflickr.com/7065/6891902257_a38ce8eacb_z.jpg",
+  "crop": [
+   0,
+   494,
+   105
+  ],
+  "overcast": false,
+  "cloud_share": 0.7263,
+  "cloud_share_of_sky": 0.8106
+ },
+ {
+  "id": 409022,
+  "file": "000000409022.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8080/8345732531_46b05762f5_z.jpg",
+  "crop": [
+   0,
+   72,
+   192
+  ],
+  "overcast": false,
+  "cloud_share": 0.3966,
+  "cloud_share_of_sky": 0.5638
+ },
+ {
+  "id": 409069,
+  "file": "000000409069.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm8.staticflickr.com/7405/8728320612_861c9112ae_z.jpg",
+  "crop": [
+   0,
+   400,
+   200
+  ],
+  "overcast": false,
+  "cloud_share": 0.3595,
+  "cloud_share_of_sky": 0.4994
+ },
+ {
+  "id": 409182,
+  "file": "000000409182.jpg",
+  "split": "val",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm8.staticflickr.com/7399/9622136974_c30ea2a592_z.jpg",
+  "crop": [
+   0,
+   174,
+   464
+  ],
+  "overcast": false,
+  "cloud_share": 0.4078,
+  "cloud_share_of_sky": 0.5536
+ },
+ {
+  "id": 409949,
+  "file": "000000409949.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm8.staticflickr.com/7239/7343459692_64977ea66e_z.jpg",
+  "crop": [
+   0,
+   0,
+   152
+  ],
+  "overcast": true,
+  "cloud_share": 0.7416,
+  "cloud_share_of_sky": 1.0
+ },
+ {
+  "id": 410401,
+  "file": "000000410401.jpg",
+  "split": "test",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm4.staticflickr.com/3184/2728451711_22a3fecd9d_z.jpg",
+  "crop": [
+   0,
+   205,
+   333
+  ],
+  "overcast": false,
+  "cloud_share": 0.2914,
+  "cloud_share_of_sky": 0.4152
+ },
+ {
+  "id": 412612,
+  "file": "000000412612.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm6.staticflickr.com/5326/7062750055_9b370ab844_z.jpg",
+  "crop": [
+   0,
+   85,
+   140
+  ],
+  "overcast": false,
+  "cloud_share": 0.2907,
+  "cloud_share_of_sky": 0.415
+ },
+ {
+  "id": 413242,
+  "file": "000000413242.jpg",
+  "split": "test",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm7.staticflickr.com/6219/6285097754_036e0a2c99_z.jpg",
+  "crop": [
+   84,
+   360,
+   96
+  ],
+  "overcast": false,
+  "cloud_share": 0.5782,
+  "cloud_share_of_sky": 0.7383
+ },
+ {
+  "id": 413810,
+  "file": "000000413810.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm4.staticflickr.com/3590/3315299478_1192c9e865_z.jpg",
+  "crop": [
+   0,
+   120,
+   240
+  ],
+  "overcast": false,
+  "cloud_share": 0.4376,
+  "cloud_share_of_sky": 0.5721
+ },
+ {
+  "id": 414148,
+  "file": "000000414148.jpg",
+  "split": "train",
+  "license": "No known copyright restrictions",
+  "flickr_url": "http://farm5.staticflickr.com/4026/4688619752_ac03e1495d_z.jpg",
+  "crop": [
+   0,
+   28,
+   226
+  ],
+  "overcast": true,
+  "cloud_share": 0.7216,
+  "cloud_share_of_sky": 1.0
+ },
+ {
+  "id": 414592,
+  "file": "000000414592.jpg",
+  "split": "test",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm3.staticflickr.com/2214/2171619754_4f517470f1_z.jpg",
+  "crop": [
+   0,
+   280,
+   167
+  ],
+  "overcast": false,
+  "cloud_share": 0.3819,
+  "cloud_share_of_sky": 0.4208
+ },
+ {
+  "id": 414813,
+  "file": "000000414813.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8345/8158414030_d26280ab36_z.jpg",
+  "crop": [
+   24,
+   192,
+   192
+  ],
+  "overcast": false,
+  "cloud_share": 0.4346,
+  "cloud_share_of_sky": 0.5998
+ },
+ {
+  "id": 414885,
+  "file": "000000414885.jpg",
+  "split": "test",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm6.staticflickr.com/5262/5895272350_54494f056e_z.jpg",
+  "crop": [
+   0,
+   0,
+   288
+  ],
+  "overcast": false,
+  "cloud_share": 0.4243,
+  "cloud_share_of_sky": 0.5998
+ },
+ {
+  "id": 415190,
+  "file": "000000415190.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm6.staticflickr.com/5456/10019730996_0035db4ed1_z.jpg",
+  "crop": [
+   28,
+   392,
+   224
+  ],
+  "overcast": false,
+  "cloud_share": 0.3764,
+  "cloud_share_of_sky": 0.4164
+ },
+ {
+  "id": 415533,
+  "file": "000000415533.jpg",
+  "split": "test",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm1.staticflickr.com/55/169106215_7ac01c0cb6_z.jpg",
+  "crop": [
+   0,
+   96,
+   96
+  ],
+  "overcast": false,
+  "cloud_share": 0.5791,
+  "cloud_share_of_sky": 0.8246
+ },
+ {
+  "id": 416729,
+  "file": "000000416729.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm2.staticflickr.com/1231/5104208120_5fc83cc811_z.jpg",
+  "crop": [
+   0,
+   264,
+   192
+  ],
+  "overcast": false,
+  "cloud_share": 0.3461,
+  "cloud_share_of_sky": 0.4615
+ },
+ {
+  "id": 416869,
+  "file": "000000416869.jpg",
+  "split": "test",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm3.staticflickr.com/2879/9704051820_2efaec42c9_z.jpg",
+  "crop": [
+   0,
+   0,
+   264
+  ],
+  "overcast": true,
+  "cloud_share": 0.7021,
+  "cloud_share_of_sky": 1.0
+ },
+ {
+  "id": 417016,
+  "file": "000000417016.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8432/7867081610_e411b0de46_z.jpg",
+  "crop": [
+   0,
+   117,
+   319
+  ],
+  "overcast": false,
+  "cloud_share": 0.3013,
+  "cloud_share_of_sky": 0.4273
+ },
+ {
+  "id": 418152,
+  "file": "000000418152.jpg",
+  "split": "test",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm4.staticflickr.com/3298/3340021603_27d9862da9_z.jpg",
+  "crop": [
+   224,
+   224,
+   256
+  ],
+  "overcast": false,
+  "cloud_share": 0.3174,
+  "cloud_share_of_sky": 0.4366
+ },
+ {
+  "id": 418260,
+  "file": "000000418260.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm3.staticflickr.com/2476/3776695730_25611efed2_z.jpg",
+  "crop": [
+   0,
+   270,
+   151
+  ],
+  "overcast": false,
+  "cloud_share": 0.5528,
+  "cloud_share_of_sky": 0.598
+ },
+ {
+  "id": 420167,
+  "file": "000000420167.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm8.staticflickr.com/7301/9410504809_19398ac501_z.jpg",
+  "crop": [
+   0,
+   0,
+   379
+  ],
+  "overcast": false,
+  "cloud_share": 0.3617,
+  "cloud_share_of_sky": 0.4186
+ },
+ {
+  "id": 420710,
+  "file": "000000420710.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm2.staticflickr.com/1181/5106502533_85e3ff5377_z.jpg",
+  "crop": [
+   93,
+   0,
+   249
+  ],
+  "overcast": false,
+  "cloud_share": 0.3002,
+  "cloud_share_of_sky": 0.4248
+ },
+ {
+  "id": 421134,
+  "file": "000000421134.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8422/7809403222_6e7cc9535d_z.jpg",
+  "crop": [
+   65,
+   169,
+   107
+  ],
+  "overcast": false,
+  "cloud_share": 0.4657,
+  "cloud_share_of_sky": 0.5939
+ },
+ {
+  "id": 421978,
+  "file": "000000421978.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm4.staticflickr.com/3810/10061539473_5515024937_z.jpg",
+  "crop": [
+   104,
+   156,
+   106
+  ],
+  "overcast": true,
+  "cloud_share": 0.7731,
+  "cloud_share_of_sky": 0.9543
+ },
+ {
+  "id": 425280,
+  "file": "000000425280.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm6.staticflickr.com/5306/5672435911_fa3a0e32f1_z.jpg",
+  "crop": [
+   0,
+   0,
+   172
+  ],
+  "overcast": false,
+  "cloud_share": 0.5149,
+  "cloud_share_of_sky": 0.5817
+ },
+ {
+  "id": 427232,
+  "file": "000000427232.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm3.staticflickr.com/2292/2285998853_6e14921be0_z.jpg",
+  "crop": [
+   95,
+   0,
+   159
+  ],
+  "overcast": false,
+  "cloud_share": 0.3217,
+  "cloud_share_of_sky": 0.4265
+ },
+ {
+  "id": 427291,
+  "file": "000000427291.jpg",
+  "split": "val",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm5.staticflickr.com/4052/4486957082_8ae88f4670_z.jpg",
+  "crop": [
+   0,
+   340,
+   278
+  ],
+  "overcast": false,
+  "cloud_share": 0.3376,
+  "cloud_share_of_sky": 0.4052
+ },
+ {
+  "id": 427360,
+  "file": "000000427360.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm3.staticflickr.com/2707/4231805011_253b769dec_z.jpg",
+  "crop": [
+   0,
+   156,
+   314
+  ],
+  "overcast": false,
+  "cloud_share": 0.3159,
+  "cloud_share_of_sky": 0.443
+ },
+ {
+  "id": 427633,
+  "file": "000000427633.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm8.staticflickr.com/7235/7122055529_194f632483_z.jpg",
+  "crop": [
+   0,
+   234,
+   108
+  ],
+  "overcast": false,
+  "cloud_share": 0.4925,
+  "cloud_share_of_sky": 0.6102
+ },
+ {
+  "id": 427920,
+  "file": "000000427920.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm3.staticflickr.com/2894/10278080575_f1a1f3c38e_z.jpg",
+  "crop": [
+   0,
+   320,
+   160
+  ],
+  "overcast": true,
+  "cloud_share": 0.7309,
+  "cloud_share_of_sky": 1.0
+ },
+ {
+  "id": 427992,
+  "file": "000000427992.jpg",
+  "split": "val",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm1.staticflickr.com/147/350506919_4fe4d7e96e_z.jpg",
+  "crop": [
+   468,
+   324,
+   96
+  ],
+  "overcast": false,
+  "cloud_share": 0.6459,
+  "cloud_share_of_sky": 0.8374
+ },
+ {
+  "id": 428460,
+  "file": "000000428460.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm8.staticflickr.com/7033/6789684041_c030080fa5_z.jpg",
+  "crop": [
+   23,
+   0,
+   190
+  ],
+  "overcast": false,
+  "cloud_share": 0.3036,
+  "cloud_share_of_sky": 0.4042
+ },
+ {
+  "id": 429833,
+  "file": "000000429833.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm4.staticflickr.com/3351/3422389840_a18571143f_z.jpg",
+  "crop": [
+   0,
+   0,
+   272
+  ],
+  "overcast": false,
+  "cloud_share": 0.3887,
+  "cloud_share_of_sky": 0.5535
+ },
+ {
+  "id": 430885,
+  "file": "000000430885.jpg",
+  "split": "test",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm5.staticflickr.com/4031/4269608117_7678490e16_z.jpg",
+  "crop": [
+   41,
+   0,
+   331
+  ],
+  "overcast": false,
+  "cloud_share": 0.3138,
+  "cloud_share_of_sky": 0.4126
+ },
+ {
+  "id": 431516,
+  "file": "000000431516.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm2.staticflickr.com/1243/5108583288_96f040cd49_z.jpg",
+  "crop": [
+   0,
+   224,
+   259
+  ],
+  "overcast": false,
+  "cloud_share": 0.3795,
+  "cloud_share_of_sky": 0.5372
+ },
+ {
+  "id": 433013,
+  "file": "000000433013.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm4.staticflickr.com/3726/9457732891_87c6512b62_z.jpg",
+  "crop": [
+   0,
+   69,
+   185
+  ],
+  "overcast": false,
+  "cloud_share": 0.4626,
+  "cloud_share_of_sky": 0.5898
+ },
+ {
+  "id": 433059,
+  "file": "000000433059.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm3.staticflickr.com/2444/3670205371_cf361fae7b_z.jpg",
+  "crop": [
+   0,
+   0,
+   135
+  ],
+  "overcast": false,
+  "cloud_share": 0.3514,
+  "cloud_share_of_sky": 0.492
+ },
+ {
+  "id": 433197,
+  "file": "000000433197.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm4.staticflickr.com/3707/9515250746_956c44422b_z.jpg",
+  "crop": [
+   78,
+   156,
+   107
+  ],
+  "overcast": true,
+  "cloud_share": 0.7407,
+  "cloud_share_of_sky": 0.9998
+ },
+ {
+  "id": 434262,
+  "file": "000000434262.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8527/8653921766_8f9fbc11ce_z.jpg",
+  "crop": [
+   108,
+   324,
+   288
+  ],
+  "overcast": false,
+  "cloud_share": 0.3244,
+  "cloud_share_of_sky": 0.4346
+ },
+ {
+  "id": 435405,
+  "file": "000000435405.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm1.staticflickr.com/126/337736405_1ea00ca90a_z.jpg",
+  "crop": [
+   38,
+   0,
+   304
+  ],
+  "overcast": false,
+  "cloud_share": 0.3975,
+  "cloud_share_of_sky": 0.5407
+ },
+ {
+  "id": 436992,
+  "file": "000000436992.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm5.staticflickr.com/4093/4876555427_bbeea5f606_z.jpg",
+  "crop": [
+   34,
+   0,
+   272
+  ],
+  "overcast": false,
+  "cloud_share": 0.3239,
+  "cloud_share_of_sky": 0.409
+ },
+ {
+  "id": 437303,
+  "file": "000000437303.jpg",
+  "split": "val",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm4.staticflickr.com/3139/4626768562_0a8d4cce83_z.jpg",
+  "crop": [
+   0,
+   32,
+   257
+  ],
+  "overcast": false,
+  "cloud_share": 0.4193,
+  "cloud_share_of_sky": 0.5894
+ },
+ {
+  "id": 438364,
+  "file": "000000438364.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm6.staticflickr.com/5347/10112633653_c0dc1f6281_z.jpg",
+  "crop": [
+   0,
+   384,
+   256
+  ],
+  "overcast": true,
+  "cloud_share": 0.7124,
+  "cloud_share_of_sky": 1.0
+ },
+ {
+  "id": 441686,
+  "file": "000000441686.jpg",
+  "split": "test",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8419/8712181328_efe9c7b42d_z.jpg",
+  "crop": [
+   0,
+   310,
+   249
+  ],
+  "overcast": false,
+  "cloud_share": 0.3045,
+  "cloud_share_of_sky": 0.4335
+ },
+ {
+  "id": 441921,
+  "file": "000000441921.jpg",
+  "split": "test",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm3.staticflickr.com/2523/4163723639_babe341e5a_z.jpg",
+  "crop": [
+   0,
+   0,
+   259
+  ],
+  "overcast": false,
+  "cloud_share": 0.58,
+  "cloud_share_of_sky": 0.58
+ },
+ {
+  "id": 447811,
+  "file": "000000447811.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm8.staticflickr.com/7326/9763522133_affe693bfd_z.jpg",
+  "crop": [
+   352,
+   256,
+   128
+  ],
+  "overcast": false,
+  "cloud_share": 0.3838,
+  "cloud_share_of_sky": 0.5348
+ },
+ {
+  "id": 448626,
+  "file": "000000448626.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8355/8314994966_6447a63ba6_z.jpg",
+  "crop": [
+   0,
+   0,
+   284
+  ],
+  "overcast": false,
+  "cloud_share": 0.4151,
+  "cloud_share_of_sky": 0.5732
+ },
+ {
+  "id": 448787,
+  "file": "000000448787.jpg",
+  "split": "test",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm8.staticflickr.com/7104/7177639131_9e5812f53b_z.jpg",
+  "crop": [
+   0,
+   319,
+   235
+  ],
+  "overcast": false,
+  "cloud_share": 0.3289,
+  "cloud_share_of_sky": 0.4676
+ },
+ {
+  "id": 454219,
+  "file": "000000454219.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm5.staticflickr.com/4029/4529381585_65215a5a20_z.jpg",
+  "crop": [
+   135,
+   54,
+   217
+  ],
+  "overcast": false,
+  "cloud_share": 0.2858,
+  "cloud_share_of_sky": 0.401
+ },
+ {
+  "id": 455136,
+  "file": "000000455136.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm8.staticflickr.com/7292/10296385063_a356eb487f_z.jpg",
+  "crop": [
+   0,
+   216,
+   288
+  ],
+  "overcast": false,
+  "cloud_share": 0.4264,
+  "cloud_share_of_sky": 0.5891
+ },
+ {
+  "id": 455370,
+  "file": "000000455370.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm4.staticflickr.com/3242/2743853994_b987d8c0af_z.jpg",
+  "crop": [
+   132,
+   36,
+   96
+  ],
+  "overcast": true,
+  "cloud_share": 0.7006,
+  "cloud_share_of_sky": 0.9934
+ },
+ {
+  "id": 457029,
+  "file": "000000457029.jpg",
+  "split": "test",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8039/8059060874_27e74a43bf_z.jpg",
+  "crop": [
+   0,
+   456,
+   155
+  ],
+  "overcast": false,
+  "cloud_share": 0.5091,
+  "cloud_share_of_sky": 0.598
+ },
+ {
+  "id": 457780,
+  "file": "000000457780.jpg",
+  "split": "test",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm3.staticflickr.com/2005/2336945301_00fa7b6d6b_z.jpg",
+  "crop": [
+   0,
+   14,
+   112
+  ],
+  "overcast": false,
+  "cloud_share": 0.5847,
+  "cloud_share_of_sky": 0.5847
+ },
+ {
+  "id": 458093,
+  "file": "000000458093.jpg",
+  "split": "test",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm1.staticflickr.com/200/491411732_d3f730a0db_z.jpg",
+  "crop": [
+   0,
+   510,
+   123
+  ],
+  "overcast": false,
+  "cloud_share": 0.5275,
+  "cloud_share_of_sky": 0.572
+ },
+ {
+  "id": 459347,
+  "file": "000000459347.jpg",
+  "split": "test",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm4.staticflickr.com/3281/2412516552_e2261110c9_z.jpg",
+  "crop": [
+   0,
+   345,
+   188
+  ],
+  "overcast": false,
+  "cloud_share": 0.5839,
+  "cloud_share_of_sky": 0.5925
+ },
+ {
+  "id": 463925,
+  "file": "000000463925.jpg",
+  "split": "test",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm8.staticflickr.com/7071/7002941052_46f933d5cd_z.jpg",
+  "crop": [
+   0,
+   90,
+   360
+  ],
+  "overcast": false,
+  "cloud_share": 0.545,
+  "cloud_share_of_sky": 0.5622
+ },
+ {
+  "id": 464875,
+  "file": "000000464875.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm4.staticflickr.com/3236/2649851295_189f7d7646_z.jpg",
+  "crop": [
+   0,
+   176,
+   176
+  ],
+  "overcast": false,
+  "cloud_share": 0.3393,
+  "cloud_share_of_sky": 0.4603
+ },
+ {
+  "id": 465266,
+  "file": "000000465266.jpg",
+  "split": "test",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm3.staticflickr.com/2749/4245388573_8276c3d13e_z.jpg",
+  "crop": [
+   0,
+   24,
+   96
+  ],
+  "overcast": true,
+  "cloud_share": 0.9877,
+  "cloud_share_of_sky": 0.996
+ },
+ {
+  "id": 465618,
+  "file": "000000465618.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm8.staticflickr.com/7323/9681868055_4d101c5c07_z.jpg",
+  "crop": [
+   182,
+   377,
+   104
+  ],
+  "overcast": false,
+  "cloud_share": 0.5984,
+  "cloud_share_of_sky": 0.8239
+ },
+ {
+  "id": 470766,
+  "file": "000000470766.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm4.staticflickr.com/3650/3506138737_3f916397d3_z.jpg",
+  "crop": [
+   185,
+   0,
+   300
+  ],
+  "overcast": false,
+  "cloud_share": 0.4239,
+  "cloud_share_of_sky": 0.5601
+ },
+ {
+  "id": 471020,
+  "file": "000000471020.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm4.staticflickr.com/3120/2730038354_9779af426a_z.jpg",
+  "crop": [
+   243,
+   189,
+   218
+  ],
+  "overcast": false,
+  "cloud_share": 0.2892,
+  "cloud_share_of_sky": 0.4031
+ },
+ {
+  "id": 476685,
+  "file": "000000476685.jpg",
+  "split": "test",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8508/8360678038_450bec7f3d_z.jpg",
+  "crop": [
+   0,
+   0,
+   427
+  ],
+  "overcast": false,
+  "cloud_share": 0.3259,
+  "cloud_share_of_sky": 0.4395
+ },
+ {
+  "id": 476841,
+  "file": "000000476841.jpg",
+  "split": "test",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm3.staticflickr.com/2323/2415346658_af44456619_z.jpg",
+  "crop": [
+   0,
+   108,
+   151
+  ],
+  "overcast": true,
+  "cloud_share": 0.8174,
+  "cloud_share_of_sky": 0.9513
+ },
+ {
+  "id": 478031,
+  "file": "000000478031.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm4.staticflickr.com/3293/5781000451_24d59461bf_z.jpg",
+  "crop": [
+   0,
+   231,
+   267
+  ],
+  "overcast": false,
+  "cloud_share": 0.3649,
+  "cloud_share_of_sky": 0.5162
+ },
+ {
+  "id": 478406,
+  "file": "000000478406.jpg",
+  "split": "val",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm5.staticflickr.com/4036/4565230826_493fb899f5_z.jpg",
+  "crop": [
+   0,
+   189,
+   221
+  ],
+  "overcast": false,
+  "cloud_share": 0.3902,
+  "cloud_share_of_sky": 0.5345
+ },
+ {
+  "id": 480839,
+  "file": "000000480839.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm8.staticflickr.com/7366/9174219873_546b78dd3f_z.jpg",
+  "crop": [
+   0,
+   297,
+   267
+  ],
+  "overcast": false,
+  "cloud_share": 0.3408,
+  "cloud_share_of_sky": 0.4773
+ },
+ {
+  "id": 481791,
+  "file": "000000481791.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm7.staticflickr.com/6129/6031253570_aeaca5b862_z.jpg",
+  "crop": [
+   140,
+   315,
+   281
+  ],
+  "overcast": false,
+  "cloud_share": 0.5379,
+  "cloud_share_of_sky": 0.5949
+ },
+ {
+  "id": 482799,
+  "file": "000000482799.jpg",
+  "split": "test",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm8.staticflickr.com/7275/7454143082_6a04d97d7b_z.jpg",
+  "crop": [
+   0,
+   116,
+   235
+  ],
+  "overcast": false,
+  "cloud_share": 0.4081,
+  "cloud_share_of_sky": 0.5556
+ },
+ {
+  "id": 483573,
+  "file": "000000483573.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm8.staticflickr.com/7246/7670131520_179fc18fc1_z.jpg",
+  "crop": [
+   0,
+   144,
+   96
+  ],
+  "overcast": false,
+  "cloud_share": 0.5668,
+  "cloud_share_of_sky": 0.5668
+ },
+ {
+  "id": 483854,
+  "file": "000000483854.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm7.staticflickr.com/6046/6242780810_2b40ee6b9f_z.jpg",
+  "crop": [
+   0,
+   186,
+   250
+  ],
+  "overcast": true,
+  "cloud_share": 0.7261,
+  "cloud_share_of_sky": 1.0
+ },
+ {
+  "id": 484881,
+  "file": "000000484881.jpg",
+  "split": "test",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm5.staticflickr.com/4079/4756130521_9d1dc64465_z.jpg",
+  "crop": [
+   0,
+   520,
+   104
+  ],
+  "overcast": false,
+  "cloud_share": 0.5976,
+  "cloud_share_of_sky": 0.5976
+ },
+ {
+  "id": 486013,
+  "file": "000000486013.jpg",
+  "split": "val",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm4.staticflickr.com/3398/3594792061_b8b3c347f2_z.jpg",
+  "crop": [
+   0,
+   256,
+   256
+  ],
+  "overcast": false,
+  "cloud_share": 0.3058,
+  "cloud_share_of_sky": 0.4341
+ },
+ {
+  "id": 487131,
+  "file": "000000487131.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8520/8651196881_ba99a0a8fb_z.jpg",
+  "crop": [
+   0,
+   23,
+   187
+  ],
+  "overcast": false,
+  "cloud_share": 0.3787,
+  "cloud_share_of_sky": 0.5306
+ },
+ {
+  "id": 487269,
+  "file": "000000487269.jpg",
+  "split": "test",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm7.staticflickr.com/6201/6100948110_fb96c53b97_z.jpg",
+  "crop": [
+   174,
+   87,
+   235
+  ],
+  "overcast": false,
+  "cloud_share": 0.3587,
+  "cloud_share_of_sky": 0.4029
+ },
+ {
+  "id": 487612,
+  "file": "000000487612.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm8.staticflickr.com/7008/6656434177_c6038c546f_z.jpg",
+  "crop": [
+   0,
+   280,
+   284
+  ],
+  "overcast": false,
+  "cloud_share": 0.4231,
+  "cloud_share_of_sky": 0.5708
+ },
+ {
+  "id": 487645,
+  "file": "000000487645.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm8.staticflickr.com/7139/6886170740_527e2c6b45_z.jpg",
+  "crop": [
+   240,
+   48,
+   192
+  ],
+  "overcast": false,
+  "cloud_share": 0.443,
+  "cloud_share_of_sky": 0.5958
+ },
+ {
+  "id": 488018,
+  "file": "000000488018.jpg",
+  "split": "test",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8050/8376804127_a772cfa069_z.jpg",
+  "crop": [
+   156,
+   481,
+   105
+  ],
+  "overcast": true,
+  "cloud_share": 0.7067,
+  "cloud_share_of_sky": 0.9915
+ },
+ {
+  "id": 488043,
+  "file": "000000488043.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm8.staticflickr.com/7126/7471730344_c61be7218c_z.jpg",
+  "crop": [
+   27,
+   0,
+   218
+  ],
+  "overcast": false,
+  "cloud_share": 0.3533,
+  "cloud_share_of_sky": 0.4957
+ },
+ {
+  "id": 488567,
+  "file": "000000488567.jpg",
+  "split": "val",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm5.staticflickr.com/4001/4306590692_3dc19f09cb_z.jpg",
+  "crop": [
+   132,
+   168,
+   103
+  ],
+  "overcast": false,
+  "cloud_share": 0.5988,
+  "cloud_share_of_sky": 0.8314
+ },
+ {
+  "id": 488787,
+  "file": "000000488787.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm8.staticflickr.com/7163/6550831433_4456f0f6f4_z.jpg",
+  "crop": [
+   0,
+   84,
+   337
+  ],
+  "overcast": false,
+  "cloud_share": 0.4171,
+  "cloud_share_of_sky": 0.5956
+ },
+ {
+  "id": 490153,
+  "file": "000000490153.jpg",
+  "split": "test",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm4.staticflickr.com/3560/3467002078_bf1f02c870_z.jpg",
+  "crop": [
+   72,
+   336,
+   96
+  ],
+  "overcast": false,
+  "cloud_share": 0.6112,
+  "cloud_share_of_sky": 0.7815
+ },
+ {
+  "id": 491739,
+  "file": "000000491739.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm6.staticflickr.com/5343/8902715386_6bc4545c48_z.jpg",
+  "crop": [
+   0,
+   100,
+   204
+  ],
+  "overcast": false,
+  "cloud_share": 0.4632,
+  "cloud_share_of_sky": 0.5879
+ },
+ {
+  "id": 492540,
+  "file": "000000492540.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8085/8412002597_bdd13a8179_z.jpg",
+  "crop": [
+   377,
+   0,
+   109
+  ],
+  "overcast": true,
+  "cloud_share": 0.6808,
+  "cloud_share_of_sky": 0.9698
+ },
+ {
+  "id": 493972,
+  "file": "000000493972.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm6.staticflickr.com/5093/5523745866_072a5da0c4_z.jpg",
+  "crop": [
+   0,
+   455,
+   107
+  ],
+  "overcast": false,
+  "cloud_share": 0.401,
+  "cloud_share_of_sky": 0.563
+ },
+ {
+  "id": 494113,
+  "file": "000000494113.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm4.staticflickr.com/3491/3201995229_ff2bc8f29b_z.jpg",
+  "crop": [
+   0,
+   0,
+   356
+  ],
+  "overcast": false,
+  "cloud_share": 0.3514,
+  "cloud_share_of_sky": 0.4526
+ },
+ {
+  "id": 494283,
+  "file": "000000494283.jpg",
+  "split": "val",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm1.staticflickr.com/156/380799257_3295ccd3e4_z.jpg",
+  "crop": [
+   0,
+   24,
+   192
+  ],
+  "overcast": false,
+  "cloud_share": 0.3573,
+  "cloud_share_of_sky": 0.5072
+ },
+ {
+  "id": 494856,
+  "file": "000000494856.jpg",
+  "split": "val",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm6.staticflickr.com/5284/5358097165_eb822934a7_z.jpg",
+  "crop": [
+   0,
+   248,
+   251
+  ],
+  "overcast": false,
+  "cloud_share": 0.3051,
+  "cloud_share_of_sky": 0.4034
+ },
+ {
+  "id": 495789,
+  "file": "000000495789.jpg",
+  "split": "test",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm3.staticflickr.com/2186/2128265704_d179cc01ca_z.jpg",
+  "crop": [
+   30,
+   0,
+   240
+  ],
+  "overcast": false,
+  "cloud_share": 0.3328,
+  "cloud_share_of_sky": 0.4476
+ },
+ {
+  "id": 496506,
+  "file": "000000496506.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8311/8013282425_298c09386b_z.jpg",
+  "crop": [
+   0,
+   0,
+   360
+  ],
+  "overcast": false,
+  "cloud_share": 0.4444,
+  "cloud_share_of_sky": 0.5901
+ },
+ {
+  "id": 496696,
+  "file": "000000496696.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8331/8079725424_6504a9f126_z.jpg",
+  "crop": [
+   0,
+   495,
+   121
+  ],
+  "overcast": true,
+  "cloud_share": 0.7262,
+  "cloud_share_of_sky": 0.9963
+ },
+ {
+  "id": 496818,
+  "file": "000000496818.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8380/8644023240_0bcc7e97a2_z.jpg",
+  "crop": [
+   39,
+   143,
+   110
+  ],
+  "overcast": false,
+  "cloud_share": 0.6941,
+  "cloud_share_of_sky": 0.6941
+ },
+ {
+  "id": 498804,
+  "file": "000000498804.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8328/8085915083_08105e0356_z.jpg",
+  "crop": [
+   114,
+   0,
+   304
+  ],
+  "overcast": false,
+  "cloud_share": 0.3313,
+  "cloud_share_of_sky": 0.4508
+ },
+ {
+  "id": 499423,
+  "file": "000000499423.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8040/8062157078_277bf23367_z.jpg",
+  "crop": [
+   68,
+   34,
+   272
+  ],
+  "overcast": false,
+  "cloud_share": 0.2818,
+  "cloud_share_of_sky": 0.4001
+ },
+ {
+  "id": 504378,
+  "file": "000000504378.jpg",
+  "split": "test",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm4.staticflickr.com/3808/9105470941_ae9d3127c0_z.jpg",
+  "crop": [
+   0,
+   0,
+   480
+  ],
+  "overcast": false,
+  "cloud_share": 0.4466,
+  "cloud_share_of_sky": 0.508
+ },
+ {
+  "id": 505792,
+  "file": "000000505792.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm1.staticflickr.com/15/21305817_d3d2a9e006_z.jpg",
+  "crop": [
+   0,
+   0,
+   203
+  ],
+  "overcast": false,
+  "cloud_share": 0.4176,
+  "cloud_share_of_sky": 0.4176
+ },
+ {
+  "id": 508262,
+  "file": "000000508262.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm1.staticflickr.com/23/33818963_63358e44f9_z.jpg",
+  "crop": [
+   0,
+   198,
+   268
+  ],
+  "overcast": false,
+  "cloud_share": 0.4328,
+  "cloud_share_of_sky": 0.5953
+ },
+ {
+  "id": 509292,
+  "file": "000000509292.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm1.staticflickr.com/26/62889949_151474c969_z.jpg",
+  "crop": [
+   0,
+   0,
+   240
+  ],
+  "overcast": false,
+  "cloud_share": 0.358,
+  "cloud_share_of_sky": 0.488
+ },
+ {
+  "id": 509949,
+  "file": "000000509949.jpg",
+  "split": "test",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm4.staticflickr.com/3445/3776696134_458b7d8d5b_z.jpg",
+  "crop": [
+   0,
+   0,
+   103
+  ],
+  "overcast": false,
+  "cloud_share": 0.7593,
+  "cloud_share_of_sky": 0.7593
+ },
+ {
+  "id": 510012,
+  "file": "000000510012.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8383/8524524939_b55fd57d98_z.jpg",
+  "crop": [
+   120,
+   36,
+   96
+  ],
+  "overcast": true,
+  "cloud_share": 0.7442,
+  "cloud_share_of_sky": 0.998
+ },
+ {
+  "id": 513670,
+  "file": "000000513670.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm4.staticflickr.com/3623/3506922726_333c270252_z.jpg",
+  "crop": [
+   0,
+   0,
+   332
+  ],
+  "overcast": false,
+  "cloud_share": 0.5779,
+  "cloud_share_of_sky": 0.5886
+ },
+ {
+  "id": 514392,
+  "file": "000000514392.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm7.staticflickr.com/6112/6856251934_f0cda5842c_z.jpg",
+  "crop": [
+   0,
+   0,
+   252
+  ],
+  "overcast": false,
+  "cloud_share": 0.5883,
+  "cloud_share_of_sky": 0.5978
+ },
+ {
+  "id": 518416,
+  "file": "000000518416.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm7.staticflickr.com/6135/6027782694_fa14ab525b_z.jpg",
+  "crop": [
+   21,
+   462,
+   175
+  ],
+  "overcast": false,
+  "cloud_share": 0.4299,
+  "cloud_share_of_sky": 0.5819
+ },
+ {
+  "id": 518511,
+  "file": "000000518511.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8066/8227611016_6f4b82dea0_z.jpg",
+  "crop": [
+   0,
+   455,
+   105
+  ],
+  "overcast": true,
+  "cloud_share": 0.7349,
+  "cloud_share_of_sky": 0.9994
+ },
+ {
+  "id": 518615,
+  "file": "000000518615.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm8.staticflickr.com/7239/6857049196_6ecc1f0361_z.jpg",
+  "crop": [
+   0,
+   0,
+   331
+  ],
+  "overcast": false,
+  "cloud_share": 0.4763,
+  "cloud_share_of_sky": 0.594
+ },
+ {
+  "id": 519774,
+  "file": "000000519774.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm3.staticflickr.com/2790/4046725720_451271bfa4_z.jpg",
+  "crop": [
+   0,
+   252,
+   144
+  ],
+  "overcast": false,
+  "cloud_share": 0.43,
+  "cloud_share_of_sky": 0.5817
+ },
+ {
+  "id": 520892,
+  "file": "000000520892.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm4.staticflickr.com/3003/3095099087_a2a6d9b75a_z.jpg",
+  "crop": [
+   0,
+   96,
+   256
+  ],
+  "overcast": false,
+  "cloud_share": 0.406,
+  "cloud_share_of_sky": 0.5669
+ },
+ {
+  "id": 522119,
+  "file": "000000522119.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm4.staticflickr.com/3760/9043478607_6b63b66b9d_z.jpg",
+  "crop": [
+   0,
+   0,
+   281
+  ],
+  "overcast": false,
+  "cloud_share": 0.3025,
+  "cloud_share_of_sky": 0.4264
+ },
+ {
+  "id": 522807,
+  "file": "000000522807.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm1.staticflickr.com/147/401094768_fed061b24f_z.jpg",
+  "crop": [
+   120,
+   288,
+   199
+  ],
+  "overcast": false,
+  "cloud_share": 0.2977,
+  "cloud_share_of_sky": 0.425
+ },
+ {
+  "id": 523154,
+  "file": "000000523154.jpg",
+  "split": "test",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8372/8561745239_1e6a03cff3_z.jpg",
+  "crop": [
+   0,
+   26,
+   208
+  ],
+  "overcast": false,
+  "cloud_share": 0.3876,
+  "cloud_share_of_sky": 0.5486
+ },
+ {
+  "id": 523371,
+  "file": "000000523371.jpg",
+  "split": "test",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm8.staticflickr.com/7258/7026354739_365205e495_z.jpg",
+  "crop": [
+   0,
+   336,
+   96
+  ],
+  "overcast": true,
+  "cloud_share": 0.7206,
+  "cloud_share_of_sky": 0.9695
+ },
+ {
+  "id": 524144,
+  "file": "000000524144.jpg",
+  "split": "val",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8326/8102297761_c7b8f39661_z.jpg",
+  "crop": [
+   136,
+   340,
+   279
+  ],
+  "overcast": false,
+  "cloud_share": 0.3447,
+  "cloud_share_of_sky": 0.4352
+ },
+ {
+  "id": 524925,
+  "file": "000000524925.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm5.staticflickr.com/4075/4922312122_6bb5da68df_z.jpg",
+  "crop": [
+   0,
+   252,
+   169
+  ],
+  "overcast": false,
+  "cloud_share": 0.4115,
+  "cloud_share_of_sky": 0.5874
+ },
+ {
+  "id": 527526,
+  "file": "000000527526.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm6.staticflickr.com/5114/7149031859_ea2b6d7bda_z.jpg",
+  "crop": [
+   150,
+   200,
+   200
+  ],
+  "overcast": false,
+  "cloud_share": 0.3986,
+  "cloud_share_of_sky": 0.4011
+ },
+ {
+  "id": 531396,
+  "file": "000000531396.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm5.staticflickr.com/4127/5027967784_608c0ebb09_z.jpg",
+  "crop": [
+   0,
+   392,
+   224
+  ],
+  "overcast": false,
+  "cloud_share": 0.3102,
+  "cloud_share_of_sky": 0.4049
+ },
+ {
+  "id": 531575,
+  "file": "000000531575.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm1.staticflickr.com/32/51757636_4fcc33d5e6_z.jpg",
+  "crop": [
+   0,
+   15,
+   124
+  ],
+  "overcast": false,
+  "cloud_share": 0.3696,
+  "cloud_share_of_sky": 0.422
+ },
+ {
+  "id": 532580,
+  "file": "000000532580.jpg",
+  "split": "test",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8124/9007476707_c7cafdcb8c_z.jpg",
+  "crop": [
+   0,
+   208,
+   107
+  ],
+  "overcast": false,
+  "cloud_share": 0.4841,
+  "cloud_share_of_sky": 0.6511
+ },
+ {
+  "id": 532589,
+  "file": "000000532589.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm4.staticflickr.com/3046/2428401160_b3c2fb5276_z.jpg",
+  "crop": [
+   34,
+   340,
+   136
+  ],
+  "overcast": true,
+  "cloud_share": 0.9014,
+  "cloud_share_of_sky": 0.9518
+ },
+ {
+  "id": 533509,
+  "file": "000000533509.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8002/7679187048_074ac63906_z.jpg",
+  "crop": [
+   0,
+   425,
+   201
+  ],
+  "overcast": false,
+  "cloud_share": 0.5865,
+  "cloud_share_of_sky": 0.5865
+ },
+ {
+  "id": 536831,
+  "file": "000000536831.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8497/8435156821_8cb46ae81c_z.jpg",
+  "crop": [
+   0,
+   84,
+   224
+  ],
+  "overcast": false,
+  "cloud_share": 0.2954,
+  "cloud_share_of_sky": 0.4071
+ },
+ {
+  "id": 537548,
+  "file": "000000537548.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8318/8030932453_993ab0c74b_z.jpg",
+  "crop": [
+   0,
+   180,
+   160
+  ],
+  "overcast": false,
+  "cloud_share": 0.3832,
+  "cloud_share_of_sky": 0.5098
+ },
+ {
+  "id": 539676,
+  "file": "000000539676.jpg",
+  "split": "val",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8492/8262111333_a3fa5d74d9_z.jpg",
+  "crop": [
+   50,
+   0,
+   204
+  ],
+  "overcast": false,
+  "cloud_share": 0.417,
+  "cloud_share_of_sky": 0.5734
+ },
+ {
+  "id": 543911,
+  "file": "000000543911.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm4.staticflickr.com/3591/3693203310_eb85944e8f_z.jpg",
+  "crop": [
+   0,
+   312,
+   208
+  ],
+  "overcast": false,
+  "cloud_share": 0.4093,
+  "cloud_share_of_sky": 0.5729
+ },
+ {
+  "id": 544595,
+  "file": "000000544595.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm5.staticflickr.com/4120/4922771825_0913aa9649_z.jpg",
+  "crop": [
+   0,
+   168,
+   171
+  ],
+  "overcast": true,
+  "cloud_share": 0.7211,
+  "cloud_share_of_sky": 1.0
+ },
+ {
+  "id": 545220,
+  "file": "000000545220.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm5.staticflickr.com/4001/4321468990_28ae19d6fd_z.jpg",
+  "crop": [
+   0,
+   119,
+   140
+  ],
+  "overcast": false,
+  "cloud_share": 0.3193,
+  "cloud_share_of_sky": 0.4459
+ },
+ {
+  "id": 545675,
+  "file": "000000545675.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm6.staticflickr.com/5347/10004827943_9f667176ef_z.jpg",
+  "crop": [
+   0,
+   180,
+   288
+  ],
+  "overcast": false,
+  "cloud_share": 0.385,
+  "cloud_share_of_sky": 0.5423
+ },
+ {
+  "id": 546285,
+  "file": "000000546285.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8451/7977760190_b788db5eaa_z.jpg",
+  "crop": [
+   87,
+   232,
+   235
+  ],
+  "overcast": false,
+  "cloud_share": 0.3105,
+  "cloud_share_of_sky": 0.4223
+ },
+ {
+  "id": 547675,
+  "file": "000000547675.jpg",
+  "split": "val",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8536/8943541762_049058f310_z.jpg",
+  "crop": [
+   0,
+   280,
+   224
+  ],
+  "overcast": false,
+  "cloud_share": 0.3764,
+  "cloud_share_of_sky": 0.5297
+ },
+ {
+  "id": 547796,
+  "file": "000000547796.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8252/8665572037_f7088a9ecd_z.jpg",
+  "crop": [
+   36,
+   432,
+   96
+  ],
+  "overcast": false,
+  "cloud_share": 0.7792,
+  "cloud_share_of_sky": 0.7792
+ },
+ {
+  "id": 550845,
+  "file": "000000550845.jpg",
+  "split": "test",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm8.staticflickr.com/7427/9331125456_cf6f81df86_z.jpg",
+  "crop": [
+   34,
+   306,
+   276
+  ],
+  "overcast": false,
+  "cloud_share": 0.2883,
+  "cloud_share_of_sky": 0.4071
+ },
+ {
+  "id": 551518,
+  "file": "000000551518.jpg",
+  "split": "val",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm1.staticflickr.com/42/85954212_6df6423bca_z.jpg",
+  "crop": [
+   36,
+   192,
+   96
+  ],
+  "overcast": true,
+  "cloud_share": 0.822,
+  "cloud_share_of_sky": 0.9995
+ },
+ {
+  "id": 551676,
+  "file": "000000551676.jpg",
+  "split": "test",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm4.staticflickr.com/3294/2760583538_a022acfe78_z.jpg",
+  "crop": [
+   0,
+   475,
+   154
+  ],
+  "overcast": false,
+  "cloud_share": 0.4939,
+  "cloud_share_of_sky": 0.5816
+ },
+ {
+  "id": 552584,
+  "file": "000000552584.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm4.staticflickr.com/3236/2940433152_b2d1921c14_z.jpg",
+  "crop": [
+   420,
+   20,
+   160
+  ],
+  "overcast": false,
+  "cloud_share": 0.4416,
+  "cloud_share_of_sky": 0.5939
+ },
+ {
+  "id": 553067,
+  "file": "000000553067.jpg",
+  "split": "test",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm3.staticflickr.com/2704/4486309099_d32a51cd72_z.jpg",
+  "crop": [
+   0,
+   275,
+   206
+  ],
+  "overcast": false,
+  "cloud_share": 0.3037,
+  "cloud_share_of_sky": 0.4032
+ },
+ {
+  "id": 555535,
+  "file": "000000555535.jpg",
+  "split": "train",
+  "license": "No known copyright restrictions",
+  "flickr_url": "http://farm6.staticflickr.com/5188/5630692095_c4ca022bcc_z.jpg",
+  "crop": [
+   0,
+   175,
+   280
+  ],
+  "overcast": false,
+  "cloud_share": 0.4426,
+  "cloud_share_of_sky": 0.5963
+ },
+ {
+  "id": 556086,
+  "file": "000000556086.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm3.staticflickr.com/2308/5736370979_487eb204e9_z.jpg",
+  "crop": [
+   224,
+   16,
+   128
+  ],
+  "overcast": false,
+  "cloud_share": 0.3176,
+  "cloud_share_of_sky": 0.4082
+ },
+ {
+  "id": 557190,
+  "file": "000000557190.jpg",
+  "split": "test",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8064/8151546529_4a56dd9f43_z.jpg",
+  "crop": [
+   0,
+   168,
+   96
+  ],
+  "overcast": false,
+  "cloud_share": 0.7756,
+  "cloud_share_of_sky": 0.7756
+ },
+ {
+  "id": 557191,
+  "file": "000000557191.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8514/8429882808_b45c31f869_z.jpg",
+  "crop": [
+   0,
+   276,
+   190
+  ],
+  "overcast": true,
+  "cloud_share": 0.725,
+  "cloud_share_of_sky": 1.0
+ },
+ {
+  "id": 557272,
+  "file": "000000557272.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm4.staticflickr.com/3683/9561790362_7741f921a7_z.jpg",
+  "crop": [
+   0,
+   0,
+   404
+  ],
+  "overcast": false,
+  "cloud_share": 0.3364,
+  "cloud_share_of_sky": 0.4616
+ },
+ {
+  "id": 557886,
+  "file": "000000557886.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm4.staticflickr.com/3583/3303381271_d1ec1d694a_z.jpg",
+  "crop": [
+   0,
+   0,
+   171
+  ],
+  "overcast": false,
+  "cloud_share": 0.5685,
+  "cloud_share_of_sky": 0.5801
+ },
+ {
+  "id": 559382,
+  "file": "000000559382.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm4.staticflickr.com/3769/9408903758_dc5684b2de_z.jpg",
+  "crop": [
+   0,
+   90,
+   240
+  ],
+  "overcast": false,
+  "cloud_share": 0.4281,
+  "cloud_share_of_sky": 0.5893
+ },
+ {
+  "id": 559453,
+  "file": "000000559453.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm5.staticflickr.com/4114/5444069037_d788b5ced3_z.jpg",
+  "crop": [
+   147,
+   21,
+   171
+  ],
+  "overcast": false,
+  "cloud_share": 0.4489,
+  "cloud_share_of_sky": 0.5889
+ },
+ {
+  "id": 561289,
+  "file": "000000561289.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8381/8451382352_9cd47829a1_z.jpg",
+  "crop": [
+   0,
+   220,
+   162
+  ],
+  "overcast": false,
+  "cloud_share": 0.3168,
+  "cloud_share_of_sky": 0.4144
+ },
+ {
+  "id": 562398,
+  "file": "000000562398.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8388/8520545567_d18229dabc_z.jpg",
+  "crop": [
+   0,
+   0,
+   411
+  ],
+  "overcast": false,
+  "cloud_share": 0.3796,
+  "cloud_share_of_sky": 0.5338
+ },
+ {
+  "id": 562516,
+  "file": "000000562516.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8029/8028332141_57d6a2eca0_z.jpg",
+  "crop": [
+   0,
+   325,
+   105
+  ],
+  "overcast": true,
+  "cloud_share": 0.7193,
+  "cloud_share_of_sky": 0.9936
+ },
+ {
+  "id": 565993,
+  "file": "000000565993.jpg",
+  "split": "test",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm8.staticflickr.com/7285/9519164865_4d51e98142_z.jpg",
+  "crop": [
+   0,
+   47,
+   376
+  ],
+  "overcast": false,
+  "cloud_share": 0.3207,
+  "cloud_share_of_sky": 0.4502
+ },
+ {
+  "id": 566375,
+  "file": "000000566375.jpg",
+  "split": "val",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm4.staticflickr.com/3184/5866903879_43134554e0_z.jpg",
+  "crop": [
+   154,
+   66,
+   176
+  ],
+  "overcast": false,
+  "cloud_share": 0.2917,
+  "cloud_share_of_sky": 0.4011
+ },
+ {
+  "id": 568115,
+  "file": "000000568115.jpg",
+  "split": "val",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm5.staticflickr.com/4041/4539749282_05f68c8203_z.jpg",
+  "crop": [
+   72,
+   48,
+   96
+  ],
+  "overcast": false,
+  "cloud_share": 0.6968,
+  "cloud_share_of_sky": 0.8132
+ },
+ {
+  "id": 568459,
+  "file": "000000568459.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm8.staticflickr.com/7281/8743281716_383bc8819a_z.jpg",
+  "crop": [
+   48,
+   96,
+   96
+  ],
+  "overcast": false,
+  "cloud_share": 0.6292,
+  "cloud_share_of_sky": 0.8447
+ },
+ {
+  "id": 569016,
+  "file": "000000569016.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm5.staticflickr.com/4129/5185205452_2729c92c1c_z.jpg",
+  "crop": [
+   33,
+   363,
+   271
+  ],
+  "overcast": false,
+  "cloud_share": 0.326,
+  "cloud_share_of_sky": 0.4563
+ },
+ {
+  "id": 569294,
+  "file": "000000569294.jpg",
+  "split": "val",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8222/8311646019_8cac65c1dd_z.jpg",
+  "crop": [
+   0,
+   43,
+   346
+  ],
+  "overcast": true,
+  "cloud_share": 0.7029,
+  "cloud_share_of_sky": 1.0
+ },
+ {
+  "id": 571541,
+  "file": "000000571541.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm8.staticflickr.com/7452/9438590424_80697a19f3_z.jpg",
+  "crop": [
+   0,
+   315,
+   282
+  ],
+  "overcast": false,
+  "cloud_share": 0.4199,
+  "cloud_share_of_sky": 0.588
+ },
+ {
+  "id": 572767,
+  "file": "000000572767.jpg",
+  "split": "test",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm7.staticflickr.com/6157/6194179248_efd7c0b53d_z.jpg",
+  "crop": [
+   156,
+   260,
+   208
+  ],
+  "overcast": false,
+  "cloud_share": 0.4426,
+  "cloud_share_of_sky": 0.5871
+ },
+ {
+  "id": 573941,
+  "file": "000000573941.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm2.staticflickr.com/1149/1251400981_4788516c0d_z.jpg",
+  "crop": [
+   0,
+   0,
+   192
+  ],
+  "overcast": false,
+  "cloud_share": 0.4156,
+  "cloud_share_of_sky": 0.5626
+ },
+ {
+  "id": 574343,
+  "file": "000000574343.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm5.staticflickr.com/4031/4395502640_540b5905c7_z.jpg",
+  "crop": [
+   0,
+   225,
+   363
+  ],
+  "overcast": false,
+  "cloud_share": 0.3581,
+  "cloud_share_of_sky": 0.4105
+ },
+ {
+  "id": 574602,
+  "file": "000000574602.jpg",
+  "split": "val",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm8.staticflickr.com/7224/7233756190_294d348241_z.jpg",
+  "crop": [
+   0,
+   0,
+   171
+  ],
+  "overcast": false,
+  "cloud_share": 0.4294,
+  "cloud_share_of_sky": 0.4294
+ },
+ {
+  "id": 575584,
+  "file": "000000575584.jpg",
+  "split": "test",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8516/8532814622_2b6eb1e4d3_z.jpg",
+  "crop": [
+   0,
+   21,
+   171
+  ],
+  "overcast": false,
+  "cloud_share": 0.4188,
+  "cloud_share_of_sky": 0.5966
+ },
+ {
+  "id": 576010,
+  "file": "000000576010.jpg",
+  "split": "test",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8307/7930585806_9f055d202e_z.jpg",
+  "crop": [
+   0,
+   0,
+   215
+  ],
+  "overcast": false,
+  "cloud_share": 0.3561,
+  "cloud_share_of_sky": 0.4818
+ },
+ {
+  "id": 576012,
+  "file": "000000576012.jpg",
+  "split": "test",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm8.staticflickr.com/7303/8733506196_5932e3ebc9_z.jpg",
+  "crop": [
+   0,
+   0,
+   201
+  ],
+  "overcast": false,
+  "cloud_share": 0.3783,
+  "cloud_share_of_sky": 0.5369
+ },
+ {
+  "id": 576015,
+  "file": "000000576015.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm1.staticflickr.com/144/318572990_777325b07c_z.jpg",
+  "crop": [
+   0,
+   0,
+   248
+  ],
+  "overcast": false,
+  "cloud_share": 0.4183,
+  "cloud_share_of_sky": 0.564
+ },
+ {
+  "id": 576461,
+  "file": "000000576461.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm1.staticflickr.com/48/109375816_4bb3d47ee4_z.jpg",
+  "crop": [
+   120,
+   312,
+   103
+  ],
+  "overcast": true,
+  "cloud_share": 0.7673,
+  "cloud_share_of_sky": 0.9768
+ },
+ {
+  "id": 577582,
+  "file": "000000577582.jpg",
+  "split": "val",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm3.staticflickr.com/2880/9308347720_48956dba2c_z.jpg",
+  "crop": [
+   0,
+   493,
+   139
+  ],
+  "overcast": false,
+  "cloud_share": 0.5509,
+  "cloud_share_of_sky": 0.5509
+ },
+ {
+  "id": 577949,
+  "file": "000000577949.jpg",
+  "split": "test",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm8.staticflickr.com/7110/7126269053_ba228a76c3_z.jpg",
+  "crop": [
+   0,
+   480,
+   160
+  ],
+  "overcast": false,
+  "cloud_share": 0.391,
+  "cloud_share_of_sky": 0.5525
+ },
+ {
+  "id": 578030,
+  "file": "000000578030.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8087/8579987914_0c0e898068_z.jpg",
+  "crop": [
+   0,
+   0,
+   315
+  ],
+  "overcast": false,
+  "cloud_share": 0.4698,
+  "cloud_share_of_sky": 0.5828
+ },
+ {
+  "id": 578055,
+  "file": "000000578055.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm4.staticflickr.com/3499/3883494203_a348b4065b_z.jpg",
+  "crop": [
+   0,
+   0,
+   425
+  ],
+  "overcast": false,
+  "cloud_share": 0.5971,
+  "cloud_share_of_sky": 0.5971
+ },
+ {
+  "id": 578103,
+  "file": "000000578103.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8100/8549639492_396b397a5c_z.jpg",
+  "crop": [
+   0,
+   0,
+   146
+  ],
+  "overcast": false,
+  "cloud_share": 0.3682,
+  "cloud_share_of_sky": 0.5036
+ },
+ {
+  "id": 578317,
+  "file": "000000578317.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm3.staticflickr.com/2833/9236741994_0500c61586_z.jpg",
+  "crop": [
+   0,
+   0,
+   255
+  ],
+  "overcast": false,
+  "cloud_share": 0.4947,
+  "cloud_share_of_sky": 0.5975
+ },
+ {
+  "id": 578591,
+  "file": "000000578591.jpg",
+  "split": "test",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8255/8626953359_d4b6dda898_z.jpg",
+  "crop": [
+   0,
+   252,
+   112
+  ],
+  "overcast": true,
+  "cloud_share": 0.7001,
+  "cloud_share_of_sky": 1.0
+ },
+ {
+  "id": 581884,
+  "file": "000000581884.jpg",
+  "split": "test",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm3.staticflickr.com/2874/9358989427_ab332ed6e2_z.jpg",
+  "crop": [
+   0,
+   0,
+   128
+  ],
+  "overcast": false,
+  "cloud_share": 0.5831,
+  "cloud_share_of_sky": 0.5831
+ },
+ {
+  "id": 581887,
+  "file": "000000581887.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm3.staticflickr.com/2338/2121474444_4345f35f5a_z.jpg",
+  "crop": [
+   168,
+   288,
+   96
+  ],
+  "overcast": false,
+  "cloud_share": 0.6599,
+  "cloud_share_of_sky": 0.6798
+ },
+ {
+  "id": 7281,
+  "file": "000000007281.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm5.staticflickr.com/4112/5022207571_74aab92fd5_z.jpg",
+  "crop": [
+   78,
+   442,
+   105
+  ],
+  "overcast": true,
+  "cloud_share": 0.7006,
+  "cloud_share_of_sky": 0.9968
+ },
+ {
+  "id": 13348,
+  "file": "000000013348.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8286/7733450942_0da3e941b4_z.jpg",
+  "crop": [
+   0,
+   0,
+   283
+  ],
+  "overcast": false,
+  "cloud_share": 0.3555,
+  "cloud_share_of_sky": 0.4962
+ },
+ {
+  "id": 15517,
+  "file": "000000015517.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8184/8407007011_9456edeb6d_z.jpg",
+  "crop": [
+   0,
+   0,
+   256
+  ],
+  "overcast": false,
+  "cloud_share": 0.4447,
+  "cloud_share_of_sky": 0.5956
+ },
+ {
+  "id": 55299,
+  "file": "000000055299.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm4.staticflickr.com/3409/3283552917_85b71021ba_z.jpg",
+  "crop": [
+   0,
+   0,
+   269
+  ],
+  "overcast": false,
+  "cloud_share": 0.4062,
+  "cloud_share_of_sky": 0.558
+ },
+ {
+  "id": 134722,
+  "file": "000000134722.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8232/8438802190_85318071b3_z.jpg",
+  "crop": [
+   0,
+   288,
+   288
+  ],
+  "overcast": false,
+  "cloud_share": 0.4167,
+  "cloud_share_of_sky": 0.5773
+ },
+ {
+  "id": 175438,
+  "file": "000000175438.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8315/8013060462_4cdf330e98_z.jpg",
+  "crop": [
+   0,
+   234,
+   148
+  ],
+  "overcast": false,
+  "cloud_share": 0.3847,
+  "cloud_share_of_sky": 0.5435
+ },
+ {
+  "id": 191013,
+  "file": "000000191013.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8057/8193281147_81461e9773_z.jpg",
+  "crop": [
+   108,
+   0,
+   218
+  ],
+  "overcast": false,
+  "cloud_share": 0.3085,
+  "cloud_share_of_sky": 0.4226
+ },
+ {
+  "id": 205282,
+  "file": "000000205282.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm4.staticflickr.com/3806/8892272617_b5f681bc37_z.jpg",
+  "crop": [
+   0,
+   324,
+   288
+  ],
+  "overcast": true,
+  "cloud_share": 0.7266,
+  "cloud_share_of_sky": 1.0
+ },
+ {
+  "id": 232538,
+  "file": "000000232538.jpg",
+  "split": "val",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm8.staticflickr.com/7449/8715912958_4fb0196877_z.jpg",
+  "crop": [
+   0,
+   0,
+   288
+  ],
+  "overcast": false,
+  "cloud_share": 0.3784,
+  "cloud_share_of_sky": 0.5153
+ },
+ {
+  "id": 247806,
+  "file": "000000247806.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm8.staticflickr.com/7114/7751952772_348bb0694b_z.jpg",
+  "crop": [
+   162,
+   486,
+   144
+  ],
+  "overcast": false,
+  "cloud_share": 0.5911,
+  "cloud_share_of_sky": 0.5911
+ },
+ {
+  "id": 273715,
+  "file": "000000273715.jpg",
+  "split": "test",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm4.staticflickr.com/3604/3441464864_01a70b2b99_z.jpg",
+  "crop": [
+   60,
+   84,
+   101
+  ],
+  "overcast": false,
+  "cloud_share": 0.5578,
+  "cloud_share_of_sky": 0.783
+ },
+ {
+  "id": 312720,
+  "file": "000000312720.jpg",
+  "split": "val",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm6.staticflickr.com/5172/5582375921_20145bc1b0_z.jpg",
+  "crop": [
+   0,
+   245,
+   395
+  ],
+  "overcast": false,
+  "cloud_share": 0.5045,
+  "cloud_share_of_sky": 0.5775
+ },
+ {
+  "id": 420916,
+  "file": "000000420916.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm9.staticflickr.com/8179/7954749702_4952236206_z.jpg",
+  "crop": [
+   0,
+   228,
+   96
+  ],
+  "overcast": false,
+  "cloud_share": 0.2987,
+  "cloud_share_of_sky": 0.4022
+ },
+ {
+  "id": 451090,
+  "file": "000000451090.jpg",
+  "split": "train",
+  "license": "CC BY-SA 2.0",
+  "flickr_url": "http://farm4.staticflickr.com/3686/9404551615_6af13a75ee_z.jpg",
+  "crop": [
+   0,
+   408,
+   195
+  ],
+  "overcast": true,
+  "cloud_share": 0.7101,
+  "cloud_share_of_sky": 1.0
+ },
+ {
+  "id": 513181,
+  "file": "000000513181.jpg",
+  "split": "test",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm5.staticflickr.com/4116/4883585935_330f598ac7_z.jpg",
+  "crop": [
+   0,
+   272,
+   279
+  ],
+  "overcast": false,
+  "cloud_share": 0.3018,
+  "cloud_share_of_sky": 0.4259
+ },
+ {
+  "id": 554595,
+  "file": "000000554595.jpg",
+  "split": "train",
+  "license": "CC BY 2.0",
+  "flickr_url": "http://farm4.staticflickr.com/3106/2708564093_219fd741d1_z.jpg",
+  "crop": [
+   0,
+   52,
+   104
+  ],
+  "overcast": false,
+  "cloud_share": 0.637,
+  "cloud_share_of_sky": 0.6899
+ }
+]

@@ -1,0 +1,23 @@
+COCO-Stuff training data
+
+H. Caesar, J. Uijlings, V. Ferrari.
+COCO-Stuff: Thing and Stuff Classes in Context.
+IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2018.
+https://github.com/nightrome/cocostuff
+
+The COCO-Stuff annotations are licensed under Creative Commons
+Attribution 4.0 International (CC BY 4.0), included in CC-BY-4.0.txt.
+https://creativecommons.org/licenses/by/4.0/
+
+The photographs come from the COCO dataset (https://cocodataset.org) and are
+Flickr images with per-image licenses. Only images whose COCO license permits
+commercial use and derivative works were used for training:
+Creative Commons Attribution 2.0, Creative Commons Attribution-ShareAlike 2.0,
+images with no known copyright restrictions, and United States Government works.
+Images licensed NonCommercial or NoDerivatives were excluded.
+
+No photographs are included in this app. The bundled CloudNet weights were
+trained locally on sky-dominated crops of those images, using the COCO-Stuff
+"clouds" and "sky-other" annotations, with images held apart for validation and
+evaluation. Training used flips and mild exposure changes. No endorsement by the
+dataset authors is implied.

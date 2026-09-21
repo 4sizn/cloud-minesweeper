@@ -183,8 +183,8 @@ void main() {
     expect(find.text('문의 이메일을 복사했어요.'), findsOneWidget);
     await tester.tap(find.text('오픈소스 라이선스'));
     await tester.pumpAndSettle();
-    await tester.scrollUntilVisible(find.text('SWIMSEG attribution'), 300);
-    expect(find.text('SWIMSEG attribution'), findsOneWidget);
+    await tester.scrollUntilVisible(find.text('COCO-Stuff attribution'), 300);
+    expect(find.text('COCO-Stuff attribution'), findsOneWidget);
     await tester.pageBack();
     await tester.pumpAndSettle();
     await tester.tap(find.text('개인정보 처리 안내'));

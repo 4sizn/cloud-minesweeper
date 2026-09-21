@@ -111,7 +111,7 @@
 
 | 항목 | 값 |
 |---|---|
-| 버전 | 1.0.0 (빌드 6, `pubspec.yaml`) |
+| 버전 | 1.0.0 (빌드 7, `pubspec.yaml`) |
 | 최소 iOS | 16.0 |
 | 방향 | 세로 고정 |
 | 암호화 | `ITSAppUsesNonExemptEncryption=false` (추가 서류 없음) |
@@ -154,7 +154,7 @@ iPhone 전용으로 출시하기로 하고 `TARGETED_DEVICE_FAMILY`를 `1`로 �
 1. letspets.co.kr 배포 확인 — `/privacy` 최신 버전이 아직 반영되지 않았습니다(Vercel 배포 실패, "Deployment was blocked").
 2. 운영자명(저작권 표기) 확정.
 3. `tools/store-screenshots` 에디터에서 5장 확정 후 1290×2796으로 내보내기.
-4. 구름 모델(SWIMSEG, CC BY-NC 4.0)의 상업 배포 사용권한 확정 — [출시 준비 문서](README.md) 참조.
+4. 구름 모델 라이선스: 해결. COCO-Stuff(CC BY 4.0) 기반 모델로 교체했다 — [구름 판독 검증](../cloud-evaluation.md).
 5. 빌드 1.0.0(6) 업로드 완료(2026-09-21). Apple 처리 후 버전 페이지에서 빌드를 선택한다.
 6. 연령 등급·가격·개인정보 설문 입력 후 심사 제출.
 

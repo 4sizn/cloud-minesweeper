@@ -31,8 +31,8 @@ void registerAssetLicenses() {
     for (final entry in {
       'U²-Net': 'U2NET.txt',
       'U²-Net sky model': 'U2NET-sky.txt',
-      'SWIMSEG attribution': 'SWIMSEG-attribution.txt',
-      'SWIMSEG license': 'SWIMSEG-CC-BY-NC-4.0.txt',
+      'COCO-Stuff attribution': 'COCO-STUFF-attribution.txt',
+      'COCO-Stuff license': 'CC-BY-4.0.txt',
     }.entries) {
       yield LicenseEntryWithLineBreaks([
         entry.key,

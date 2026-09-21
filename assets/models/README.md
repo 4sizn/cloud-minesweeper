@@ -23,40 +23,44 @@ Output `sky`: float32 `[1,1,320,320]`, higher means sky. The upstream demo
 inverts this mask to exclude sky; this app deliberately does not invert it.
 No image-relative min/max normalization is applied, so an all-sky image remains all sky.
 
-## Cloud model (0.1.2)
+## Cloud model (0.2.0)
 
-`cloud_swimseg_v1.onnx` is a locally trained, small encoder/decoder with skip
+`cloud_coco_v1.onnx` is a locally trained, small encoder/decoder with skip
 connections (12/24/48 channels; 273,065 bytes). It accepts raw RGB float32
 `rgb [1,3,320,320]` in [0,255], average-pools to 160px and divides by 255 inside
 the model; output `cloud [1,1,320,320]` is a sigmoid cloud score, bilinearly resized.
 Scores are not a guarantee of correctness or calibrated confidence.
 
-Trained on 548 unique SWIMSEG photos, validated on 92, evaluated on 347, split by
-capture date. Model and 0.525 cell threshold are selected using validation only.
-White annotation pixels mean cloud; the mirror's class dictionary is inverted.
+Trained on 490 sky-dominated crops derived from COCO-Stuff: 310 training, 48
+validation, 132 evaluation, split by COCO image id. Model (epoch 38 of 40) and the
+0.425 cell threshold are selected using validation only.
 
 - Training provenance and reproduction: `tools/cloud_training/README.md`.
 - Results, split, hashes: `docs/cloud-evaluation.md` and `docs/cloud-evaluation/`.
-- Cloud model SHA-256: `ce7981bef1de2e5b73a6435d27a7003b3a7f0f2f2360c6901a15bee6d7cb5ede`.
-- **Noncommercial development model**, trained using SWIMSEG (CC BY-NC 4.0).
-  Attribution and license are included in `assets/licenses/SWIMSEG-*`.
-  Commercial release requires replacement data/model or appropriate permission.
+- Cloud model SHA-256: `23a0978e01053b5ed13ec1efbdb0c667292a21a27c7493550a7f21b37b2923be`.
+- **Commercially usable.** COCO-Stuff annotations are CC BY 4.0 and only COCO
+  photographs whose license permits commercial use and derivative works were used
+  (CC BY 2.0, CC BY-SA 2.0, no known copyright restrictions, US Government works).
+  Attribution and license are included in `assets/licenses/COCO-STUFF-attribution.txt`
+  and `assets/licenses/CC-BY-4.0.txt`. The previous SWIMSEG model (CC BY-NC 4.0) was
+  removed together with its fixtures and licenses.
 
 ## Production selection and limitations
 
 Multiply cloud scores by smoothstep(.4,.8,sky). Aggregate each 20×20 patch into
-one of 16×16 cells; select scores >= .525 and the largest 8-connected component.
+one of 16×16 cells; select scores >= .425 and the largest 8-connected component.
 At least 30 cells are needed to play. Very dark images, insufficient sky and a
 cloud covering >92% of the board retain explicit correction/reshoot messages.
 
-Date-held-out SWIMSEG grid IoU improved from 51.2% to 79.8%. This is **not** an
-accuracy claim for all phone photographs. Thin clouds, glare, dusk and unfamiliar
-scenes can still fail. Manual correction remains available.
+On the held-out COCO split the 16×16 grid IoU is 74.2%, against 63.5% for the colour
+rule the app used before a model existed. This is **not** an accuracy claim for all
+phone photographs. Thin clouds, glare, dusk and unfamiliar scenes can still fail.
+Manual correction remains available.
 
 Both models are packaged in the app with no runtime download. Sequential ONNX
 inference releases tensors and sessions after each model. Android uses the same
 pipeline but has not been built here.
 
 Test fixtures are excluded from the production entry point. `sky_photo.dart`
-comes from the pinned Apache-2.0 sky model repository. `swimseg_cases.dart`
-contains three resized validation images under CC BY-NC 4.0, with attribution.
+comes from the pinned Apache-2.0 sky model repository. `cloud_cases.dart` contains
+three validation crops from the COCO-Stuff derived set, with attribution.

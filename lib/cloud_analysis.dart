@@ -69,7 +69,7 @@ Future<CloudAnalysis> analyseCloud(PreparedCloudPhoto photo) async {
   // Both models are bundled. Photographs never leave the device.
   final sky = await _infer('sky_u2netp_v1.onnx', 'image', 'sky', photo.input);
   final cloud = await _infer(
-    'cloud_swimseg_v1.onnx',
+    'cloud_coco_v1.onnx',
     'rgb',
     'cloud',
     photo.cloudInput,
@@ -152,7 +152,7 @@ CloudAnalysis cloudCellsFromMask(
   }
   final candidates = <int>{
     for (var i = 0; i < scores.length; i++)
-      if (scores[i] / counts[i] >= .525) i,
+      if (scores[i] / counts[i] >= .425) i,
   };
   final cells = candidates.length < 2
       ? candidates

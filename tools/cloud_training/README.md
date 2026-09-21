@@ -4,57 +4,66 @@ The app's original detector used red/blue ratio, brightness and saturation insid
 sky mask. This pipeline learns cloud appearance from annotated photographs while
 keeping the sky mask to exclude buildings and trees. No user photographs are used.
 
-## Data and attribution
+## Data and licensing
 
-- **SWIMSEG**, S. Dev, Y. H. Lee, S. Winkler, *Color-based segmentation of sky/cloud
-  images from ground-based cameras*, IEEE JSTARS 10(1), 231–242, 2017.
-- Original: https://malea.winkler.site/swimseg.html
-- Downloaded research mirror: https://doi.org/10.7910/DVN/HEJTK1
-  (Qianqian Song, replication dataset; file ID 3758694).
-- Original and the archive's `license.html`: **CC BY-NC 4.0**.
-  The mirror's top-level CC0 metadata does not supersede the original restrictions.
-  This is a noncommercial development model; commercial distribution requires
-  replacing the training data/model or obtaining appropriate permission.
-- Archive includes 1,013 RGB 600×600 photographs and paired masks. The downloaded
-  `class_dict.csv` reverses the actual mask colors: **white pixels in label PNGs
-  are clouds**, black is clear sky. Photo/mask overlays (e.g. 0001 and 0135) were
-  checked before final training. Do not use the CSV's inverted labels.
+- **COCO-Stuff**, H. Caesar, J. Uijlings, V. Ferrari, *COCO-Stuff: Thing and Stuff
+  Classes in Context*, CVPR 2018. https://github.com/nightrome/cocostuff
+- Annotations are **CC BY 4.0**; the `clouds` and `sky-other` classes provide the labels.
+- Photographs come from COCO (https://cocodataset.org) and are Flickr images with
+  per-image licenses. `build_dataset.py` keeps only the COCO license ids that allow
+  commercial use *and* derivative works: 4 (CC BY 2.0), 5 (CC BY-SA 2.0),
+  7 (no known copyright restrictions) and 8 (US Government work). NonCommercial (1, 2, 3)
+  and NoDerivatives (3, 6) images are dropped, so the trained weights carry no
+  noncommercial restriction.
+- No photograph is bundled with the app. Only the trained weights ship.
+- Attribution shipped in the app: `assets/licenses/COCO-STUFF-attribution.txt` and
+  `assets/licenses/CC-BY-4.0.txt`.
 
 ## Reproduce
 
 Python 3.12, torch 2.14.0, numpy 2.5.3, Pillow 12.3.0, onnx 1.23.0,
-onnxruntime 1.30.0. Dependencies are development-only; Flutter runtime is unchanged.
+onnxruntime 1.30.0. Dependencies are development-only; the Flutter runtime is unchanged.
 
 ```sh
-mkdir -p .local-data/clouds
-curl -fL 'https://dataverse.harvard.edu/api/access/datafile/3758694' -o .local-data/clouds/swimseg.rar
-bsdtar -xf .local-data/clouds/swimseg.rar -C .local-data/clouds
-python tools/cloud_training/train.py --epochs 30
+mkdir -p .local-data/coco
+curl -fL 'http://images.cocodataset.org/annotations/annotations_trainval2017.zip' -o .local-data/coco/annotations_trainval2017.zip
+curl -fL 'https://calvin.inf.ed.ac.uk/wp-content/uploads/data/cocostuffdataset/stuffthingmaps_trainval2017.zip' -o .local-data/coco/stuffthingmaps_trainval2017.zip
+curl -fL 'https://raw.githubusercontent.com/nightrome/cocostuff/master/labels.txt' -o .local-data/coco/labels.txt
+unzip -q .local-data/coco/annotations_trainval2017.zip -d .local-data/coco/
+unzip -q .local-data/coco/stuffthingmaps_trainval2017.zip -d .local-data/coco/stuffthingmaps
+python tools/cloud_training/build_dataset.py
+python tools/cloud_training/train.py --epochs 40
 python tools/cloud_training/evaluate.py
 ```
 
-`load_data` hashes decoded pixels and drops 26 exact duplicates. A fixed seed,
-20260921, splits **capture dates**, not random neighboring patches. The 987 unique
-images become 548 training / 92 validation / 347 evaluation images with no shared
-dates or exact images. The model checkpoint is chosen by validation pixel IoU;
-the mask threshold is chosen by validation grid IoU. Evaluation photos do not
-choose parameters. MPS training can vary slightly between runs.
+`build_dataset.py` scans the label maps for images with enough annotated cloud, then
+takes the largest square window that is at least 90% sky (clouds included) and at least
+8% cloud, so the crops match what the camera sees when it is pointed at the sky. Each
+photo contributes one crop and is assigned to train/validation/test by a hash of its
+COCO image id, so no crop of one photograph appears in two splits. Only then is the
+photograph downloaded, and only the crop and its mask are written to disk.
 
-Artifacts under `.local-data/clouds/training` include the full split/image manifest,
-checkpoint, all epochs, validation threshold search, per-image CSV, and contact
-sheets (evenly spaced examples plus the worst case). Raw data and these images are
-ignored by Git and are not bundled with the app. The final model is exported into
-`assets/models/cloud_swimseg_v1.onnx`; evaluation checks PyTorch/ONNX parity.
+`train.py` trains the same small encoder/decoder the app ships (12/24/48 channels),
+picks the checkpoint by validation pixel IoU and the cell threshold by validation grid
+IoU, reports the held-out test split, and exports `assets/models/cloud_coco_v1.onnx`.
+`evaluate.py` re-runs the full app pipeline (sky model, cloud model, cell selection)
+against the colour rule, checks PyTorch/ONNX parity, and regenerates
+`integration_test/fixtures/cloud_cases.dart`.
+
+Artifacts under `.local-data/coco/training` include the checkpoint, every epoch, the
+validation threshold search, per-image CSV and comparison sheets. Raw data, downloaded
+photographs and these artifacts are ignored by Git and are not bundled with the app.
 
 ## Evaluation scope
 
-IoU is intersection / union of predicted and annotated cloud area, not a percentage
-of photographs correctly recognized. The report gives pixel, 16×16 grid, and final
-largest-component scores for **both** v1 and v2. The final component uses the app's
-brightness, sky coverage, connectivity and overcast gates. It does not count the
-minimum 30-cell playability constraint as segmentation accuracy.
+IoU is intersection / union of predicted and annotated cloud area, not a percentage of
+photographs correctly recognised. The report gives pixel, 16×16 grid and final
+largest-component scores for both the colour rule and the trained model. The final
+component uses the app's brightness, sky coverage, connectivity and overcast gates. It
+does not count the minimum 30-cell playability constraint as segmentation accuracy.
 
-These are daytime, sky-only patches from one Singapore camera. Date separation
-helps avoid leakage, but it does not establish accuracy on every iPhone camera,
-night scenes, city buildings or unseen climates. Camera review/manual correction
-remains available. Device capture validation is separate from this benchmark.
+COCO photographs are everyday outdoor scenes from many cameras, which is closer to phone
+use than a single fixed sky camera, but the annotations are coarser than a dedicated
+sky/cloud dataset: thin cirrus and haze are often left unlabelled. Accuracy on any
+particular phone, at dusk, or against unusual scenes is not established by this
+benchmark. Manual correction stays available in the app.

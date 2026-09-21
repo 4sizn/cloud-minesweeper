@@ -29,11 +29,10 @@
 
 ## 출시 전에 확정해야 하는 항목
 
-1. **모델 사용권한:** 현재 구름 모델은 SWIMSEG로 학습했고 원본은
-   [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)이다.
-   [원 제공자 안내](https://malea.winkler.site/swimseg.html)에서 확인했다.
-   상업 목적 배포라면 별도 허가 또는 사용권한이 맞는 모델·데이터로 교체해야 한다.
-   판독 정확도가 낮았던 이전 방식으로 임의 되돌리지 않았다. 현재 모델 사용 범위에 대한 최종 판단은 미확정이다.
+1. **모델 사용권한: 해결.** 구름 모델을 COCO-Stuff 기반으로 다시 학습해 교체했다.
+   주석은 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)이고 사진은 COCO 메타데이터에서
+   상업 이용·2차 저작이 허용된 것만 사용했다. SWIMSEG 모델과 라이선스·픽스처는 저장소에서 제거했다.
+   지표와 한계는 [구름 판독 검증](../cloud-evaluation.md)에 있다.
 2. **공개 페이지 URL:** [개인정보 처리방침](privacy.html)과 [지원 안내](support.html) 파일은 작성했다.
    실제 공개 HTTPS 주소에 게시한 뒤 App Store Connect에 등록해야 한다. 가짜 URL을 넣지 않았다.
    [Apple 안내](https://developer.apple.com/help/app-store-connect/manage-app-information/manage-app-privacy)는

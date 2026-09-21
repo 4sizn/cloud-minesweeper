@@ -14,7 +14,7 @@ import 'package:cloud_minesweeper/game.dart';
 import 'package:cloud_minesweeper/play_screen.dart';
 
 import 'fixtures/sky_photo.dart';
-import 'fixtures/swimseg_cases.dart';
+import 'fixtures/cloud_cases.dart';
 
 void main() {
   final binding = IntegrationTestWidgetsFlutterBinding.ensureInitialized();
@@ -22,11 +22,11 @@ void main() {
   testWidgets('mobile cloud model matches three annotated validation cases', (
     tester,
   ) async {
-    for (final sample in swimsegCases) {
+    for (final sample in cloudCases) {
       final result = await analyseCloud(
         prepareCloudPhoto(base64Decode(sample.png)),
       );
-      expect(result.cells, sample.cells, reason: 'SWIMSEG ${sample.id}');
+      expect(result.cells, sample.cells, reason: 'COCO ${sample.id}');
     }
   });
 
