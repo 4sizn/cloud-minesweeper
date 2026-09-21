@@ -1,0 +1,17 @@
+{
+  "bundleId" : "com.lotus.cloudMinesweeper",
+  "locales" : {
+    "ko" : {
+      "description" : null,
+      "keywords" : null,
+      "marketingUrl" : null,
+      "name" : "지뢰찾기:구름",
+      "privacyPolicyUrl" : null,
+      "promotionalText" : null,
+      "subtitle" : null,
+      "supportUrl" : null,
+      "whatsNew" : null
+    }
+  },
+  "version" : "1.0"
+}
