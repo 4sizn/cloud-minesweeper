@@ -111,7 +111,7 @@
 
 | 항목 | 값 |
 |---|---|
-| 버전 | 1.0.0 (빌드 7, `pubspec.yaml`) |
+| 버전 | 1.0.0 (빌드 7, 업로드·연결 완료) |
 | 최소 iOS | 16.0 |
 | 방향 | 세로 고정 |
 | 암호화 | `ITSAppUsesNonExemptEncryption=false` (추가 서류 없음) |
@@ -149,14 +149,31 @@ iPhone 전용으로 출시하기로 하고 `TARGETED_DEVICE_FAMILY`를 `1`로 �
 
 연락처: 4sizn@naver.com. 데모 계정 불필요.
 
-## 제출 전 남은 일
+## 진행 상황 (2026-09-22)
 
-1. letspets.co.kr 배포 확인 — `/privacy` 최신 버전이 아직 반영되지 않았습니다(Vercel 배포 실패, "Deployment was blocked").
-2. 운영자명(저작권 표기) 확정.
-3. `tools/store-screenshots` 에디터에서 5장 확정 후 1290×2796으로 내보내기.
-4. 구름 모델 라이선스: 해결. COCO-Stuff(CC BY 4.0) 기반 모델로 교체했다 — [구름 판독 검증](../cloud-evaluation.md).
-5. 빌드 1.0.0(6) 업로드 완료(2026-09-21). Apple 처리 후 버전 페이지에서 빌드를 선택한다.
-6. 연령 등급·가격·개인정보 설문 입력 후 심사 제출.
+완료: 앱 레코드 생성, 이름·부제·설명·프로모션·키워드 등록, 6.9형 스크린샷 5장 업로드,
+연령 등급 4+(7단계 설문), 가격 무료·175개 지역, 앱 개인정보 "데이터 수집 안 함" 게시,
+심사 연락처·메모, 저작권 `2026 letspets`, 수동 출시 선택, 구름 모델 라이선스 교체,
+letspets.co.kr `/privacy`와 프로젝트 페이지 배포, 빌드 1.0.0(7) 업로드 및 버전 연결.
+
+제출 전 남은 일:
+
+1. **대한민국 GRAC 등급분류번호(RCN).** 연령 등급 화면에 `대한민국 · RCN 추가` 경고가 있다.
+   게임은 조건 충족 시 한국 App Store 게시에 RCN이 필요하다. 번호를 받거나 한국 지역을 제외해야 한다.
+2. 심사 제출(`심사에 추가`). 승인 후 수동 출시 버튼을 눌러야 공개된다.
+
+## 서명
+
+Xcode에 로그인된 계정이 없고 배포 인증서의 비밀키도 이 맥에 없어서, App Store Connect API로
+배포 인증서(`4ZA9SB9NMR`)와 App Store 프로파일(`Cloud Minesweeper App Store`)을 새로 발급했다.
+인증서와 비밀키는 `asc-signing.keychain`에 있고, 비밀키와 키체인 비밀번호는
+`~/.appstoreconnect/signing/`에 둔다(저장소에 넣지 않는다).
+
+```sh
+security unlock-keychain ~/Library/Keychains/asc-signing.keychain-db
+flutter build ipa --release --export-options-plist <manual signing plist>
+xcrun altool --upload-app --type ios -f build/ios/ipa/*.ipa --apiKey $ASC_KEY_ID --apiIssuer $ASC_ISSUER_ID
+```
 
 ## 업로드 명령
 
