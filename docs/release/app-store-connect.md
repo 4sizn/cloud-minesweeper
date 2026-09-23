@@ -111,7 +111,7 @@
 
 | 항목 | 값 |
 |---|---|
-| 버전 | 1.0.0 (빌드 7, 업로드·연결 완료) |
+| 버전 | 1.0.0 (빌드 7, 심사 대기 중) · 빌드 8 업로드됨, 미연결 |
 | 최소 iOS | 16.0 |
 | 방향 | 세로 고정 |
 | 암호화 | `ITSAppUsesNonExemptEncryption=false` (추가 서류 없음) |
@@ -190,3 +190,11 @@ swift $ASC screenshots --bundle-id com.lotus.cloudMinesweeper --locale ko --dir 
 ```
 
 1.0에는 `whatsNew`를 넣을 수 없습니다. 위 `appstore/metadata.json`에도 넣지 않았습니다.
+
+## 빌드 8 (2026-09-23)
+
+빌드 8은 카메라 줌과 Android 권한 팝업 수정을 담아 업로드했지만 1.0에 연결하지 않았다.
+iPhone에서 첫 권한 허용 시 카메라가 정상으로 열리는 것을 확인했으므로 빌드 7 심사를 그대로 둔다.
+빌드 8 이후 변경은 1.0.1로 낸다. 서명은 `asc-signing-2.keychain-db`
+(`~/.appstoreconnect/signing/keychain-2-password.txt`)와 수동 서명 export plist
+(`method` `app-store-connect`, 프로파일 `Cloud Minesweeper App Store`)로 했다.

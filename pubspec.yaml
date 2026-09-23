@@ -1,7 +1,7 @@
 name: cloud_minesweeper
 description: "Collect the clouds you solve, and arrange your own sky."
 publish_to: 'none'
-version: 1.0.0+7
+version: 1.0.0+8
 
 environment:
   sdk: ^3.13.4
