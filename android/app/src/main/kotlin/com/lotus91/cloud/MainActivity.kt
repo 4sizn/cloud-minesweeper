@@ -1,4 +1,4 @@
-package com.lotus.cloud_minesweeper
+package com.lotus91.cloud
 
 import io.flutter.embedding.android.FlutterActivity
 import io.flutter.embedding.engine.FlutterEngine
