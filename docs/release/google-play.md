@@ -1,0 +1,40 @@
+# Google Play 등록 상태
+
+2026-09-23 작성. Play Console 계정 `lotus91`(개인 계정, ID `8478547471167147103`).
+
+## 앱
+
+| 항목 | 값 |
+|---|---|
+| 앱 ID | `4972643668839818416` |
+| 패키지 | `com.lotus91.cloud` (Android 개발자 인증: 임시, 업로드 키 지문 검토 중) |
+| 이름 | 지뢰찾기:구름 |
+| 기본 언어 | 한국어 (ko-KR) |
+| 유형 · 가격 | 게임 > 퍼즐 · 무료 |
+| 연락처 | 4sizn@naver.com · http://www.letspets.co.kr |
+| 개인정보처리방침 | https://www.letspets.co.kr/privacy |
+
+## 서명
+
+업로드 키는 `~/keys/cloud-minesweeper-upload.jks`(alias `upload`)이고, 비밀번호는
+`android/key.properties`(git 제외)에 있다. 이 파일이 있으면 release 빌드가 업로드 키로 서명된다.
+SHA-256 `CD:E6:15:75:A5:6F:6D:68:BF:37:0A:98:AE:14:6F:41:3A:D8:DB:2B:50:9B:0B:BB:16:13:F9:13:F1:8E:34:0D`.
+키와 비밀번호는 저장소 밖에 백업해 둔다.
+
+## 앱 콘텐츠 선언
+
+광고 없음, 로그인 없음, 광고 ID 사용 안 함, 정부·금융·건강 앱 아님,
+데이터 보안 "수집·공유 없음", 타겟층 만 13세 이상.
+콘텐츠 등급(IARC): 한국 GRAC 전체이용가, ESRB 전체이용가, PEGI 3. 설문 답은 모두 "아니요".
+
+## 스토어 등록정보
+
+간단한 설명: `하늘 사진이 지뢰찾기 판이 돼요. 풀어낸 구름은 나만의 하늘에 걸어 두세요.`
+자세한 설명은 `appstore/metadata.json`의 한국어 description과 같다.
+이미지는 `python3 tools/play_store_assets.py <NotoSansKR[wght].ttf>`로 `playstore/`에 만든다.
+
+## 출시
+
+내부 테스트에 버전 `8 (1.0.0)`을 출시했지만 테스터가 없다.
+개인 계정이라 프로덕션 신청 전에 비공개 테스트에서 12명 이상이 14일 이상 테스트해야 한다.
+다음 업로드는 versionCode 9 이상이어야 한다.
