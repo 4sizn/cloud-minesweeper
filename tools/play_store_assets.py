@@ -29,11 +29,11 @@ def font(size, weight):
 icon = Image.open(root / "assets/branding/app-icon.png").convert("RGB")
 icon.resize((512, 512), Image.LANCZOS).save(out / "icon-512.png")
 
-# Play caps phone screenshots at 2:1 and the App Store frames show an iPhone,
+# Play wants 9:16 phone screenshots and the App Store frames show an iPhone,
 # so lay the raw captures out again: caption on top, the screen below it.
 deck = json.loads((root / "tools/store-screenshots/app-store-screenshots.json").read_text())
 ink, muted, accent = (24, 61, 98), (62, 94, 124), (40, 132, 196)
-W, H = 1200, 2400
+W, H = 1080, 1920
 for n, slide in enumerate(deck["slidesByDevice"]["iphone"], 1):
     canvas = Image.new("RGB", (W, H))
     top, bottom = (154, 207, 237), (222, 238, 248)
@@ -41,18 +41,18 @@ for n, slide in enumerate(deck["slidesByDevice"]["iphone"], 1):
         t = y / (H - 1)
         ImageDraw.Draw(canvas).line([(0, y), (W, y)], fill=tuple(round(a + (b - a) * t) for a, b in zip(top, bottom)))
     draw = ImageDraw.Draw(canvas)
-    draw.text((W // 2, 190), slide["label"]["ko"], font=font(46, 700), fill=accent, anchor="mm")
-    draw.multiline_text((W // 2, 360), slide["headline"]["ko"], font=font(96, 900), fill=ink,
-                        anchor="mm", align="center", spacing=18)
+    draw.text((W // 2, 150), slide["label"]["ko"], font=font(40, 700), fill=accent, anchor="mm")
+    draw.multiline_text((W // 2, 290), slide["headline"]["ko"], font=font(80, 900), fill=ink,
+                        anchor="mm", align="center", spacing=14)
     screen = Image.open(root / "tools/store-screenshots/public" / slide["screenshot"].lstrip("/").replace("{locale}", "ko")).convert("RGB")
-    sw = 900
+    sw = 760
     screen = screen.resize((sw, round(screen.height * sw / screen.width)), Image.LANCZOS)
-    x, y = (W - sw) // 2, 560
+    x, y = (W - sw) // 2, 450
     shade = Image.new("L", (W, H), 0)
-    ImageDraw.Draw(shade).rounded_rectangle((x, y + 24, x + sw, y + screen.height + 24), radius=72, fill=90)
+    ImageDraw.Draw(shade).rounded_rectangle((x, y + 24, x + sw, y + screen.height + 24), radius=60, fill=90)
     canvas.paste((24, 61, 98), (0, 0), shade.filter(ImageFilter.GaussianBlur(30)))
     corners = Image.new("L", screen.size, 0)
-    ImageDraw.Draw(corners).rounded_rectangle((0, 0, sw - 1, screen.height - 1), radius=72, fill=255)
+    ImageDraw.Draw(corners).rounded_rectangle((0, 0, sw - 1, screen.height - 1), radius=60, fill=255)
     canvas.paste(screen, (x, y), corners)
     canvas.save(out / "phone-ko" / f"{n:02d}.png")
 
