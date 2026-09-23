@@ -111,7 +111,10 @@ class _CaptureScreenState extends State<CaptureScreen>
   void didChangeAppLifecycleState(AppLifecycleState state) {
     if (state == AppLifecycleState.resumed && photo == null) {
       openCamera();
-    } else if (state != AppLifecycleState.resumed) {
+    } else if (state == AppLifecycleState.paused ||
+        state == AppLifecycleState.hidden) {
+      // Not on inactive: the first camera permission prompt makes the app
+      // inactive while initialize() is still waiting for the answer.
       closeCamera();
       if (mounted) setState(() {});
     }
