@@ -36,6 +36,7 @@ class _CaptureScreenState extends State<CaptureScreen>
   final automaticSelection = <int>{};
   static const columns = cloudGridSide, rows = cloudGridSide;
   Offset? previousPoint;
+  double zoom = 1, minZoom = 1, maxZoom = 1, pinchStartZoom = 1;
 
   @override
   void initState() {
@@ -68,12 +69,18 @@ class _CaptureScreenState extends State<CaptureScreen>
         enableAudio: false,
       );
       await next.initialize();
+      final lowest = await next.getMinZoomLevel();
+      // Past 8x the digital zoom only magnifies noise.
+      final highest = min(await next.getMaxZoomLevel(), 8.0);
       if (!mounted || generation != cameraGeneration) {
         await next.dispose();
         return;
       }
       setState(() {
         controller = next;
+        minZoom = lowest;
+        maxZoom = max(lowest, highest);
+        zoom = lowest;
         error = null;
         cameraDenied = false;
       });
@@ -116,6 +123,15 @@ class _CaptureScreenState extends State<CaptureScreen>
     WidgetsBinding.instance.removeObserver(this);
     closeCamera();
     super.dispose();
+  }
+
+  void setZoom(double level) {
+    final camera = controller;
+    if (camera == null) return;
+    final next = level.clamp(minZoom, maxZoom);
+    if (next == zoom) return;
+    setState(() => zoom = next);
+    camera.setZoomLevel(next).catchError((_) {});
   }
 
   Future<void> takePhoto() async {
@@ -359,12 +375,45 @@ class _CaptureScreenState extends State<CaptureScreen>
                         ),
                       )
                     : controller != null && controller!.value.isInitialized
-                    ? FittedBox(
-                        fit: BoxFit.cover,
-                        child: SizedBox(
-                          width: controller!.value.previewSize!.height,
-                          height: controller!.value.previewSize!.width,
-                          child: CameraPreview(controller!),
+                    ? GestureDetector(
+                        onScaleStart: (_) => pinchStartZoom = zoom,
+                        onScaleUpdate: (d) => setZoom(pinchStartZoom * d.scale),
+                        child: Stack(
+                          fit: StackFit.expand,
+                          children: [
+                            FittedBox(
+                              fit: BoxFit.cover,
+                              child: SizedBox(
+                                width: controller!.value.previewSize!.height,
+                                height: controller!.value.previewSize!.width,
+                                child: CameraPreview(controller!),
+                              ),
+                            ),
+                            if (maxZoom > minZoom)
+                              Positioned(
+                                right: 12,
+                                bottom: 12,
+                                child: DecoratedBox(
+                                  decoration: BoxDecoration(
+                                    color: Colors.black45,
+                                    borderRadius: BorderRadius.circular(12),
+                                  ),
+                                  child: Padding(
+                                    padding: const EdgeInsets.symmetric(
+                                      horizontal: 10,
+                                      vertical: 4,
+                                    ),
+                                    child: Text(
+                                      '${zoom.toStringAsFixed(1)}x',
+                                      style: const TextStyle(
+                                        color: Colors.white,
+                                        fontWeight: FontWeight.w600,
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                              ),
+                          ],
                         ),
                       )
                     : const ColoredBox(
@@ -373,6 +422,24 @@ class _CaptureScreenState extends State<CaptureScreen>
                       ),
               ),
             ),
+            if (photo == null && controller != null && maxZoom > minZoom)
+              Row(
+                children: [
+                  const Icon(Icons.zoom_out, color: mutedInk),
+                  Expanded(
+                    child: Slider(
+                      value: zoom,
+                      min: minZoom,
+                      max: maxZoom,
+                      label: '${zoom.toStringAsFixed(1)}x',
+                      semanticFormatterCallback: (v) =>
+                          '확대 ${v.toStringAsFixed(1)}배',
+                      onChanged: setZoom,
+                    ),
+                  ),
+                  const Icon(Icons.zoom_in, color: mutedInk),
+                ],
+              ),
             const SizedBox(height: 24),
             if (photo != null) ...[
               Semantics(
