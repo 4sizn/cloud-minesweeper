@@ -4,6 +4,7 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
+import 'ads.dart';
 import 'collection.dart';
 import 'app_info.dart';
 import 'game.dart';
@@ -75,6 +76,7 @@ class _PlayScreenState extends State<PlayScreen> with WidgetsBindingObserver {
     setState(() => saving = true);
     try {
       final piece = await widget.collection.collect(game, seconds);
+      await Ads.show();
       if (mounted) Navigator.pop(context, piece);
     } catch (_) {
       if (mounted) {
@@ -86,7 +88,9 @@ class _PlayScreenState extends State<PlayScreen> with WidgetsBindingObserver {
     }
   }
 
-  void retry() {
+  Future<void> retry() async {
+    await Ads.show();
+    if (!mounted) return;
     setState(() {
       game = MineGame(
         shape: game.shape,

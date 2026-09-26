@@ -94,7 +94,10 @@ Future<void> showPlayHelp(BuildContext context) => showModalBottomSheet<void>(
   ),
 );
 
-const privacyText = '''지뢰찾기:구름은 회원가입, 광고, 분석용 추적 없이 기기 안에서 동작합니다.
+const privacyText = '''지뢰찾기:구름은 회원가입과 분석용 추적 없이 기기 안에서 동작합니다.
+
+광고
+게임에서 졌을 때와 구름을 보관할 때 Google AdMob 전면 광고가 나올 수 있습니다. AdMob은 광고를 보여주고 측정하기 위해 기기 식별자, IP 주소, 광고 상호작용 같은 정보를 처리합니다. 사진과 구름 모양은 광고에 쓰지 않습니다. 자세한 내용은 Google 개인정보처리방침(policies.google.com/privacy)을 참고하세요.
 
 촬영 사진
 카메라 권한은 구름 모양을 찾는 데 사용합니다. 사진은 기기 안에서 분석하며 서버로 보내거나 사진 보관함에 저장하지 않습니다. 촬영 임시 파일은 분석 처리가 끝나면 삭제를 시도하고, 메모리에 남은 사진은 촬영 화면을 닫으면 해제합니다. 예기치 않은 종료로 남은 임시 파일은 운영체제의 정리 대상입니다.
@@ -108,7 +111,7 @@ const privacyText = '''지뢰찾기:구름은 회원가입, 광고, 분석용 �
 권한과 문의
 카메라 권한은 휴대폰 설정에서 언제든 변경할 수 있습니다. 문의 메일을 직접 보내면 답변을 위해 이메일 주소와 문의 내용이 이메일 서비스에서 처리됩니다. 앱에서 메일을 자동 전송하지 않습니다.
 문의: 4sizn@naver.com
-안내 갱신일: 2026년 9월 21일''';
+안내 갱신일: 2026년 9월 26일''';
 
 class AppInfoScreen extends StatelessWidget {
   const AppInfoScreen({super.key});

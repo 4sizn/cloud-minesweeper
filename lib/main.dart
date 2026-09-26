@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
+import 'ads.dart';
 import 'collection.dart';
 import 'app_info.dart';
 import 'sky_home.dart';
@@ -9,6 +10,7 @@ import 'style.dart';
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   registerAssetLicenses();
+  Ads.start();
   await SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
   SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle.dark);
   runApp(const CloudApp());
