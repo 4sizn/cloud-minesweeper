@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
 
 import 'ads.dart';
 import 'collection.dart';
@@ -30,6 +31,11 @@ class CloudApp extends StatelessWidget {
   Widget build(BuildContext context) => MaterialApp(
     title: '지뢰찾기:구름',
     debugShowCheckedModeBanner: false,
+    // The app is Korean only; this keeps Flutter's own tooltips, menus and
+    // screen reader labels in Korean too, whatever the device language is.
+    locale: const Locale('ko'),
+    supportedLocales: const [Locale('ko')],
+    localizationsDelegates: GlobalMaterialLocalizations.delegates,
     theme: ThemeData(
       useMaterial3: true,
       colorScheme: ColorScheme.fromSeed(
