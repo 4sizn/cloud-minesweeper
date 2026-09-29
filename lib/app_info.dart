@@ -5,7 +5,7 @@ import 'package:flutter/services.dart';
 import 'style.dart';
 
 const supportEmail = '4sizn@naver.com';
-const appVersion = '1.0.1';
+const appVersion = '1.0.2';
 
 Future<void> openDeviceSettings(BuildContext context) async {
   try {
