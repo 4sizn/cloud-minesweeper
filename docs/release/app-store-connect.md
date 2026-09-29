@@ -209,3 +209,11 @@ AdMob 전면 광고가 들어간다. 출시 방식은 수동이다.
   모두 사용 목적은 분석과 타사 광고이고, 사용자 신원에 연결하지 않으며, 추적에 쓰지 않는다.
   ATT를 묻지 않으므로 IDFA는 쓰지 않는다. 이 변경은 게시 즉시 1.0 제품 페이지에도 나타난다.
 - 설명에서 "광고도"를 빼고, 새로운 소식에 줌과 광고 안내를 넣었다(`appstore/metadata.json`).
+
+## AdMob 인증과 마케팅 URL (2026-09-29)
+
+1.0.1 출시 뒤 AdMob iOS 앱(`~3029560344`)에 App Store 등록정보를 연결했지만 앱 인증은 실패했다.
+AdMob은 App Store의 마케팅 URL 도메인에서 app-ads.txt를 찾는데, 이 앱만 마케팅 URL이 비어 있었다.
+(`https://www.letspets.co.kr/app-ads.txt`는 이미 올바르다.) 출시된 버전의 마케팅 URL은 바꿀 수 없으므로
+`appstore/metadata.json`에 `marketingUrl`을 넣어 두었고, 다음 버전을 만든 뒤 push하면 반영된다.
+반영 후 AdMob 앱 설정에서 "업데이트 확인"을 누른다.
