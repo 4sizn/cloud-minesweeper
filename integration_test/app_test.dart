@@ -181,7 +181,7 @@ void main() {
     await screenshot('camera-fallback');
     expect(find.textContaining('샘플'), findsNothing);
     expect(find.text(l.reconnectCamera), findsOneWidget);
-    await tester.pageBack();
+    await tester.tap(find.byType(BackButton));
     await tester.pumpAndSettle();
     await tester.tap(find.byTooltip(l.appInfo));
     await tester.pumpAndSettle();
@@ -193,7 +193,7 @@ void main() {
     await tester.pumpAndSettle();
     await tester.scrollUntilVisible(find.text('COCO-Stuff attribution'), 300);
     expect(find.text('COCO-Stuff attribution'), findsOneWidget);
-    await tester.pageBack();
+    await tester.tap(find.byType(BackButton));
     await tester.pumpAndSettle();
     await tester.tap(find.text(l.privacyTitle));
     await tester.pumpAndSettle();
