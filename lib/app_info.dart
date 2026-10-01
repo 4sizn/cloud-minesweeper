@@ -6,7 +6,7 @@ import 'l10n/app_localizations.dart';
 import 'style.dart';
 
 const supportEmail = '4sizn@naver.com';
-const appVersion = '1.0.2';
+const appVersion = '1.1.0';
 
 Future<void> openDeviceSettings(BuildContext context) async {
   try {
