@@ -12,6 +12,11 @@ import 'package:cloud_minesweeper/collection.dart';
 import 'package:cloud_minesweeper/game.dart';
 import 'package:cloud_minesweeper/play_screen.dart';
 import 'package:cloud_minesweeper/app_info.dart';
+import 'package:cloud_minesweeper/l10n/app_localizations.dart';
+
+// Store screenshots per language: flutter drive ... --dart-define=SCREEN_LOCALE=en
+const locale = Locale(String.fromEnvironment('SCREEN_LOCALE', defaultValue: 'ko'));
+final l = lookupAppLocalizations(locale);
 
 void main() {
   registerAssetLicenses();
@@ -19,7 +24,7 @@ void main() {
   testWidgets('win → collect → point and place → drag → undo → reload', (
     tester,
   ) async {
-    tester.platformDispatcher.localesTestValue = const [Locale('ko')];
+    tester.platformDispatcher.localesTestValue = [locale];
     addTearDown(tester.platformDispatcher.clearLocalesTestValue);
     final temporary = await getTemporaryDirectory();
     Future<void> screenshot(String name) async {
@@ -27,7 +32,7 @@ void main() {
         () => Future<void>.delayed(const Duration(milliseconds: 250)),
       );
       await tester.pumpAndSettle();
-      final bytes = await binding.takeScreenshot(name);
+      final bytes = await binding.takeScreenshot('${locale.languageCode}-$name');
       await File('${temporary.path}/qa-$name.png').writeAsBytes(bytes);
     }
 
@@ -72,24 +77,24 @@ void main() {
       ),
     );
     await tester.pumpAndSettle();
-    expect(find.text('나만의 하늘을 채워보세요'), findsOneWidget);
+    expect(find.text(l.emptySkyTitle), findsOneWidget);
     await screenshot('empty');
     expect(find.textContaining('샘플'), findsNothing);
-    await tester.tap(find.text('새 구름 찾기'));
+    await tester.tap(find.text(l.findNewCloud));
     await tester.pumpAndSettle();
     await screenshot('captured-cloud');
-    await tester.ensureVisible(find.text('이 구름으로 시작'));
-    await tester.tap(find.text('이 구름으로 시작'));
+    await tester.ensureVisible(find.text(l.startWithCloud));
+    await tester.tap(find.text(l.startWithCloud));
     await tester.pumpAndSettle();
-    await tester.tap(find.byTooltip('플레이 방법'));
+    await tester.tap(find.byTooltip(l.howToPlay));
     await tester.pumpAndSettle();
     await screenshot('play-help');
-    await tester.tap(find.byTooltip('도움말 닫기'));
+    await tester.tap(find.byTooltip(l.closeHelp));
     await tester.pumpAndSettle();
     await solveVisibleBoard();
-    expect(find.text('구름 하나를 완성했어요'), findsOneWidget);
+    expect(find.text(l.wonTitle), findsOneWidget);
     await screenshot('won');
-    await tester.tap(find.text('내 하늘에 놓기'));
+    await tester.tap(find.text(l.placeInMySky));
     await tester.pumpAndSettle();
     expect(collection.pieces, hasLength(1));
     expect(collection.pieces.single.placed, isFalse);
@@ -106,7 +111,7 @@ void main() {
     expect(cloudDistance, greaterThan(2));
     expect(pendingWidth, closeTo(originalWidth / cloudDistance, .01));
     await screenshot('depth-placement');
-    await tester.tap(find.text('여기에 놓기'));
+    await tester.tap(find.text(l.placeHere));
     await tester.pumpAndSettle();
     expect(collection.pieces.single.placed, isTrue);
     expect(collection.pieces.single.distance, cloudDistance);
@@ -123,21 +128,22 @@ void main() {
     await tester.dragFrom(center, const Offset(65, -20));
     await tester.pumpAndSettle();
     expect(collection.pieces.single.azimuth, isNot(closeTo(original, 1e-5)));
-    await tester.tap(find.byTooltip('마지막 이동 되돌리기'));
+    await tester.tap(find.byTooltip(l.undoMove));
     await tester.pumpAndSettle();
     expect(collection.pieces.single.azimuth, closeTo(original, 1e-8));
     await tester.dragFrom(center, const Offset(-45, 15));
     await tester.pumpAndSettle();
     final firstPosition = collection.pieces.first.azimuth;
-    await tester.tap(find.text('새 구름 찾기'));
+    await tester.tap(find.text(l.findNewCloud));
     await tester.pumpAndSettle();
-    await tester.ensureVisible(find.text('이 구름으로 시작'));
-    await tester.tap(find.text('이 구름으로 시작'));
+    await tester.ensureVisible(find.text(l.startWithCloud));
+    await tester.tap(find.text(l.startWithCloud));
     await tester.pumpAndSettle();
+    await screenshot('fresh-board');
     await solveVisibleBoard();
-    await tester.tap(find.text('내 하늘에 놓기'));
+    await tester.tap(find.text(l.placeInMySky));
     await tester.pumpAndSettle();
-    await tester.tap(find.text('여기에 놓기'));
+    await tester.tap(find.text(l.placeHere));
     await tester.pumpAndSettle();
     expect(collection.pieces, hasLength(2));
     await tester.dragFrom(
@@ -161,35 +167,35 @@ void main() {
       CloudApp(key: UniqueKey(), collection: restored, enableSensors: false),
     );
     await tester.pumpAndSettle();
-    expect(find.text('내가 찾은 구름'), findsOneWidget);
+    expect(find.text(l.defaultCloudName), findsOneWidget);
     expect(find.text('02'), findsOneWidget);
-    await tester.tap(find.byTooltip('모든 구름 보기'));
+    await tester.tap(find.byTooltip(l.showAllClouds));
     await tester.pumpAndSettle();
-    expect(find.text('모아온 구름'), findsOneWidget);
+    expect(find.text(l.collectionTitle), findsOneWidget);
     await screenshot('collection');
-    await tester.tap(find.text('내가 찾은 구름').last);
+    await tester.tap(find.text(l.defaultCloudName).last);
     await tester.pumpAndSettle();
-    await tester.tap(find.text('새 구름 찾기'));
+    await tester.tap(find.text(l.findNewCloud));
     await tester.pumpAndSettle();
-    expect(find.text('오늘의 하늘 찾기'), findsOneWidget);
+    expect(find.text(l.captureTitle), findsOneWidget);
     await screenshot('camera-fallback');
     expect(find.textContaining('샘플'), findsNothing);
-    expect(find.text('카메라 다시 연결'), findsOneWidget);
+    expect(find.text(l.reconnectCamera), findsOneWidget);
     await tester.pageBack();
     await tester.pumpAndSettle();
-    await tester.tap(find.byTooltip('앱 안내'));
+    await tester.tap(find.byTooltip(l.appInfo));
     await tester.pumpAndSettle();
     await screenshot('app-info');
-    await tester.tap(find.text('문의 이메일 복사'));
+    await tester.tap(find.text(l.copyEmail));
     await tester.pumpAndSettle();
-    expect(find.text('문의 이메일을 복사했어요.'), findsOneWidget);
-    await tester.tap(find.text('오픈소스 라이선스'));
+    expect(find.text(l.emailCopied), findsOneWidget);
+    await tester.tap(find.text(l.licenses));
     await tester.pumpAndSettle();
     await tester.scrollUntilVisible(find.text('COCO-Stuff attribution'), 300);
     expect(find.text('COCO-Stuff attribution'), findsOneWidget);
     await tester.pageBack();
     await tester.pumpAndSettle();
-    await tester.tap(find.text('개인정보 처리 안내'));
+    await tester.tap(find.text(l.privacyTitle));
     await tester.pumpAndSettle();
     await screenshot('privacy-info');
     expect(find.textContaining('4sizn@naver.com'), findsWidgets);
