@@ -4,9 +4,12 @@
   "themeId": "ocean-fresh",
   "connectedCanvas": false,
   "locales": [
-    "ko"
+    "ko",
+    "en",
+    "ja",
+    "zh"
   ],
-  "locale": "ko",
+  "locale": "en",
   "device": "iphone",
   "orientation": "portrait",
   "appIcon": "/app-icon.png",
@@ -16,10 +19,16 @@
         "id": "s_cm_1",
         "layout": "hero",
         "label": {
-          "ko": "오늘의 하늘"
+          "ko": "오늘의 하늘",
+          "en": "Today's sky",
+          "ja": "今日の空",
+          "zh": "今天的天空"
         },
         "headline": {
-          "ko": "오늘 하늘이\n예뻐서 찍었어요"
+          "ko": "오늘 하늘이\n예뻐서 찍었어요",
+          "en": "Lovely sky?\nTake a photo",
+          "ja": "空がきれいで\n一枚撮りました",
+          "zh": "天空太美\n就拍了一张"
         },
         "screenshot": "/screenshots/apple/iphone/{locale}/01.png"
       },
@@ -27,10 +36,16 @@
         "id": "s_cm_2",
         "layout": "device-top",
         "label": {
-          "ko": "구름 모양 그대로"
+          "ko": "구름 모양 그대로",
+          "en": "Shaped like the cloud",
+          "ja": "雲の形のまま",
+          "zh": "就是云的形状"
         },
         "headline": {
-          "ko": "내가 본 하늘이\n나만의 판이 돼요"
+          "ko": "내가 본 하늘이\n나만의 판이 돼요",
+          "en": "Your sky\nbecomes the board",
+          "ja": "見上げた空が\n自分だけの盤面に",
+          "zh": "你看到的天空\n变成你的棋盘"
         },
         "screenshot": "/screenshots/apple/iphone/{locale}/02.png"
       },
@@ -38,10 +53,16 @@
         "id": "s_cm_3",
         "layout": "device-bottom",
         "label": {
-          "ko": "천천히 해도 돼요"
+          "ko": "천천히 해도 돼요",
+          "en": "Take your time",
+          "ja": "ゆっくりで大丈夫",
+          "zh": "慢慢来"
         },
         "headline": {
-          "ko": "첫 칸은\n언제나 안전해요"
+          "ko": "첫 칸은\n언제나 안전해요",
+          "en": "First tile,\nalways safe",
+          "ja": "最初のマスは\nいつも安全",
+          "zh": "第一格\n永远安全"
         },
         "screenshot": "/screenshots/apple/iphone/{locale}/03.png"
       },
@@ -49,10 +70,16 @@
         "id": "s_cm_4",
         "layout": "device-top",
         "label": {
-          "ko": "구름 도감"
+          "ko": "구름 도감",
+          "en": "Cloud collection",
+          "ja": "雲の図鑑",
+          "zh": "云朵图鉴"
         },
         "headline": {
-          "ko": "지나간 하늘이\n한 장씩 쌓여요"
+          "ko": "지나간 하늘이\n한 장씩 쌓여요",
+          "en": "Past skies,\none by one",
+          "ja": "過ぎた空が\n一枚ずつ残る",
+          "zh": "过去的天空\n一张张留下"
         },
         "screenshot": "/screenshots/apple/iphone/{locale}/04.png",
         "inverted": true
@@ -61,10 +88,16 @@
         "id": "s_cm_5",
         "layout": "device-bottom",
         "label": {
-          "ko": "나만의 하늘"
+          "ko": "나만의 하늘",
+          "en": "My sky",
+          "ja": "自分だけの空",
+          "zh": "我的天空"
         },
         "headline": {
-          "ko": "걸어둔 구름을\n다시 만나요"
+          "ko": "걸어둔 구름을\n다시 만나요",
+          "en": "Meet your\nclouds again",
+          "ja": "飾った雲に\nまた会える",
+          "zh": "再次遇见\n挂起的云"
         },
         "screenshot": "/screenshots/apple/iphone/{locale}/05.png"
       }

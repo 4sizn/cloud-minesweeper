@@ -20,7 +20,7 @@ class AppLocalizationsEn extends AppLocalizations {
       'Your clouds are still safely kept.\nCheck your storage space and try again.';
 
   @override
-  String get loadRetry => 'Try again';
+  String get loadRetry => 'Reload';
 
   @override
   String get cameraSettingsHint =>

@@ -35,7 +35,7 @@ Google Mobile Ads SDK가 보내는 데이터 기준이며, 사진과 구름 모�
 
 간단한 설명: `하늘 사진이 지뢰찾기 판이 돼요. 풀어낸 구름은 나만의 하늘에 걸어 두세요.`
 자세한 설명은 `appstore/metadata.json`의 한국어 description과 같다.
-이미지는 `python3 tools/play_store_assets.py <NotoSansKR[wght].ttf>`로 `playstore/`에 만든다.
+이미지는 `python3 tools/play_store_assets.py <fonts 폴더>`로 `playstore/`에 언어별로 만든다(Noto Sans KR·JP·SC). 언어별 제목과 설명은 `playstore/listing.json`에 있다.
 
 ## AdMob
 

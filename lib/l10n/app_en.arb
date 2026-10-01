@@ -3,7 +3,7 @@
   "appName": "Cloud Minesweeper",
   "loadErrorTitle": "Couldn't open your collection",
   "loadErrorBody": "Your clouds are still safely kept.\nCheck your storage space and try again.",
-  "loadRetry": "Try again",
+  "loadRetry": "Reload",
   "cameraSettingsHint": "Please turn on camera access for Cloud Minesweeper in your phone's Settings.",
   "cameraSettingsFallback": "You can change camera access in your phone's Settings.",
   "howToPlay": "How to play",

@@ -121,7 +121,7 @@ class AppLocalizationsJa extends AppLocalizations {
   String get save => '保存';
 
   @override
-  String get collectionTitle => '集めた雲';
+  String get collectionTitle => 'これまでの雲';
 
   @override
   String pieceCount(int count) {
@@ -395,7 +395,7 @@ class AppLocalizationsJa extends AppLocalizations {
   String get captureTitle => '今日の空を探す';
 
   @override
-  String get foundTitle => '見つけた雲';
+  String get foundTitle => '見つかった雲';
 
   @override
   String get captureHeading => '空を画面に収めてください';
