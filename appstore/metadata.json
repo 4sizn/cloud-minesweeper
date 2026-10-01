@@ -9,8 +9,41 @@
       "description": "오늘 하늘이 예뻤나요? 그냥 지나치기 아까운 날엔 한 장 찍어 두세요.\n사진 속 구름이 그대로 오늘의 판이 됩니다.\n\n네모반듯한 격자 대신, 그날 그 시간의 구름 윤곽을 따라 판이 만들어져요.\n같은 하늘은 두 번 오지 않으니, 판도 매번 다릅니다.\n\n■ 그날의 하늘로 만든 판\n카메라로 하늘을 찍으면 구름 영역을 알아서 찾아 판을 만들어요.\n모양이 마음에 들지 않으면 손으로 다듬어도 됩니다.\n\n■ 천천히 해도 괜찮아요\n첫 칸은 언제나 안전해요. 사진마다 쉬움부터 전문가까지 무작위로 정해지니\n잘 풀리는 날도, 오래 붙잡는 날도 있습니다.\n\n■ 지나간 하늘이 한 장씩\n풀어낸 구름은 도감에 남아요. 언제 어떤 하늘이었는지, 얼마나 걸렸는지 함께 남습니다.\n\n■ 걸어둔 구름을 다시 만나요\n모은 구름을 휴대폰이 향한 방향에 걸어 둘 수 있어요.\n동쪽에 둔 구름은 동쪽을 바라볼 때 다시 나타납니다.\n\n■ 조용하게, 나에게만\n사진과 구름 판독은 모두 휴대폰 안에서 끝납니다.\n사진을 서버로 보내지 않고, 계정도 추적도 없어요.",
       "supportUrl": "https://www.letspets.co.kr",
       "privacyPolicyUrl": "https://www.letspets.co.kr/privacy",
-      "whatsNew": "기기 언어가 영어여도 버튼 안내와 복사·붙여넣기 메뉴가 한국어로 나와요.",
+      "whatsNew": "이제 영어, 일본어, 중국어(간체)로도 즐길 수 있어요.",
       "marketingUrl": "https://www.letspets.co.kr"
+    },
+    "en-US": {
+      "supportUrl": "https://www.letspets.co.kr",
+      "privacyPolicyUrl": "https://www.letspets.co.kr/privacy",
+      "marketingUrl": "https://www.letspets.co.kr",
+      "name": "Cloud Minesweeper",
+      "subtitle": "Turn today's sky into a puzzle",
+      "keywords": "sky,photo puzzle,mines,collect,camera,offline,brain,casual,relaxing,logic,calm,solo,free,weather",
+      "promotionalText": "Took a photo of today's lovely sky? It becomes your board, and every cloud you solve stays in your collection. Face the direction you hung it to meet that sky again.",
+      "description": "Was the sky lovely today? On days too good to let slip by, take a photo.\nThe clouds in it become today's board.\n\nInstead of a neat square grid, the board follows the outline of the clouds at that moment.\nThe same sky never comes twice, so no two boards are alike.\n\n■ A board made from that day's sky\nPhotograph the sky and the app finds the clouds and builds the board for you.\nIf you don't like the shape, you can touch it up by hand.\n\n■ Take your time\nThe first tile is always safe. Each photo gets a random difficulty, from Easy to Expert,\nso some days go smoothly and some days take a while.\n\n■ Past skies, one by one\nEvery cloud you solve stays in your collection, along with when it was, what the sky was like, and how long it took.\n\n■ Meet your clouds again\nHang the clouds you've collected in the direction your phone is facing.\nA cloud you hung to the east appears again when you look east.\n\n■ Quiet, and just for you\nPhotos and cloud detection stay on your phone.\nPhotos are never sent to a server, and there's no account and no tracking.",
+      "whatsNew": "Now available in English, Japanese, and Simplified Chinese."
+    },
+    "ja": {
+      "supportUrl": "https://www.letspets.co.kr",
+      "privacyPolicyUrl": "https://www.letspets.co.kr/privacy",
+      "marketingUrl": "https://www.letspets.co.kr",
+      "name": "雲のマインスイーパー",
+      "subtitle": "今日の空を、もう少し長く",
+      "keywords": "空,写真パズル,地雷,コレクション,図鑑,カメラ,オフライン,脳トレ,カジュアル,癒し,ひとり,無料,ロジック",
+      "promotionalText": "今日の空がきれいだったから、一枚撮りました。その写真があなただけの盤面になり、解いた雲は図鑑に残ります。飾った方角を向けば、あの日の空にまた会えます。",
+      "description": "今日の空はきれいでしたか？そのまま見過ごすのが惜しい日は、一枚撮っておきましょう。\n写真の中の雲が、そのまま今日の盤面になります。\n\n四角いマス目ではなく、その日その時の雲の輪郭に沿って盤面が作られます。\n同じ空は二度と来ないので、盤面も毎回ちがいます。\n\n■ その日の空でできた盤面\nカメラで空を撮ると、雲の部分を自動で見つけて盤面にします。\n形が気に入らなければ、手で整えることもできます。\n\n■ ゆっくりで大丈夫\n最初のマスはいつも安全です。写真ごとに「かんたん」から「エキスパート」まで難易度がランダムに決まるので、\nすいすい解ける日も、じっくり向き合う日もあります。\n\n■ 過ぎた空が一枚ずつ\n解いた雲は図鑑に残ります。いつ、どんな空だったか、どれくらいかかったかも一緒に。\n\n■ 飾った雲にまた会える\n集めた雲を、スマートフォンが向いている方角に飾れます。\n東に飾った雲は、東を向いたときにまた現れます。\n\n■ 静かに、自分だけに\n写真と雲の判定は、すべてスマートフォンの中で完結します。\n写真をサーバーに送らず、アカウントもトラッキングもありません。",
+      "whatsNew": "英語・日本語・中国語（簡体字）に対応しました。"
+    },
+    "zh-Hans": {
+      "supportUrl": "https://www.letspets.co.kr",
+      "privacyPolicyUrl": "https://www.letspets.co.kr/privacy",
+      "marketingUrl": "https://www.letspets.co.kr",
+      "name": "云朵扫雷",
+      "subtitle": "把今天的天空留得久一点",
+      "keywords": "天空,照片拼图,地雷,收集,图鉴,相机,离线,益智,休闲,治愈,单机,免费,逻辑",
+      "promotionalText": "今天的天空很美，于是拍下了一张。这张照片会变成只属于你的棋盘，解开的云朵会留在图鉴里。朝着挂云的方向望去，就能再次遇见那天的天空。",
+      "description": "今天的天空美吗？舍不得错过的日子，就拍一张留下来吧。\n照片里的云，就是今天的棋盘。\n\n棋盘不是方方正正的格子，而是沿着那一刻云朵的轮廓生成。\n同样的天空不会出现第二次，所以每一局都不一样。\n\n■ 用当天的天空做成的棋盘\n用相机拍下天空，应用会自动找出云朵的区域并生成棋盘。\n如果不满意形状，也可以用手调整。\n\n■ 慢慢来也没关系\n第一格永远是安全的。每张照片会随机分配从\"简单\"到\"专家\"的难度，\n有顺利解开的日子，也有需要慢慢琢磨的日子。\n\n■ 过去的天空，一张一张留下\n解开的云朵会留在图鉴里，连同当时的时间、天空的样子和用了多久一起保存。\n\n■ 再次遇见挂起的云\n可以把收集的云挂在手机朝向的方向。\n挂在东边的云，在你望向东边时会再次出现。\n\n■ 安静地，只属于你\n照片和云朵识别都在手机里完成。\n照片不会上传到服务器，没有账号，也没有追踪。",
+      "whatsNew": "现已支持英语、日语和简体中文。"
     }
   }
 }
