@@ -14,7 +14,7 @@
     },
     "en-US": {
       "supportUrl": "https://www.letspets.co.kr",
-      "privacyPolicyUrl": "https://www.letspets.co.kr/privacy",
+      "privacyPolicyUrl": "https://www.letspets.co.kr/privacy/en",
       "marketingUrl": "https://www.letspets.co.kr",
       "name": "Cloud Minesweeper",
       "subtitle": "Turn today's sky into a puzzle",
@@ -25,7 +25,7 @@
     },
     "ja": {
       "supportUrl": "https://www.letspets.co.kr",
-      "privacyPolicyUrl": "https://www.letspets.co.kr/privacy",
+      "privacyPolicyUrl": "https://www.letspets.co.kr/privacy/en",
       "marketingUrl": "https://www.letspets.co.kr",
       "name": "雲のマインスイーパー",
       "subtitle": "今日の空を、もう少し長く",
@@ -36,7 +36,7 @@
     },
     "zh-Hans": {
       "supportUrl": "https://www.letspets.co.kr",
-      "privacyPolicyUrl": "https://www.letspets.co.kr/privacy",
+      "privacyPolicyUrl": "https://www.letspets.co.kr/privacy/en",
       "marketingUrl": "https://www.letspets.co.kr",
       "name": "云朵扫雷",
       "subtitle": "把今天的天空留得久一点",
