@@ -1,0 +1,3 @@
+"CFBundleDisplayName" = "雲のマインスイーパー";
+"NSCameraUsageDescription" = "本物の空を撮影して、雲の形のマインスイーパーを作ります。写真はサーバーに送信しません。";
+"NSMotionUsageDescription" = "スマホが向いている方向に合わせて、自分だけの雲の空を表示します。";

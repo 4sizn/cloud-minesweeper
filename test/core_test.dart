@@ -8,7 +8,7 @@ import 'package:cloud_minesweeper/sky_geometry.dart';
 
 MineGame solved({int seed = 7, Difficulty difficulty = Difficulty.normal}) {
   final game = MineGame(
-    shape: sampleClouds.first.shape,
+    shape: sampleClouds.first,
     seed: seed,
     name: 'test',
     difficulty: difficulty,
@@ -23,29 +23,24 @@ MineGame solved({int seed = 7, Difficulty difficulty = Difficulty.normal}) {
 
 void main() {
   test('every first cell is safe, counts respect the irregular board', () {
-    for (final sample in sampleClouds) {
-      for (final first in sample.shape.cells) {
-        final game = MineGame(
-          shape: sample.shape,
-          seed: first,
-          name: sample.name,
-        );
+    for (final shape in sampleClouds) {
+      for (final first in shape.cells) {
+        final game = MineGame(shape: shape, seed: first, name: 'sample');
         game.open(first);
         expect(game.mines.length, game.mineCount);
         expect(
-          game.mines.intersection({first, ...sample.shape.neighbors(first)}),
+          game.mines.intersection({first, ...shape.neighbors(first)}),
           isEmpty,
         );
         expect(game.opened.intersection(game.mines), isEmpty);
-        expect(game.mines.every(sample.shape.cells.contains), isTrue);
-        for (final cell in sample.shape.cells) {
-          final x = cell % sample.shape.columns,
-              y = cell ~/ sample.shape.columns;
+        expect(game.mines.every(shape.cells.contains), isTrue);
+        for (final cell in shape.cells) {
+          final x = cell % shape.columns, y = cell ~/ shape.columns;
           final expected = game.mines
               .where(
                 (mine) =>
-                    (mine % sample.shape.columns - x).abs() <= 1 &&
-                    (mine ~/ sample.shape.columns - y).abs() <= 1 &&
+                    (mine % shape.columns - x).abs() <= 1 &&
+                    (mine ~/ shape.columns - y).abs() <= 1 &&
                     mine != cell,
               )
               .length;
@@ -56,7 +51,7 @@ void main() {
   });
 
   test('flags block opening; mines lose; won and lost boards stay frozen', () {
-    final game = MineGame(shape: sampleClouds[1].shape, seed: 42, name: 'test');
+    final game = MineGame(shape: sampleClouds[1], seed: 42, name: 'test');
     final first = game.shape.cells.first;
     game.flag(first);
     game.open(first);
@@ -146,11 +141,11 @@ void main() {
         collection.collect(game, 4),
         throwsA(isA<FileSystemException>()),
       );
-      expect(collection.saveError, isNotNull);
+      expect(collection.saveFailed, isTrue);
       expect(collection.pieces, hasLength(1));
       await blocker.delete();
       await collection.collect(game, 4);
-      expect(collection.saveError, isNull);
+      expect(collection.saveFailed, isFalse);
       expect(collection.pieces, hasLength(1));
     },
   );

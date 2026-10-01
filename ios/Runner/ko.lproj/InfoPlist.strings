@@ -1,0 +1,3 @@
+"CFBundleDisplayName" = "지뢰찾기:구름";
+"NSCameraUsageDescription" = "실제 하늘을 촬영해 구름 모양의 지뢰찾기를 만들어요. 사진은 서버로 전송하지 않아요.";
+"NSMotionUsageDescription" = "휴대폰이 향하는 방향에 맞춰 나만의 구름 하늘을 보여줘요.";

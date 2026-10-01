@@ -19,6 +19,8 @@ void main() {
   testWidgets('win → collect → point and place → drag → undo → reload', (
     tester,
   ) async {
+    tester.platformDispatcher.localesTestValue = const [Locale('ko')];
+    addTearDown(tester.platformDispatcher.clearLocalesTestValue);
     final temporary = await getTemporaryDirectory();
     Future<void> screenshot(String name) async {
       await tester.runAsync(

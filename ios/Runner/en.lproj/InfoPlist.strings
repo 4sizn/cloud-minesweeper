@@ -1,0 +1,3 @@
+"CFBundleDisplayName" = "Cloud Minesweeper";
+"NSCameraUsageDescription" = "Photograph the real sky to turn a cloud's shape into a Minesweeper board. Photos are never sent to a server.";
+"NSMotionUsageDescription" = "Shows your own cloud sky in the direction your phone is facing.";

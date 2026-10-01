@@ -8,15 +8,13 @@ typedef CloudDraft = ({
 });
 
 enum Difficulty {
-  easy('쉬움', .08),
-  normal('보통', .12),
-  hard('어려움', .17),
-  expert('전문가', .22);
+  easy(.08),
+  normal(.12),
+  hard(.17),
+  expert(.22);
 
-  const Difficulty(this.label, this.mineRatio);
-  final String label;
+  const Difficulty(this.mineRatio);
   final double mineRatio;
-  String get description => '${index + 1}/4 · $label';
   static Difficulty roll(Random random) =>
       values[random.nextInt(values.length)];
 }
@@ -99,49 +97,37 @@ class CloudShape {
   };
 }
 
-final sampleClouds = <({String name, String note, CloudShape shape})>[
-  (
-    name: '느긋한 고래',
-    note: '처음 만나기 좋은 구름',
-    shape: CloudShape.pattern([
-      '.........',
-      '...###...',
-      '..#####..',
-      '.#######.',
-      '#########',
-      '#########',
-      '.#######.',
-      '..####...',
-    ]),
-  ),
-  (
-    name: '둥실둥실',
-    note: '동그랗게 피어난 구름',
-    shape: CloudShape.pattern([
-      '...###...',
-      '..#####..',
-      '.#######.',
-      '#########',
-      '#########',
-      '.#######.',
-      '..#####..',
-      '...###...',
-    ]),
-  ),
-  (
-    name: '긴 산책',
-    note: '바람을 따라 늘어난 구름',
-    shape: CloudShape.pattern([
-      '..........',
-      '.###......',
-      '#####.....',
-      '########..',
-      '##########',
-      '.#########',
-      '...######.',
-      '.....###..',
-    ]),
-  ),
+final sampleClouds = [
+  CloudShape.pattern([
+    '.........',
+    '...###...',
+    '..#####..',
+    '.#######.',
+    '#########',
+    '#########',
+    '.#######.',
+    '..####...',
+  ]),
+  CloudShape.pattern([
+    '...###...',
+    '..#####..',
+    '.#######.',
+    '#########',
+    '#########',
+    '.#######.',
+    '..#####..',
+    '...###...',
+  ]),
+  CloudShape.pattern([
+    '..........',
+    '.###......',
+    '#####.....',
+    '########..',
+    '##########',
+    '.#########',
+    '...######.',
+    '.....###..',
+  ]),
 ];
 
 enum GameStatus { ready, playing, won, lost }

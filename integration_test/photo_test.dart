@@ -12,6 +12,7 @@ import 'package:cloud_minesweeper/capture_screen.dart';
 import 'package:cloud_minesweeper/cloud_analysis.dart';
 import 'package:cloud_minesweeper/game.dart';
 import 'package:cloud_minesweeper/play_screen.dart';
+import 'package:cloud_minesweeper/l10n/app_localizations.dart';
 
 import 'fixtures/sky_photo.dart';
 import 'fixtures/cloud_cases.dart';
@@ -36,6 +37,9 @@ void main() {
     CloudDraft? draft;
     await tester.pumpWidget(
       MaterialApp(
+        locale: const Locale('ko'),
+        localizationsDelegates: AppLocalizations.localizationsDelegates,
+        supportedLocales: AppLocalizations.supportedLocales,
         debugShowCheckedModeBanner: false,
         home: Builder(
           builder: (context) => Scaffold(
@@ -100,7 +104,7 @@ void main() {
     await tester.tap(find.text('이 구름으로 시작'));
     await tester.pumpAndSettle();
     expect(draft!.source, 'camera-auto');
-    expect(difficultyText, '난이도 ${draft!.difficulty.description}');
+    expect(difficultyText, contains('${draft!.difficulty.index + 1}/4'));
     expect(
       tester.widget<PlayScreen>(find.byType(PlayScreen)).game.difficulty,
       draft!.difficulty,
@@ -138,6 +142,9 @@ void main() {
       );
       await tester.pumpWidget(
         MaterialApp(
+          locale: const Locale('ko'),
+          localizationsDelegates: AppLocalizations.localizationsDelegates,
+          supportedLocales: AppLocalizations.supportedLocales,
           home: CaptureScreen(initialPhoto: base64Decode(skyPhotoBase64)),
         ),
       );

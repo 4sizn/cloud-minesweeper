@@ -17,6 +17,8 @@ void main() {
     tester.view.devicePixelRatio = 1;
     addTearDown(tester.view.resetPhysicalSize);
     addTearDown(tester.view.resetDevicePixelRatio);
+    tester.platformDispatcher.localesTestValue = const [Locale('ko')];
+    addTearDown(tester.platformDispatcher.clearLocalesTestValue);
     final messenger = tester.binding.defaultBinaryMessenger;
     const codec = StandardMethodCodec();
     var listens = 0;
@@ -77,11 +79,7 @@ void main() {
     final previewStart = tester.getCenter(preview);
     await point(pi / 9);
     expect(tester.getCenter(preview).dx, lessThan(previewStart.dx - 50));
-    final game = MineGame(
-      shape: sampleClouds.first.shape,
-      seed: 7,
-      name: '북쪽 구름',
-    );
+    final game = MineGame(shape: sampleClouds.first, seed: 7, name: '북쪽 구름');
     game.open(game.shape.cells.first);
     for (final i in game.shape.cells) {
       if (!game.mines.contains(i)) game.open(i);

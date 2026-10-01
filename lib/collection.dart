@@ -12,7 +12,7 @@ class CloudCollection extends ChangeNotifier {
   final List<CloudPiece> _pieces = [];
   List<CloudPiece> get pieces => List.unmodifiable(_pieces);
   Future<void> _writes = Future.value();
-  String? saveError;
+  bool saveFailed = false;
 
   static Future<CloudCollection> open() async {
     final directory = await getApplicationSupportDirectory();
@@ -66,9 +66,9 @@ class CloudCollection extends ChangeNotifier {
         await temp.writeAsString(snapshot, flush: true);
         if (await file.exists()) await file.copy('${file.path}.bak');
         await temp.rename(file.path);
-        saveError = null;
+        saveFailed = false;
       } catch (_) {
-        saveError = '배치를 저장하지 못했어요. 다시 저장해주세요.';
+        saveFailed = true;
         rethrow;
       } finally {
         notifyListeners();

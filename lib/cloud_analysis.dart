@@ -58,10 +58,12 @@ PreparedCloudPhoto prepareCloudPhoto(Uint8List bytes) {
   );
 }
 
+enum CloudFinding { tooDark, noSky, noEdge, none, small, found }
+
 class CloudAnalysis {
-  const CloudAnalysis(this.cells, this.message);
+  const CloudAnalysis(this.cells, this.finding);
   final Set<int> cells;
-  final String message;
+  final CloudFinding finding;
   bool get playable => cells.length >= minimumCloudCells;
 }
 
@@ -145,10 +147,10 @@ CloudAnalysis cloudCellsFromMask(
     }
   }
   if (brightness / sky.length < .18) {
-    return const CloudAnalysis({}, '너무 어두워 구름을 찾기 어려워요. 밝은 하늘에서 다시 찍어주세요.');
+    return const CloudAnalysis({}, CloudFinding.tooDark);
   }
   if (skyPixels / sky.length < .12) {
-    return const CloudAnalysis({}, '하늘이 충분히 보이지 않아요. 카메라를 하늘로 향해주세요.');
+    return const CloudAnalysis({}, CloudFinding.noSky);
   }
   final candidates = <int>{
     for (var i = 0; i < scores.length; i++)
@@ -158,20 +160,15 @@ CloudAnalysis cloudCellsFromMask(
       ? candidates
       : CloudShape(cloudGridSide, cloudGridSide, candidates).largestComponent;
   if (cells.length > scores.length * .92) {
-    return const CloudAnalysis(
-      {},
-      '구름의 경계를 찾기 어려워요. 경계가 보이게 다시 찍거나 원하는 구름을 직접 골라주세요.',
-    );
+    return const CloudAnalysis({}, CloudFinding.noEdge);
   }
   if (cells.length < minimumCloudCells) {
     return CloudAnalysis(
       cells,
-      cells.isEmpty
-          ? '뚜렷한 구름을 찾지 못했어요. 구름이 보이게 다시 찍거나 직접 골라주세요.'
-          : '구름이 작게 잡혔어요. 더 가까이 찍거나 선택 영역을 조금 넓혀주세요.',
+      cells.isEmpty ? CloudFinding.none : CloudFinding.small,
     );
   }
-  return CloudAnalysis(cells, '구름을 자동으로 찾았어요. 모양을 확인하고 바로 시작하세요.');
+  return CloudAnalysis(cells, CloudFinding.found);
 }
 
 double _smooth(double low, double high, double value) {

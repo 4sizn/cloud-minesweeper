@@ -1,0 +1,3 @@
+"CFBundleDisplayName" = "云朵扫雷";
+"NSCameraUsageDescription" = "拍摄真实的天空，把云朵的形状变成扫雷棋盘。照片不会发送到服务器。";
+"NSMotionUsageDescription" = "根据手机朝向，展示属于你的云朵天空。";

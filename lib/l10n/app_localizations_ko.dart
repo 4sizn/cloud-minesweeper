@@ -1,0 +1,469 @@
+// ignore: unused_import
+import 'package:intl/intl.dart' as intl;
+
+import 'app_localizations.dart';
+
+// ignore_for_file: type=lint
+
+/// The translations for Korean (`ko`).
+class AppLocalizationsKo extends AppLocalizations {
+  AppLocalizationsKo([String locale = 'ko']) : super(locale);
+
+  @override
+  String get appName => '지뢰찾기:구름';
+
+  @override
+  String get loadErrorTitle => '도감을 불러오지 못했어요';
+
+  @override
+  String get loadErrorBody => '기존 구름은 그대로 보관하고 있어요.\n저장 공간을 확인한 뒤 다시 시도해주세요.';
+
+  @override
+  String get loadRetry => '다시 불러오기';
+
+  @override
+  String get cameraSettingsHint => '휴대폰 설정에서 지뢰찾기:구름의 카메라 권한을 켜주세요.';
+
+  @override
+  String get cameraSettingsFallback => '휴대폰 설정에서 카메라 권한을 변경할 수 있어요.';
+
+  @override
+  String get howToPlay => '플레이 방법';
+
+  @override
+  String get closeHelp => '도움말 닫기';
+
+  @override
+  String get help1Title => '1. 구름을 촬영해요';
+
+  @override
+  String get help1Body =>
+      '사진마다 쉬움·보통·어려움·전문가 중 하나가 같은 확률로 정해져요. 같은 사진의 수정과 재도전에서는 난이도가 유지돼요.';
+
+  @override
+  String get help2Title => '2. 안전한 칸을 열어요';
+
+  @override
+  String get help2Body =>
+      '숫자는 주변 8칸에 숨어 있는 지뢰 수예요. 지뢰가 의심되는 칸은 길게 누르거나 깃발 모드로 표시하세요. 첫 칸은 항상 안전해요.';
+
+  @override
+  String get help3Title => '3. 구름을 완성해요';
+
+  @override
+  String get help3Body =>
+      '지뢰가 없는 칸을 모두 열면 성공이에요. 숫자 칸 주위에 같은 수의 깃발을 놓고 숫자를 누르면 나머지 칸을 함께 열어요. 깃발이 틀리면 지뢰를 밟을 수 있어요. 작은 칸은 두 손가락으로 확대하세요.';
+
+  @override
+  String get help4Title => '4. 나만의 하늘에 놓아요';
+
+  @override
+  String get help4Body =>
+      '휴대폰을 돌려 방향을 고르고 구름을 놓으세요. 구름은 드래그로 옮기고, 가까이·멀리 슬라이더로 거리를 조절해요. 기기 방향 버튼을 누르면 터치 모드로 바꿀 수 있어요.';
+
+  @override
+  String get privacyText =>
+      '지뢰찾기:구름은 회원가입과 분석용 추적 없이 기기 안에서 동작합니다.\n\n광고\n게임에서 졌을 때와 구름을 보관할 때 Google AdMob 전면 광고가 나올 수 있습니다. AdMob은 광고를 보여주고 측정하기 위해 기기 식별자, IP 주소, 광고 상호작용 같은 정보를 처리합니다. 사진과 구름 모양은 광고에 쓰지 않습니다. 자세한 내용은 Google 개인정보처리방침(policies.google.com/privacy)을 참고하세요.\n\n촬영 사진\n카메라 권한은 구름 모양을 찾는 데 사용합니다. 사진은 기기 안에서 분석하며 서버로 보내거나 사진 보관함에 저장하지 않습니다. 촬영 임시 파일은 분석 처리가 끝나면 삭제를 시도하고, 메모리에 남은 사진은 촬영 화면을 닫으면 해제합니다. 예기치 않은 종료로 남은 임시 파일은 운영체제의 정리 대상입니다.\n\n기기 방향\n모션 센서는 구름을 바라보는 방향 계산에만 사용하며 기록하거나 전송하지 않습니다. GPS 위치를 수집하지 않습니다. 터치 모드로 전환하면 방향 센서 사용을 중단합니다.\n\n기기에 저장하는 정보\n완성한 구름의 칸 모양, 이름, 수집 날짜, 플레이 시간, 난이도, 하늘 배치를 앱 내부에 저장합니다. 저장 안정성을 위해 직전 상태의 백업 파일도 기기에 둡니다. 운영체제 백업 설정에 따라 앱 데이터가 기기 백업에 포함될 수 있습니다. 앱 삭제 시 기기 내부 앱 데이터가 삭제되며, 운영체제 백업은 해당 서비스의 설정에서 관리할 수 있습니다.\n\n권한과 문의\n카메라 권한은 휴대폰 설정에서 언제든 변경할 수 있습니다. 문의 메일을 직접 보내면 답변을 위해 이메일 주소와 문의 내용이 이메일 서비스에서 처리됩니다. 앱에서 메일을 자동 전송하지 않습니다.\n문의: 4sizn@naver.com\n안내 갱신일: 2026년 9월 26일';
+
+  @override
+  String get appInfo => '앱 안내';
+
+  @override
+  String appIntro(String version) {
+    return '구름을 발견하고, 퍼즐로 간직해요.\n버전 $version';
+  }
+
+  @override
+  String get privacyTitle => '개인정보 처리 안내';
+
+  @override
+  String get copyEmail => '문의 이메일 복사';
+
+  @override
+  String get emailCopied => '문의 이메일을 복사했어요.';
+
+  @override
+  String get licenses => '오픈소스 라이선스';
+
+  @override
+  String difficulty(String level) {
+    String _temp0 = intl.Intl.selectLogic(level, {
+      'easy': '쉬움',
+      'normal': '보통',
+      'hard': '어려움',
+      'expert': '전문가',
+      'other': '$level',
+    });
+    return '$_temp0';
+  }
+
+  @override
+  String difficultyBadge(int step, String level) {
+    return '난이도 $step/4 · $level';
+  }
+
+  @override
+  String get sensorTouchOnly => '터치로 하늘을 둘러볼 수 있어요';
+
+  @override
+  String get sensorUnavailable => '방향 센서를 사용할 수 없어 터치로 둘러봐요';
+
+  @override
+  String get saveFailedRetryBelow => '저장하지 못했어요. 아래의 다시 저장을 눌러주세요.';
+
+  @override
+  String get renameTitle => '구름에 이름 붙이기';
+
+  @override
+  String get cancel => '취소';
+
+  @override
+  String get save => '저장';
+
+  @override
+  String get collectionTitle => '모아온 구름';
+
+  @override
+  String pieceCount(int count) {
+    return '$count 조각';
+  }
+
+  @override
+  String get waitingForSpot => '놓을 자리 기다리는 중';
+
+  @override
+  String get homeTagline => '구름을 모으는 작은 습관';
+
+  @override
+  String get showAllClouds => '모든 구름 보기';
+
+  @override
+  String get mySky => '나의 하늘';
+
+  @override
+  String get skyEmptySubtitle => '작은 발견들이 모여, 나만의 하늘로.';
+
+  @override
+  String skySubtitle(int count) {
+    return '$count개의 구름, 이어지는 나의 이야기.';
+  }
+
+  @override
+  String get collectedLabel => '모은 구름';
+
+  @override
+  String get motionMode => '기기 방향';
+
+  @override
+  String get motionConnecting => '방향 연결 중';
+
+  @override
+  String get touchMode => '터치 모드';
+
+  @override
+  String get emptySkyTitle => '나만의 하늘을 채워보세요';
+
+  @override
+  String get emptySkyMotion => '휴대폰을 돌려 하늘을 둘러보세요';
+
+  @override
+  String get emptySkyTouch => '빈 하늘을 밀어 둘러보세요';
+
+  @override
+  String get undoMove => '마지막 이동 되돌리기';
+
+  @override
+  String get hintPlaceMotion => '휴대폰을 돌려 구름을 놓을 방향을 찾아보세요';
+
+  @override
+  String get hintPlaceTouch => '빈 하늘을 밀어 구름을 놓을 방향을 찾아보세요';
+
+  @override
+  String get hintDropToSave => '손을 놓으면 이 자리에 저장돼요';
+
+  @override
+  String get hintEmpty => '하늘에서 발견하고, 퍼즐로 간직해요';
+
+  @override
+  String get hintBrowseMotion => '휴대폰을 돌려 둘러보고 · 구름은 끌어서 옮겨요';
+
+  @override
+  String get hintBrowseTouch => '빈 하늘을 밀어 둘러보고 · 구름은 끌어서 옮겨요';
+
+  @override
+  String get unsavedChanges => '저장되지 않은 변경이 있어요';
+
+  @override
+  String get saveAgain => '다시 저장';
+
+  @override
+  String get newCloud => '새 구름';
+
+  @override
+  String cloudPieceSemantics(String name) {
+    return '$name, 구름 조각';
+  }
+
+  @override
+  String get near => '가까이';
+
+  @override
+  String get far => '멀리';
+
+  @override
+  String distanceSemantics(String scale) {
+    return '구름 거리, 기본의 $scale배';
+  }
+
+  @override
+  String get renameCloud => '구름 이름 바꾸기';
+
+  @override
+  String get findCloudDirection => '구름 방향 찾기';
+
+  @override
+  String get lookAtCloud => '이 구름 바라보기';
+
+  @override
+  String get meetTodaysCloud => '오늘의 구름을 만나러 갈까요?';
+
+  @override
+  String get placeConnecting => '방향 연결 중…';
+
+  @override
+  String get placeHere => '여기에 놓기';
+
+  @override
+  String get findNewCloud => '새 구름 찾기';
+
+  @override
+  String get placeLaterHint => '놓은 뒤에도 위치와 거리를 바꿀 수 있어요';
+
+  @override
+  String directionRight(int degrees) {
+    return '오른쪽 → $degrees°';
+  }
+
+  @override
+  String directionLeft(int degrees) {
+    return '← 왼쪽 $degrees°';
+  }
+
+  @override
+  String directionUp(int degrees) {
+    return '위 ↑ $degrees°';
+  }
+
+  @override
+  String directionDown(int degrees) {
+    return '아래 ↓ $degrees°';
+  }
+
+  @override
+  String get directionSearch => '휴대폰을 천천히 돌려 찾아보세요';
+
+  @override
+  String get cloudSaveFailed => '구름을 저장하지 못했어요. 다시 시도해주세요.';
+
+  @override
+  String get exitWonTitle => '구름을 보관하지 않고 나갈까요?';
+
+  @override
+  String get exitTitle => '이번 게임에서 나갈까요?';
+
+  @override
+  String get exitBody => '이 게임의 진행 상황은 저장되지 않아요. 모아둔 구름은 그대로 유지돼요.';
+
+  @override
+  String get keepPlaying => '계속하기';
+
+  @override
+  String get leave => '나가기';
+
+  @override
+  String get backToSky => '내 하늘로 돌아가기';
+
+  @override
+  String get wonTitle => '구름 하나를 완성했어요';
+
+  @override
+  String get lostTitle => '다시, 천천히 해볼까요';
+
+  @override
+  String get wonBody => '이제 나만의 하늘에 이어 붙여보세요.';
+
+  @override
+  String get lostBody => '이번 구름은 아직 모으지 않았어요.';
+
+  @override
+  String get playBody => '안전한 칸을 열어 구름을 완성하세요.';
+
+  @override
+  String get minesLeft => '남은 지뢰';
+
+  @override
+  String get timeSpent => '보낸 시간';
+
+  @override
+  String get openedCells => '열린 칸';
+
+  @override
+  String get openCell => '칸 열기';
+
+  @override
+  String get placeFlag => '깃발 놓기';
+
+  @override
+  String get firstCellHint => '첫 칸은 안전해요 · 길게 눌러도 깃발을 놓을 수 있어요';
+
+  @override
+  String get zoomHint => '작은 칸은 두 손가락으로 확대해보세요';
+
+  @override
+  String get keepingCloud => '구름을 보관하고 있어요';
+
+  @override
+  String get placeInMySky => '내 하늘에 놓기';
+
+  @override
+  String get tryAgain => '다시 도전';
+
+  @override
+  String get playEyebrow => '천천히, 한 칸씩';
+
+  @override
+  String get cellMine => '지뢰';
+
+  @override
+  String get cellFlag => '깃발';
+
+  @override
+  String cellOpen(int count) {
+    return '주변 지뢰 $count개';
+  }
+
+  @override
+  String get cellClosed => '닫힌 칸';
+
+  @override
+  String cellSemantics(int row, int col, String description) {
+    return '$row행 $col열, $description';
+  }
+
+  @override
+  String get cameraDenied => '카메라 접근이 꺼져 있어요.\n설정에서 카메라 권한을 켜주세요.';
+
+  @override
+  String get cameraFailed => '카메라를 연결하지 못했어요.\n잠시 후 다시 시도해주세요.';
+
+  @override
+  String get shotFailed => '촬영하지 못했어요. 다시 시도해주세요.';
+
+  @override
+  String get analysing => '기기 안에서 구름 모양을 분석하고 있어요.';
+
+  @override
+  String get analysisFailed => '자동 분석을 마치지 못했어요. 다시 분석하거나 구름을 직접 골라주세요.';
+
+  @override
+  String get findingTooDark => '너무 어두워 구름을 찾기 어려워요. 밝은 하늘에서 다시 찍어주세요.';
+
+  @override
+  String get findingNoSky => '하늘이 충분히 보이지 않아요. 카메라를 하늘로 향해주세요.';
+
+  @override
+  String get findingNoEdge =>
+      '구름의 경계를 찾기 어려워요. 경계가 보이게 다시 찍거나 원하는 구름을 직접 골라주세요.';
+
+  @override
+  String get findingNone => '뚜렷한 구름을 찾지 못했어요. 구름이 보이게 다시 찍거나 직접 골라주세요.';
+
+  @override
+  String get findingSmall => '구름이 작게 잡혔어요. 더 가까이 찍거나 선택 영역을 조금 넓혀주세요.';
+
+  @override
+  String get findingFound => '구름을 자동으로 찾았어요. 모양을 확인하고 바로 시작하세요.';
+
+  @override
+  String needConnectedCells(int count) {
+    return '서로 이어진 구름 칸을 $count개 이상 골라주세요.';
+  }
+
+  @override
+  String get defaultCloudName => '내가 찾은 구름';
+
+  @override
+  String get captureTitle => '오늘의 하늘 찾기';
+
+  @override
+  String get foundTitle => '찾아낸 구름';
+
+  @override
+  String get captureHeading => '하늘을 화면에 담아주세요';
+
+  @override
+  String get searchingHeading => '구름을 찾고 있어요';
+
+  @override
+  String get playHeading => '이 구름으로 놀아볼까요?';
+
+  @override
+  String get captureHint => '한 장 찍으면 구름 모양을 자동으로 찾아요.';
+
+  @override
+  String zoomSemantics(String scale) {
+    return '확대 $scale배';
+  }
+
+  @override
+  String difficultySemantics(int step, String level) {
+    return '이번 구름 난이도 $step/4 · $level';
+  }
+
+  @override
+  String selectionCount(int selected, int required) {
+    return '$selected칸 선택 · 연결된 $required칸 이상 필요';
+  }
+
+  @override
+  String get restoreAuto => '자동 선택 복원';
+
+  @override
+  String get clearAll => '전체 지우기';
+
+  @override
+  String get paintHint => '구름을 칠해 추가하고, 다시 칠해 지워요.';
+
+  @override
+  String get startWithCloud => '이 구름으로 시작';
+
+  @override
+  String get reanalyse => '다시 분석';
+
+  @override
+  String get finishEditing => '수정 마치기';
+
+  @override
+  String get editShape => '모양 수정';
+
+  @override
+  String get retake => '다시 촬영';
+
+  @override
+  String get openSettings => '설정 열기';
+
+  @override
+  String get reconnectCamera => '카메라 다시 연결';
+
+  @override
+  String get capturing => '촬영하고 있어요';
+
+  @override
+  String get captureSky => '하늘 담기';
+
+  @override
+  String get difficultyRollHint => '촬영할 때마다 4단계 난이도 중 하나가 정해져요.';
+
+  @override
+  String get privacyNote => '사진은 보관하지 않고 구름 모양만 남겨요.\n모든 과정은 기기 안에서 이루어져요.';
+}

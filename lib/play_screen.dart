@@ -8,6 +8,7 @@ import 'ads.dart';
 import 'collection.dart';
 import 'app_info.dart';
 import 'game.dart';
+import 'l10n/app_localizations.dart';
 import 'style.dart';
 
 class PlayScreen extends StatefulWidget {
@@ -82,7 +83,7 @@ class _PlayScreenState extends State<PlayScreen> with WidgetsBindingObserver {
       if (mounted) {
         setState(() => saving = false);
         ScaffoldMessenger.of(context).showSnackBar(
-          const SnackBar(content: Text('구름을 저장하지 못했어요. 다시 시도해주세요.')),
+          SnackBar(content: Text(AppLocalizations.of(context).cloudSaveFailed)),
         );
       }
     }
@@ -111,21 +112,22 @@ class _PlayScreenState extends State<PlayScreen> with WidgetsBindingObserver {
     if (confirmingExit || saving) return;
     confirmingExit = true;
     stopwatch.stop();
+    final l = AppLocalizations.of(context);
     final leave = await showDialog<bool>(
       context: context,
       builder: (context) => AlertDialog(
         title: Text(
-          game.status == GameStatus.won ? '구름을 보관하지 않고 나갈까요?' : '이번 게임에서 나갈까요?',
+          game.status == GameStatus.won ? l.exitWonTitle : l.exitTitle,
         ),
-        content: const Text('이 게임의 진행 상황은 저장되지 않아요. 모아둔 구름은 그대로 유지돼요.'),
+        content: Text(l.exitBody),
         actions: [
           TextButton(
             onPressed: () => Navigator.pop(context, false),
-            child: const Text('계속하기'),
+            child: Text(l.keepPlaying),
           ),
           TextButton(
             onPressed: () => Navigator.pop(context, true),
-            child: const Text('나가기'),
+            child: Text(l.leave),
           ),
         ],
       ),
@@ -151,6 +153,7 @@ class _PlayScreenState extends State<PlayScreen> with WidgetsBindingObserver {
   Widget build(BuildContext context) {
     final won = game.status == GameStatus.won;
     final lost = game.status == GameStatus.lost;
+    final l = AppLocalizations.of(context);
     return PopScope<CloudPiece>(
       canPop:
           !saving &&
@@ -168,7 +171,7 @@ class _PlayScreenState extends State<PlayScreen> with WidgetsBindingObserver {
                   child: Row(
                     children: [
                       IconButton(
-                        tooltip: '내 하늘로 돌아가기',
+                        tooltip: l.backToSky,
                         onPressed: saving
                             ? null
                             : () => Navigator.maybePop(context),
@@ -179,7 +182,10 @@ class _PlayScreenState extends State<PlayScreen> with WidgetsBindingObserver {
                           alignment: Alignment.centerRight,
                           child: Chip(
                             label: Text(
-                              '난이도 ${game.difficulty.description}',
+                              l.difficultyBadge(
+                                game.difficulty.index + 1,
+                                l.difficulty(game.difficulty.name),
+                              ),
                               maxLines: 1,
                               overflow: TextOverflow.ellipsis,
                             ),
@@ -187,7 +193,7 @@ class _PlayScreenState extends State<PlayScreen> with WidgetsBindingObserver {
                         ),
                       ),
                       IconButton(
-                        tooltip: '플레이 방법',
+                        tooltip: l.howToPlay,
                         onPressed: help,
                         icon: const Icon(Icons.help_outline, size: 21),
                       ),
@@ -202,9 +208,9 @@ class _PlayScreenState extends State<PlayScreen> with WidgetsBindingObserver {
                         const SizedBox(height: 24),
                         Text(
                           won
-                              ? '구름 하나를 완성했어요'
+                              ? l.wonTitle
                               : lost
-                              ? '다시, 천천히 해볼까요'
+                              ? l.lostTitle
                               : game.name,
                           textAlign: TextAlign.center,
                           style: const TextStyle(
@@ -216,10 +222,10 @@ class _PlayScreenState extends State<PlayScreen> with WidgetsBindingObserver {
                         const SizedBox(height: 12),
                         Text(
                           won
-                              ? '이제 나만의 하늘에 이어 붙여보세요.'
+                              ? l.wonBody
                               : lost
-                              ? '이번 구름은 아직 모으지 않았어요.'
-                              : '안전한 칸을 열어 구름을 완성하세요.',
+                              ? l.lostBody
+                              : l.playBody,
                           textAlign: TextAlign.center,
                           style: const TextStyle(color: mutedInk, fontSize: 14),
                         ),
@@ -232,17 +238,17 @@ class _PlayScreenState extends State<PlayScreen> with WidgetsBindingObserver {
                             _Stat(
                               Icons.flag_outlined,
                               '${max(0, game.mineCount - game.flagged.length)}',
-                              '남은 지뢰',
+                              l.minesLeft,
                             ),
                             _Stat(
                               Icons.timer_outlined,
                               clockLabel(seconds),
-                              '보낸 시간',
+                              l.timeSpent,
                             ),
                             _Stat(
                               Icons.grid_view_rounded,
                               '${game.opened.length}/${game.safeCount}',
-                              '열린 칸',
+                              l.openedCells,
                             ),
                           ],
                         ),
@@ -296,16 +302,16 @@ class _PlayScreenState extends State<PlayScreen> with WidgetsBindingObserver {
                                         17
                                 ? Axis.vertical
                                 : Axis.horizontal,
-                            segments: const [
+                            segments: [
                               ButtonSegment(
                                 value: false,
-                                icon: Icon(Icons.touch_app_outlined),
-                                label: Text('칸 열기'),
+                                icon: const Icon(Icons.touch_app_outlined),
+                                label: Text(l.openCell),
                               ),
                               ButtonSegment(
                                 value: true,
-                                icon: Icon(Icons.flag_outlined),
-                                label: Text('깃발 놓기'),
+                                icon: const Icon(Icons.flag_outlined),
+                                label: Text(l.placeFlag),
                               ),
                             ],
                             selected: {flagMode},
@@ -313,15 +319,22 @@ class _PlayScreenState extends State<PlayScreen> with WidgetsBindingObserver {
                                 setState(() => flagMode = selection.first),
                           ),
                           const SizedBox(height: 16),
-                          const Text(
-                            '첫 칸은 안전해요 · 길게 눌러도 깃발을 놓을 수 있어요',
+                          Text(
+                            l.firstCellHint,
                             textAlign: TextAlign.center,
-                            style: TextStyle(fontSize: 12, color: mutedInk),
+                            style: const TextStyle(
+                              fontSize: 12,
+                              color: mutedInk,
+                            ),
                           ),
                           const SizedBox(height: 8),
-                          const Text(
-                            '작은 칸은 두 손가락으로 확대해보세요',
-                            style: TextStyle(fontSize: 12, color: mutedInk),
+                          Text(
+                            l.zoomHint,
+                            textAlign: TextAlign.center,
+                            style: const TextStyle(
+                              fontSize: 12,
+                              color: mutedInk,
+                            ),
                           ),
                         ],
                       ],
@@ -333,8 +346,8 @@ class _PlayScreenState extends State<PlayScreen> with WidgetsBindingObserver {
                     padding: const EdgeInsets.fromLTRB(26, 20, 26, 22),
                     child: PrimaryButton(
                       label: won
-                          ? (saving ? '구름을 보관하고 있어요' : '내 하늘에 놓기')
-                          : '다시 도전',
+                          ? (saving ? l.keepingCloud : l.placeInMySky)
+                          : l.tryAgain,
                       icon: won ? Icons.add_rounded : Icons.refresh_rounded,
                       onPressed: saving
                           ? null
@@ -344,9 +357,9 @@ class _PlayScreenState extends State<PlayScreen> with WidgetsBindingObserver {
                     ),
                   ),
                 if (!game.finished)
-                  const Padding(
-                    padding: EdgeInsets.only(bottom: 20, top: 14),
-                    child: Eyebrow('천천히, 한 칸씩'),
+                  Padding(
+                    padding: const EdgeInsets.only(bottom: 20, top: 14),
+                    child: Eyebrow(l.playEyebrow),
                   ),
               ],
             ),
@@ -368,15 +381,16 @@ class _PlayScreenState extends State<PlayScreen> with WidgetsBindingObserver {
       const Color(0xFF7863A2),
     ];
     final row = i ~/ game.shape.columns + 1, col = i % game.shape.columns + 1;
+    final l = AppLocalizations.of(context);
     final description = mine
-        ? '지뢰'
+        ? l.cellMine
         : flag
-        ? '깃발'
+        ? l.cellFlag
         : open
-        ? '주변 지뢰 $count개'
-        : '닫힌 칸';
+        ? l.cellOpen(count)
+        : l.cellClosed;
     return Semantics(
-      label: '$row행 $col열, $description',
+      label: l.cellSemantics(row, col, description),
       button: !open && !game.finished,
       child: GestureDetector(
         key: ValueKey('cell-$i'),

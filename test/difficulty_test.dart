@@ -8,6 +8,7 @@ import 'package:cloud_minesweeper/play_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:image/image.dart' as img;
+import 'package:cloud_minesweeper/l10n/app_localizations.dart';
 
 void main() {
   test(
@@ -61,7 +62,12 @@ void main() {
       img.fill(photo, color: img.ColorRgb8(45, 125, 235));
       // No native ONNX plugin in widget tests: the real error/retry path is exercised.
       await tester.pumpWidget(
-        MaterialApp(home: CaptureScreen(initialPhoto: img.encodePng(photo))),
+        MaterialApp(
+          locale: const Locale('ko'),
+          localizationsDelegates: AppLocalizations.localizationsDelegates,
+          supportedLocales: AppLocalizations.supportedLocales,
+          home: CaptureScreen(initialPhoto: img.encodePng(photo)),
+        ),
       );
       Future<void> finishAnalysis() async {
         for (var i = 0; i < 100 && find.text('다시 분석').evaluate().isEmpty; i++) {
@@ -96,7 +102,7 @@ void main() {
       addTearDown(tester.view.resetPhysicalSize);
       addTearDown(tester.view.resetDevicePixelRatio);
       final game = MineGame(
-        shape: sampleClouds.first.shape,
+        shape: sampleClouds.first,
         seed: 71,
         name: '사진 구름',
         difficulty: Difficulty.expert,
@@ -106,6 +112,9 @@ void main() {
       expect(game.status, GameStatus.lost);
       await tester.pumpWidget(
         MaterialApp(
+          locale: const Locale('ko'),
+          localizationsDelegates: AppLocalizations.localizationsDelegates,
+          supportedLocales: AppLocalizations.supportedLocales,
           home: Builder(
             builder: (context) => Scaffold(
               body: TextButton(

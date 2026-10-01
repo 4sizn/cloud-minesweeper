@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_localizations/flutter_localizations.dart';
 
 import 'ads.dart';
+import 'l10n/app_localizations.dart';
 import 'collection.dart';
 import 'app_info.dart';
 import 'sky_home.dart';
@@ -29,13 +29,16 @@ class CloudApp extends StatelessWidget {
   final Uint8List? capturePhoto;
   @override
   Widget build(BuildContext context) => MaterialApp(
-    title: '지뢰찾기:구름',
+    onGenerateTitle: (context) => AppLocalizations.of(context).appName,
     debugShowCheckedModeBanner: false,
-    // The app is Korean only; this keeps Flutter's own tooltips, menus and
-    // screen reader labels in Korean too, whatever the device language is.
-    locale: const Locale('ko'),
-    supportedLocales: const [Locale('ko')],
-    localizationsDelegates: GlobalMaterialLocalizations.delegates,
+    // English first: other device languages fall back to it.
+    supportedLocales: const [
+      Locale('en'),
+      Locale('ko'),
+      Locale('ja'),
+      Locale('zh'),
+    ],
+    localizationsDelegates: AppLocalizations.localizationsDelegates,
     theme: ThemeData(
       useMaterial3: true,
       colorScheme: ColorScheme.fromSeed(
@@ -81,6 +84,7 @@ class _LoadCollectionState extends State<_LoadCollection> {
     future: loading,
     builder: (context, snapshot) {
       if (snapshot.hasData) return SkyHome(collection: snapshot.data!);
+      final l = AppLocalizations.of(context);
       return Scaffold(
         body: SkyBackground(
           child: Center(
@@ -92,21 +96,18 @@ class _LoadCollectionState extends State<_LoadCollection> {
                       children: [
                         const Icon(Icons.cloud_off_outlined, size: 40),
                         const SizedBox(height: 20),
-                        const Text(
-                          '도감을 불러오지 못했어요',
-                          style: TextStyle(
+                        Text(
+                          l.loadErrorTitle,
+                          style: const TextStyle(
                             fontSize: 22,
                             fontWeight: FontWeight.w600,
                           ),
                         ),
                         const SizedBox(height: 12),
-                        const Text(
-                          '기존 구름은 그대로 보관하고 있어요.\n저장 공간을 확인한 뒤 다시 시도해주세요.',
-                          textAlign: TextAlign.center,
-                        ),
+                        Text(l.loadErrorBody, textAlign: TextAlign.center),
                         const SizedBox(height: 24),
                         PrimaryButton(
-                          label: '다시 불러오기',
+                          label: l.loadRetry,
                           onPressed: () =>
                               setState(() => loading = CloudCollection.open()),
                         ),

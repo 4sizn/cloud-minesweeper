@@ -10,6 +10,7 @@ import 'capture_screen.dart';
 import 'app_info.dart';
 import 'collection.dart';
 import 'game.dart';
+import 'l10n/app_localizations.dart';
 import 'play_screen.dart';
 import 'sky_geometry.dart';
 import 'style.dart';
@@ -87,7 +88,9 @@ class _SkyHomeState extends State<SkyHome> with WidgetsBindingObserver {
       return;
     }
     if (!sensor.RotationSensor.isPlatformSupported) {
-      setState(() => sensorMessage = '터치로 하늘을 둘러볼 수 있어요');
+      setState(
+        () => sensorMessage = AppLocalizations.of(context).sensorTouchOnly,
+      );
       return;
     }
     sensor.RotationSensor.samplingPeriod = const Duration(milliseconds: 32);
@@ -136,7 +139,7 @@ class _SkyHomeState extends State<SkyHome> with WidgetsBindingObserver {
         setState(() {
           motionEnabled = false;
           sensorAvailable = false;
-          sensorMessage = '방향 센서를 사용할 수 없어 터치로 둘러봐요';
+          sensorMessage = AppLocalizations.of(context).sensorUnavailable;
         });
       },
     );
@@ -145,7 +148,7 @@ class _SkyHomeState extends State<SkyHome> with WidgetsBindingObserver {
         stopMotion();
         setState(() {
           motionEnabled = false;
-          sensorMessage = '방향 센서를 사용할 수 없어 터치로 둘러봐요';
+          sensorMessage = AppLocalizations.of(context).sensorUnavailable;
         });
       }
     });
@@ -190,7 +193,9 @@ class _SkyHomeState extends State<SkyHome> with WidgetsBindingObserver {
     } catch (_) {
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
-          const SnackBar(content: Text('저장하지 못했어요. 아래의 다시 저장을 눌러주세요.')),
+          SnackBar(
+            content: Text(AppLocalizations.of(context).saveFailedRetryBelow),
+          ),
         );
       }
     }
@@ -378,10 +383,11 @@ class _SkyHomeState extends State<SkyHome> with WidgetsBindingObserver {
 
   Future<void> rename(CloudPiece piece) async {
     final controller = TextEditingController(text: piece.name);
+    final l = AppLocalizations.of(context);
     final name = await showDialog<String>(
       context: context,
       builder: (context) => AlertDialog(
-        title: const Text('구름에 이름 붙이기'),
+        title: Text(l.renameTitle),
         content: TextField(
           controller: controller,
           autofocus: true,
@@ -394,7 +400,7 @@ class _SkyHomeState extends State<SkyHome> with WidgetsBindingObserver {
         actions: [
           TextButton(
             onPressed: () => Navigator.pop(context),
-            child: const Text('취소'),
+            child: Text(l.cancel),
           ),
           TextButton(
             onPressed: () {
@@ -402,7 +408,7 @@ class _SkyHomeState extends State<SkyHome> with WidgetsBindingObserver {
                 Navigator.pop(context, controller.text.trim());
               }
             },
-            child: const Text('저장'),
+            child: Text(l.save),
           ),
         ],
       ),
@@ -427,6 +433,7 @@ class _SkyHomeState extends State<SkyHome> with WidgetsBindingObserver {
   }
 
   Future<void> showCollection() async {
+    final l = AppLocalizations.of(context);
     final piece = await showModalBottomSheet<CloudPiece>(
       context: context,
       showDragHandle: true,
@@ -438,13 +445,16 @@ class _SkyHomeState extends State<SkyHome> with WidgetsBindingObserver {
               padding: const EdgeInsets.fromLTRB(24, 0, 24, 18),
               child: Row(
                 children: [
-                  const Text(
-                    '모아온 구름',
-                    style: TextStyle(fontSize: 24, fontWeight: FontWeight.w700),
+                  Text(
+                    l.collectionTitle,
+                    style: const TextStyle(
+                      fontSize: 24,
+                      fontWeight: FontWeight.w700,
+                    ),
                   ),
                   const Spacer(),
                   Text(
-                    '${pieces.length} 조각',
+                    l.pieceCount(pieces.length),
                     style: const TextStyle(color: mutedInk),
                   ),
                 ],
@@ -469,7 +479,7 @@ class _SkyHomeState extends State<SkyHome> with WidgetsBindingObserver {
                       overflow: TextOverflow.ellipsis,
                     ),
                     subtitle: Text(
-                      '${cloud.difficulty.label} · ${dateLabel(cloud.collectedAt)}\n${cloud.placed ? clockLabel(cloud.seconds) : '놓을 자리 기다리는 중'}',
+                      '${l.difficulty(cloud.difficulty.name)} · ${dateLabel(cloud.collectedAt)}\n${cloud.placed ? clockLabel(cloud.seconds) : l.waitingForSpot}',
                     ),
                     trailing: const Icon(Icons.near_me_outlined, size: 19),
                     onTap: () => Navigator.pop(context, cloud),
@@ -487,6 +497,7 @@ class _SkyHomeState extends State<SkyHome> with WidgetsBindingObserver {
   @override
   Widget build(BuildContext context) {
     final direction = view.forward.direction;
+    final l = AppLocalizations.of(context);
     return Scaffold(
       body: SkyBackground(
         view: view,
@@ -498,20 +509,20 @@ class _SkyHomeState extends State<SkyHome> with WidgetsBindingObserver {
                 padding: const EdgeInsets.fromLTRB(26, 18, 18, 0),
                 child: Row(
                   children: [
-                    const Expanded(
+                    Expanded(
                       child: Text(
-                        '구름을 모으는 작은 습관',
-                        style: TextStyle(fontSize: 12, color: mutedInk),
+                        l.homeTagline,
+                        style: const TextStyle(fontSize: 12, color: mutedInk),
                       ),
                     ),
                     IconButton(
-                      tooltip: '앱 안내',
+                      tooltip: l.appInfo,
                       onPressed: openInfo,
                       icon: const Icon(Icons.info_outline, size: 21),
                     ),
                     if (pieces.isNotEmpty)
                       IconButton(
-                        tooltip: '모든 구름 보기',
+                        tooltip: l.showAllClouds,
                         onPressed: pieces.isEmpty ? null : showCollection,
                         icon: const Icon(Icons.grid_view_rounded, size: 21),
                       ),
@@ -527,9 +538,9 @@ class _SkyHomeState extends State<SkyHome> with WidgetsBindingObserver {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          const Text(
-                            '나의 하늘',
-                            style: TextStyle(
+                          Text(
+                            l.mySky,
+                            style: const TextStyle(
                               fontSize: 40,
                               fontWeight: FontWeight.w600,
                               letterSpacing: -2,
@@ -538,8 +549,8 @@ class _SkyHomeState extends State<SkyHome> with WidgetsBindingObserver {
                           const SizedBox(height: 10),
                           Text(
                             pieces.isEmpty
-                                ? '작은 발견들이 모여, 나만의 하늘로.'
-                                : '${pieces.length}개의 구름, 이어지는 나의 이야기.',
+                                ? l.skyEmptySubtitle
+                                : l.skySubtitle(pieces.length),
                             style: const TextStyle(
                               color: mutedInk,
                               fontSize: 13,
@@ -560,9 +571,9 @@ class _SkyHomeState extends State<SkyHome> with WidgetsBindingObserver {
                             ),
                           ),
                           const SizedBox(height: 2),
-                          const Text(
-                            '모은 구름',
-                            style: TextStyle(
+                          Text(
+                            l.collectedLabel,
+                            style: const TextStyle(
                               fontSize: 7,
                               letterSpacing: 1.1,
                               color: mutedInk,
@@ -609,8 +620,10 @@ class _SkyHomeState extends State<SkyHome> with WidgetsBindingObserver {
                             const SizedBox(width: 6),
                             Text(
                               motionEnabled
-                                  ? (sensorAvailable ? '기기 방향' : '방향 연결 중')
-                                  : '터치 모드',
+                                  ? (sensorAvailable
+                                        ? l.motionMode
+                                        : l.motionConnecting)
+                                  : l.touchMode,
                               style: const TextStyle(
                                 fontSize: 11,
                                 fontWeight: FontWeight.w600,
@@ -653,9 +666,9 @@ class _SkyHomeState extends State<SkyHome> with WidgetsBindingObserver {
                                   child: Column(
                                     mainAxisSize: MainAxisSize.min,
                                     children: [
-                                      const Text(
-                                        '나만의 하늘을 채워보세요',
-                                        style: TextStyle(
+                                      Text(
+                                        l.emptySkyTitle,
+                                        style: const TextStyle(
                                           fontSize: 17,
                                           fontWeight: FontWeight.w500,
                                         ),
@@ -663,8 +676,8 @@ class _SkyHomeState extends State<SkyHome> with WidgetsBindingObserver {
                                       const SizedBox(height: 8),
                                       Text(
                                         motionEnabled
-                                            ? '휴대폰을 돌려 하늘을 둘러보세요'
-                                            : '빈 하늘을 밀어 둘러보세요',
+                                            ? l.emptySkyMotion
+                                            : l.emptySkyTouch,
                                         style: TextStyle(
                                           fontSize: 12,
                                           color: mutedInk,
@@ -685,7 +698,7 @@ class _SkyHomeState extends State<SkyHome> with WidgetsBindingObserver {
                                   right: 24,
                                   child: IgnorePointer(
                                     child: Text(
-                                      directionGuide(selected!, direction),
+                                      directionGuide(l, selected!, direction),
                                       key: const ValueKey(
                                         'cloud-direction-guide',
                                       ),
@@ -704,7 +717,7 @@ class _SkyHomeState extends State<SkyHome> with WidgetsBindingObserver {
                                   right: 16,
                                   top: 14,
                                   child: IconButton.filledTonal(
-                                    tooltip: '마지막 이동 되돌리기',
+                                    tooltip: l.undoMove,
                                     onPressed: () {
                                       final previous = undo!;
                                       setState(() {
@@ -734,32 +747,30 @@ class _SkyHomeState extends State<SkyHome> with WidgetsBindingObserver {
                 padding: const EdgeInsets.fromLTRB(20, 0, 20, 17),
                 child: Text(
                   pending != null
-                      ? (motionEnabled
-                            ? '휴대폰을 돌려 구름을 놓을 방향을 찾아보세요'
-                            : '빈 하늘을 밀어 구름을 놓을 방향을 찾아보세요')
+                      ? (motionEnabled ? l.hintPlaceMotion : l.hintPlaceTouch)
                       : draggingId != null
-                      ? '손을 놓으면 이 자리에 저장돼요'
+                      ? l.hintDropToSave
                       : pieces.isEmpty
-                      ? '하늘에서 발견하고, 퍼즐로 간직해요'
+                      ? l.hintEmpty
                       : motionEnabled
-                      ? '휴대폰을 돌려 둘러보고 · 구름은 끌어서 옮겨요'
-                      : '빈 하늘을 밀어 둘러보고 · 구름은 끌어서 옮겨요',
+                      ? l.hintBrowseMotion
+                      : l.hintBrowseTouch,
                   textAlign: TextAlign.center,
                   style: const TextStyle(fontSize: 11, color: mutedInk),
                 ),
               ),
-              if (widget.collection.saveError != null)
+              if (widget.collection.saveFailed)
                 Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 24),
                   child: Row(
                     children: [
-                      const Expanded(
+                      Expanded(
                         child: Text(
-                          '저장되지 않은 변경이 있어요',
-                          style: TextStyle(color: accent, fontSize: 12),
+                          l.unsavedChanges,
+                          style: const TextStyle(color: accent, fontSize: 12),
                         ),
                       ),
-                      TextButton(onPressed: save, child: const Text('다시 저장')),
+                      TextButton(onPressed: save, child: Text(l.saveAgain)),
                     ],
                   ),
                 ),
@@ -790,15 +801,15 @@ class _SkyHomeState extends State<SkyHome> with WidgetsBindingObserver {
         ),
       ),
       if (size.height > 130)
-        const Positioned(
+        Positioned(
           top: 14,
           left: 0,
           right: 0,
           child: IgnorePointer(
             child: Center(
               child: Text(
-                '새 구름',
-                style: TextStyle(color: accent, fontSize: 11),
+                AppLocalizations.of(context).newCloud,
+                style: const TextStyle(color: accent, fontSize: 11),
               ),
             ),
           ),
@@ -823,15 +834,12 @@ class _SkyHomeState extends State<SkyHome> with WidgetsBindingObserver {
         left: center.x - width / 2,
         top:
             center.y -
-            width *
-                sampleClouds.first.shape.rows /
-                sampleClouds.first.shape.columns /
-                2,
+            width * sampleClouds.first.rows / sampleClouds.first.columns / 2,
         width: width,
         child: IgnorePointer(
           child: CloudArtwork(
             key: const ValueKey('preview-cloud'),
-            shape: sampleClouds.first.shape,
+            shape: sampleClouds.first,
             opacity: .76,
           ),
         ),
@@ -869,7 +877,7 @@ class _SkyHomeState extends State<SkyHome> with WidgetsBindingObserver {
         Positioned.fromRect(
           rect: rect,
           child: Semantics(
-            label: '${piece.name}, 구름 조각',
+            label: AppLocalizations.of(context).cloudPieceSemantics(piece.name),
             child: CloudArtwork(
               key: ValueKey('cloud-piece-${piece.id}'),
               shape: piece.shape,
@@ -882,34 +890,38 @@ class _SkyHomeState extends State<SkyHome> with WidgetsBindingObserver {
     return widgets;
   }
 
-  Widget distanceControl(CloudPiece cloud) => Row(
-    children: [
-      const Text('가까이', style: TextStyle(fontSize: 11, color: mutedInk)),
-      Expanded(
-        child: Slider(
-          key: const ValueKey('cloud-distance'),
-          value: log(cloud.distance),
-          min: log(CloudPiece.minDistance),
-          max: log(CloudPiece.maxDistance),
-          semanticFormatterCallback: (value) =>
-              '구름 거리, 기본의 ${exp(value).toStringAsFixed(1)}배',
-          onChangeStart: (_) {
-            beginDistanceChange(cloud);
-          },
-          onChanged: (value) => setState(() {
-            final distance = exp(value)
-                .clamp(CloudPiece.minDistance, CloudPiece.maxDistance);
-            cloud.distance = distance;
-          }),
-          onChangeEnd: (_) => endGesture(ScaleEndDetails()),
+  Widget distanceControl(CloudPiece cloud) {
+    final l = AppLocalizations.of(context);
+    return Row(
+      children: [
+        Text(l.near, style: const TextStyle(fontSize: 11, color: mutedInk)),
+        Expanded(
+          child: Slider(
+            key: const ValueKey('cloud-distance'),
+            value: log(cloud.distance),
+            min: log(CloudPiece.minDistance),
+            max: log(CloudPiece.maxDistance),
+            semanticFormatterCallback: (value) =>
+                l.distanceSemantics(exp(value).toStringAsFixed(1)),
+            onChangeStart: (_) {
+              beginDistanceChange(cloud);
+            },
+            onChanged: (value) => setState(() {
+              final distance = exp(value)
+                  .clamp(CloudPiece.minDistance, CloudPiece.maxDistance);
+              cloud.distance = distance;
+            }),
+            onChangeEnd: (_) => endGesture(ScaleEndDetails()),
+          ),
         ),
-      ),
-      const Text('멀리', style: TextStyle(fontSize: 11, color: mutedInk)),
-    ],
-  );
+        Text(l.far, style: const TextStyle(fontSize: 11, color: mutedInk)),
+      ],
+    );
+  }
 
   Widget bottomPanel() {
     final cloud = pending ?? selected;
+    final l = AppLocalizations.of(context);
     return Container(
       width: double.infinity,
       padding: const EdgeInsets.fromLTRB(24, 22, 24, 10),
@@ -940,35 +952,40 @@ class _SkyHomeState extends State<SkyHome> with WidgetsBindingObserver {
                       ),
                       const SizedBox(height: 6),
                       Text(
-                        '${cloud.difficulty.label} · ${dateLabel(cloud.collectedAt)}',
+                        '${l.difficulty(cloud.difficulty.name)} · ${dateLabel(cloud.collectedAt)}',
                         style: const TextStyle(fontSize: 11, color: mutedInk),
                       ),
                     ],
                   ),
                 ),
                 IconButton(
-                  tooltip: '구름 이름 바꾸기',
+                  tooltip: l.renameCloud,
                   onPressed: () => rename(cloud),
                   icon: const Icon(Icons.edit_outlined, size: 18),
                 ),
                 if (cloud.placed)
                   IconButton(
-                    tooltip: motionEnabled ? '구름 방향 찾기' : '이 구름 바라보기',
+                    tooltip: motionEnabled
+                        ? l.findCloudDirection
+                        : l.lookAtCloud,
                     onPressed: () => focus(cloud),
                     icon: const Icon(Icons.center_focus_weak, size: 21),
                   ),
               ],
             ),
           ] else ...[
-            const Row(
+            Row(
               children: [
                 Expanded(
                   child: Text(
-                    '오늘의 구름을 만나러 갈까요?',
-                    style: TextStyle(fontSize: 15, fontWeight: FontWeight.w600),
+                    l.meetTodaysCloud,
+                    style: const TextStyle(
+                      fontSize: 15,
+                      fontWeight: FontWeight.w600,
+                    ),
                   ),
                 ),
-                Icon(Icons.north_east_rounded, size: 18),
+                const Icon(Icons.north_east_rounded, size: 18),
               ],
             ),
             const SizedBox(height: 18),
@@ -976,19 +993,22 @@ class _SkyHomeState extends State<SkyHome> with WidgetsBindingObserver {
           if (cloud != null) distanceControl(cloud),
           PrimaryButton(
             label: pending != null
-                ? (motionEnabled && !sensorAvailable ? '방향 연결 중…' : '여기에 놓기')
-                : '새 구름 찾기',
+                ? (motionEnabled && !sensorAvailable
+                      ? l.placeConnecting
+                      : l.placeHere)
+                : l.findNewCloud,
             icon: pending != null
                 ? Icons.add_rounded
                 : Icons.camera_alt_outlined,
             onPressed: pending != null ? placePending : openCamera,
           ),
           if (pending != null)
-            const Padding(
-              padding: EdgeInsets.symmetric(vertical: 12),
+            Padding(
+              padding: const EdgeInsets.symmetric(vertical: 12),
               child: Text(
-                '놓은 뒤에도 위치와 거리를 바꿀 수 있어요',
-                style: TextStyle(fontSize: 12, color: mutedInk),
+                l.placeLaterHint,
+                textAlign: TextAlign.center,
+                style: const TextStyle(fontSize: 12, color: mutedInk),
               ),
             )
           else
@@ -1011,14 +1031,15 @@ class _SkyHomeState extends State<SkyHome> with WidgetsBindingObserver {
 String dateLabel(DateTime date) =>
     '${date.year}.${date.month.toString().padLeft(2, '0')}.${date.day.toString().padLeft(2, '0')}';
 
-String directionGuide(CloudPiece piece, Direction looking) {
+String directionGuide(AppLocalizations l, CloudPiece piece, Direction looking) {
   final horizontal = wrapAngle(piece.azimuth - looking.azimuth) * 180 / pi;
   final vertical = (piece.elevation - looking.elevation) * 180 / pi;
+  final h = horizontal.abs().round(), v = vertical.abs().round();
   final steps = [
     if (horizontal.abs() > 8)
-      '${horizontal > 0 ? '오른쪽 →' : '← 왼쪽'} ${horizontal.abs().round()}°',
+      horizontal > 0 ? l.directionRight(h) : l.directionLeft(h),
     if (vertical.abs() > 8)
-      '${vertical > 0 ? '위 ↑' : '아래 ↓'} ${vertical.abs().round()}°',
+      vertical > 0 ? l.directionUp(v) : l.directionDown(v),
   ];
-  return '${piece.name}\n${steps.isEmpty ? '휴대폰을 천천히 돌려 찾아보세요' : steps.join(' · ')}';
+  return '${piece.name}\n${steps.isEmpty ? l.directionSearch : steps.join(' · ')}';
 }

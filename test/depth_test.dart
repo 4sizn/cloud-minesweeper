@@ -17,6 +17,8 @@ void main() {
         tester.view.devicePixelRatio = 1;
         addTearDown(tester.view.resetPhysicalSize);
         addTearDown(tester.view.resetDevicePixelRatio);
+        tester.platformDispatcher.localesTestValue = const [Locale('ko')];
+        addTearDown(tester.platformDispatcher.clearLocalesTestValue);
         final directory = await tester.runAsync(
           () => Directory.systemTemp.createTemp('depth-test-'),
         );
