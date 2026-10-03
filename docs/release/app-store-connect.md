@@ -217,3 +217,13 @@ AdMob은 App Store의 마케팅 URL 도메인에서 app-ads.txt를 찾는데, �
 (`https://www.letspets.co.kr/app-ads.txt`는 이미 올바르다.) 출시된 버전의 마케팅 URL은 바꿀 수 없으므로
 `appstore/metadata.json`에 `marketingUrl`을 넣어 두었고, 다음 버전을 만든 뒤 push하면 반영된다.
 반영 후 AdMob 앱 설정에서 "업데이트 확인"을 누른다.
+
+## 1.1.0 거절과 재제출 (2026-10-03)
+
+1.1.0(빌드 11, 영어·일본어·중국어 간체 추가)은 2.3.6 Performance: Accurate Metadata로 자동 거절되었다.
+앱에 광고가 있는데 연령 등급의 "광고(Advertising)" 항목이 "아니요"였기 때문이다. API로
+`ageRatingDeclarations.advertising = true`로 바꾸었고(등급은 4+ 그대로), 같은 제출을 다시 보냈다.
+재제출 전에 en-US·ja·zh-Hans의 개인정보처리방침 URL을 `https://www.letspets.co.kr/privacy/en`으로 바꿨다.
+
+AdMob iOS 앱은 같은 날 app-ads.txt 인증이 끝났다. App Store 공개 정보(`sellerUrl`)에 마케팅 URL이
+반영되는 데 1.0.2 출시 뒤 약 하루가 걸렸다.
